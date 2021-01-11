@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+ 
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- the three things that jQuery Mobile needs to work -->
+    <link rel="stylesheet" type="text/css" href="homeUser.css">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+    <div data-role="page" id="homeUser" >
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
+            <div >
+                <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
+            </div>
+            <div>
+                <a href="#" data-position-to="window" id="locationLogo" >
+                    <img  class="locationLogo ui-btn-right" src="../../Assets/img/icons/location.svg">
+                </a>
+            </div>
+            <div>
+                <a href="#" data-position-to="window" id="notificationLogo" >
+                    <img  class="notificationLogo ui-btn-right" src="../../Assets/img/icons/notification.svg">
+                </a>
+            </div>
+
+        </div>
+        <div data-role="content">
+
+        </div>
+        <div data-role="footer">
+            <div data-role="navbar" class="navbar" >
+                <ul>
+                    <li><a href="#" data-icon="none"  class="ui-nodisc-icon ui-icon-home-active" id="active" data-ajax="false">Home</a></li>
+                    <li><a href="" data-icon="none" class="ui-nodisc-icon ui-icon-search-inactive" id="inactive" data-ajax="false">Search</a></li>
+                    <li><a href="" data-icon="none" class="ui-nodisc-icon ui-icon-track-inactive" id="inactive" data-ajax="false">Track Order</a></li>
+                    <li><a href="" data-icon="none" class="ui-nodisc-icon ui-icon-profile-inactive" id="inactive" data-ajax="false">Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
