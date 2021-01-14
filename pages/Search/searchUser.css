@@ -69,11 +69,30 @@
       bottom: 0;
       width: 100%;
     }
-
+    #camera{
+      width: 25px; 
+      height: 25px;
+      margin-top: 15px;
+    }
+    .elements{
+      display: none;
+    }
     .category-images{
-      height: 200px;
+      height: 100px;
       border-radius: 9px;
       opacity: 0.5;
+    }
+    #food{
+      position: absolute;
+      bottom: 30px;
+      right: 50px;
+      color: white;
+      padding-left: 20px;
+      
+    }
+    #space-between-rows{
+      padding-top: 50px;
+      visibility:hidden;
     }
     #inactive {
       color: #858282;
@@ -188,6 +207,13 @@
     .notificationLogo{
       padding-top: 15px;
       width: 28px;
+    }
+    #camera{
+      width: 20px; 
+      height: 20px;
+    }
+    .elements-iphone{
+      display: none;
     }
     .navbar{
       position: fixed;
