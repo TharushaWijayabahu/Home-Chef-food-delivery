@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HOME CHEF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <!--slider-->
+    <link rel="stylesheet" href="../../Assets/css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="./about.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="../../Assets/js/js.min.js"></script>
+    <!--slider-->
+</head>
+<style>
+    #info {
+        font-size: 11px;
+    }
+</style>
+
+<body>
+
+    <div data-role="page" id="aboutuspage">
+
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
+
+            <div class="mhead">
+                <a class="back-btn" href="#">
+                    < Back</a>
+                        <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
+            </div>
+            <!-- /grid-b -->
+        </div>
+        <!-- /header -->
+        <img src="../../Assets/img/about-us.jpg" id="mapcontact" class="rounded" style="width:100%">
+        <div data-role="content">
+            <div class="ui-grid-a" id="aboutus">
+                <h4><b>Who are we?</b></h4>
+                <p style="color:black">We are a team that believes in the goodness of home cooked food. Our mission is to promote home cooked food consumption among people by empowering home cooked food delivering start-ups. We are accomplishing our mission by connecting hungry
+                    stomachs with nearby amazing home cooked food vendors via the Home Chef common platform.</p>
+                <br>
+                <h4><b>Why choose Home Chef?</b></h4>
+                <iframe src="https://www.youtube.com/embed/5iFQz-z2n10?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <h4><b>Our Team</b></h4>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img src="../../Assets/img/dummy1.png" class="rounded" style="width:15%">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../../Assets/img/dummy2.jpg" class="rounded" style="width:15%">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../../Assets/img/dummy1.png" class="rounded" style="width:15%">
+                    </div>
+                    <div class="col-sm-3">
+                        <img src="../../Assets/img/dummy2.jpg" class="rounded" style="width:15%">
+                    </div>
+                </div>
+            </div>
+            <!-- /grid-a -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+                    <div class="col-sm-4" style="background-color:lavenderblush;">.col-sm-4</div>
+                    <div class="col-sm-4" style="background-color:lavender;">.col-sm-4</div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /content -->
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" id="footer">
+            <div data-role="navbar" class="navbar">
+                <ul>
+                    <li><a href="homepage.html" data-icon="none" class="ui-icon-home" id="inactive" data-ajax="false">Home</a></li>
+                    <li><a href="search.html" data-icon="none" class="ui-icon-search" id="inactive" data-ajax="false">Search</a></li>
+                    <li><a href="trackdelivery.html" data-icon="none" class="ui-icon-track" id="inactive" data-ajax="false"> Tracking</a></li>
+                    <li><a href="userprofile.html" data-icon="none" class="ui-icon-profile" id="inactive" data-ajax="false"> Profile</a></li>
+                </ul>
+            </div>
+            <!-- /navbar -->
+        </div>
+        <!-- /footer -->
+
+    </div>
+    <!-- /page -->
+
+
+
+
+
+</body>
+<script>
+    $('.menu-ham').click(function() {
+        $('.menu').animate({
+            left: '0px'
+        }, 100)
+    });
+
+    $('.close-menu').click(function() {
+        $('.menu').animate({
+            left: '-250px'
+        }, 100)
+    });
+</script>
+
+</html>
