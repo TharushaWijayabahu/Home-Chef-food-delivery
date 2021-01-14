@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>HOME EATS</title>
+    <title>HOME CHEF</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <link rel="stylesheet" href="../../Assets/css/style.min.css">
     <link rel="stylesheet" href="./payment.css">
     <!--slider-->
-    <link rel="stylesheet" type="text/css" href="../css/home-eats-stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="../../Assets/js/js.min.js"></script>
@@ -79,6 +79,20 @@
             border: none;
             font-size: 12px;
             font-style: normal;
+            border-radius: 25px;
+            width: 180px;
+            text-shadow: none;
+        }
+
+        #ADD-payment {
+            margin-top: 10px;
+            background-color: #ff9700;
+            color: white;
+            font-weight: bold;
+            font-family: Arial;
+            border: none;
+            font-size: 12px;
+            font-style: normal;
             border-radius: 50%;
             width: 50px;
             height: 50px;
@@ -101,22 +115,23 @@
         <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
 
             <div class="mhead">
-                <a class ="back-btn" href="#"> < Back</a>
-                <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
+                <a class="back-btn" href="#">
+                    < Back</a>
+                        <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
             </div>
             <div class="menu">
-                
+
             </div>
 
         </div><!-- /header -->
 
         <div data-role="content">
             <div class="header-topic">
-                <h4 class = "text-center"id="header1">PAYMENT </h4>
+                <h4 class="text-center" id="header1">PAYMENT </h4>
             </div>
-            
+
             <div id="container1">
-                
+
 
                 <div style="padding:15px;">
                     <h4><strong>Payment Methods</strong></h4>
@@ -128,22 +143,23 @@
                         <div class="ui-block-a" id="select-block1"><input type="radio" name="radio-choice-v-2" id="cash"
                                 checked="checked"> </div>
                         <div class="ui-block-b" id="select-block2">Cash</div>
-                        <div class="ui-block-c" id="select-block3"><img src="../images/icons/cash-payment.png"
+                        <div class="ui-block-c" id="select-block3"><img src="../../Assets/img/icons/cash-payment.png"
                                 height="36" width="36"></div>
                         <div class="ui-block-a" id="select-block1"><input type="radio" name="radio-choice-v-2" id="card"
                                 checked="checked"> </div>
                         <div class="ui-block-b" id="select-block2">Credit/Debit Card</div>
-                        <div class="ui-block-c" id="select-block3"><img src="../images/icons/card-payment.png"
-                                height="21" width="33"></div>
+                        <div class="ui-block-c" id="select-block3"><img src="../../Assets/img/icons/credit-card.png"
+                                height="36" width="36"></div>
                     </div>
                 </form>
                 <br>
             </div>
             <br>
             <div class="addPayment">
-                <a href="#rate-popup" data-position-to="window" data-role="button" data-rel="popup" data-transition="pop" id="ADD">
+                <a href="#rate-popup" data-position-to="window" data-role="button" data-rel="popup"
+                    data-transition="pop" id="ADD-payment">
                     <i class="fas fa-plus add-icon"></i></a>
-                    <p class="add-payment-text">Add New Card</p>
+                <p class="add-payment-text">Add New Card</p>
             </div>
             <div id="container1">
                 <div style="padding:15px;">
@@ -156,53 +172,55 @@
                         <div class="ui-block-a" id="select-block1"><input type="radio" name="radio-choice-v-2" id="cash"
                                 checked="checked"> </div>
                         <div class="ui-block-b" id="select-blockdown"><Span>.... 5248 1025</span></div>
-                        <div class="ui-block-c" id="select-block3"><img src="../images/icons/card-payment.png"
-                                height="21" width="33" padding="10"></div>
+                        <div class="ui-block-c" id="select-block3"><img src="../../Assets/img/icons/mastercard.png"
+                                height="36" width="36" padding="10"></div>
                         <div class="ui-block-a" id="select-block1"><input type="radio" name="radio-choice-v-2" id="card"
                                 checked="checked"> </div>
                         <div class="ui-block-b" id="select-blockdown">.... 4668 2287</div>
-                        <div class="ui-block-c" id="select-block3"><img src="../images/icons/card-payment.png"
-                                height="21" width="33"></div>
+                        <div class="ui-block-c" id="select-block3"><img src="../../Assets/img/icons/visa.png"
+                                height="36" width="36"></div>
                         <div class="ui-block-a" id="select-block1"><input type="radio" name="radio-choice-v-2" id="card"
                                 checked="checked"> </div>
                         <div class="ui-block-b" id="select-blockdown">.... 7568 1136</div>
-                        <div class="ui-block-c" id="select-block3"><img src="../images/icons/card-payment.png"
-                                height="21" width="33"></div>
+                        <div class="ui-block-c" id="select-block3"><img src="../../Assets/img/icons/visa.png"
+                                height="36" width="36"></div>
                         <div class="ui-block-a" id="select-block1"><input type="radio" name="radio-choice-v-2" id="card"
                                 checked="checked"> </div>
                         <div class="ui-block-b" id="select-blockdown">.... 6652 8546</div>
-                        <div class="ui-block-c" id="select-block3"><img src="../images/icons/Payment-image7.png"
-                                height="21" width="33"></div>
+                        <div class="ui-block-c" id="select-block3"><img src="../../Assets/img/icons/mastercard.png"
+                                height="36" width="36"></div>
                     </div>
                 </form>
                 <br>
-               
+
                 <!-- <div><a href="#rate-popup" data-position-to="window" data-rel="popup" data-transition="pop"
                         style="color:grey; padding:15px;"><u> Add Credit/Debit Card</u></a></div> -->
                 <br>
                 <div data-role="popup" id="rate-popup">
                     <div data-role="content">
-                        <a href="#" data-rel="back" id="popupback"> <img src="../images/icons/close.png" id=""
+                        <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id=""
                                 height="15" width="15"></a>
                         <br>
                         <h1 id="header1"><u>Add Credit/Debit Card</u></h1>
                         <form>
                             <div data-role="fieldcontain">
-
                                 <center>
                                     <input type="textarea" name="message" id="card" value="" placeholder="Card number"
-                                        data-role=none />
+                                        data-role=none required />
                                     <div class="ui-grid-b" id="selection">
-                                        <div class="ui-block-a" id="select-block1"><input type="textarea" name="message"
-                                                id="MM" value="" placeholder="MM/YY" data-role=none /> </div>
+                                        <!-- <div class="ui-block-a" id="select-block1"><input type="textarea" name="message"
+                                                id="MM" value="" placeholder="MM/YY" data-role=none required /> </div> -->
+                                        <div class="ui-block-b" id="select-block2"><input type="number" name="message"
+                                                id="CVV" value="" placeholder="MM/YY" data-role=none max="4" required /></div>
                                         <div class="ui-block-b" id="select-block2"><input type="textarea" name="message"
-                                                id="CVV" value="" placeholder="CVV" data-role=none /></div>
+                                                id="CVV" value="" placeholder="CVV" data-role=none required /></div>
                                     </div>
 
                                     <div style="padding:7px;"><input type="textarea" name="message" id="card" value=""
-                                            placeholder="Country" data-role=none /></div>
+                                            placeholder="Country" data-role=none required /></div>
                                     <input type="textarea" name="message" id="post" value="" placeholder="Postcode"
-                                        data-role=none />
+                                        data-role=none required />
+                                    <a href="#" data-role="button" type="submit" data-rel="back" id="ADD">ADD</a>
                                 </center>
                             </div>
                         </form>
