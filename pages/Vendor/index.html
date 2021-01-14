@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+ 
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- the three things that jQuery Mobile needs to work -->
+    <link rel="stylesheet" type="text/css" href="vendor.css?version=94">
+    <link rel="stylesheet" type="text/css" href="../../Assets/css/grid.min.css">
+    <link rel="stylesheet" type="text/css" href="../../Assets/css/style.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="../../Assets/js/js.min.js"></script>
+    <script src="vendor.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div data-role="page" id="homeUser" >
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
+            <div class="row">
+                <div class="">
+                    <a href="../HomeUser" data-ajax="false"><img class="back ui-btn-left" src="../../Assets/img/icons/back1.svg"></a>
+                </div>
+                <div class="">
+                    <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
+                </div>
+
+            </div>
+        </div>
+        <div data-role="content" align="center">
+        <div class="vendorImage">
+            <div class="details" align="left">
+                <p id="name">Arthur's Pizza</p>
+                <p id="address">No 10, Temple's Road, Rathmalana</p>
+                <div class="stars">
+                    <span class="fa fa-star checked fa-xs" style="color: #FFCC36; text-shadow: none; font-size: 1.3rem;"></span>
+                    <span class="fa checked fa-xs" id="address">2.2</span>
+                </div>
+            </div>
+        </div>
+        <div class="cardList" id="cardList">
+
+        </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
