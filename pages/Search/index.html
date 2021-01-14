@@ -6,9 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-		<link rel="stylesheet" type="text/css" href="searchUser.css">
-		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="searchUser.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!--slider-->	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <!--slider-->	
+	
 		</head> 	
 	
 	<body>
@@ -33,73 +37,127 @@
             
              <!-- content -->
 		   <div data-role="content">
-				<a href="#popupForSearchFilter" data-rel="popup" data-position-to="window" data-transition="pop" ><img  class="sort ui-btn-left" src="../../Assets/img/icons/notification.svg" ></a>							
-                <ul id="searchList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search category" >
-                    <h1 id="header1">Search</h1>
-                    <li data-role="list-divider">category</li>
-                    <table>
-                        <tr>
-                            <td>
-                                <li id="uu" class="ui-child">
-                                    <a href="#"  data-ajax="false" >
-                                        <img src="../../Assets/img/sri_lankan.jpg" id="img-fav">
-                                        <div id="heart"  class="fa fa-heart fa-lg"></div>
-                                        <h2 id="prod-n">Arthur's Pizza</h2>
-                                        <span id="address">No 10, Temple's Road,Rathmalana.(Italian Cuisine)</span>	
-                                    </a>
-                                </li>
-                            </td>
-                            <td>
-                                <li id="uu" class="ui-child">
-                                    <a href="#"  data-ajax="false" >
-                                        <img src="../../Assets/img/sri_lankan.jpg" id="img-fav">
-                                        <div id="heart"  class="fa fa-heart fa-lg"></div>
-                                        <h2 id="prod-n">Arthur's Pizza</h2>
-                                        <span id="address">No 10, Temple's Road,Rathmalana.(Italian Cuisine)</span>	
-                                    </a>
-                                </li>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <li id="uu" class="ui-child">
-                                    <a href="#"  data-ajax="false" >
-                                        <img src="../../Assets/img/sri_lankan.jpg" id="img-fav">
-                                        <div id="heart"  class="fa fa-heart fa-lg"></div>
-                                        <h2 id="prod-n">Arthur's Pizza</h2>
-                                        <span id="address">No 10, Temple's Road,Rathmalana.(Italian Cuisine)</span>	
-                                    </a>
-                                </li>
-                            </td>
-                            <td>
-                                <li id="uu" class="ui-child">
-                                    <a href="#"  data-ajax="false" >
-                                        <img src="../../Assets/img/sri_lankan.jpg" id="img-fav">
-                                        <div id="heart"  class="fa fa-heart fa-lg"></div>
-                                        <h2 id="prod-n">Arthur's Pizza</h2>
-                                        <span id="address">No 10, Temple's Road,Rathmalana.(Italian Cuisine)</span>	
-                                    </a>
-                                </li>
-                            </td>
-                        </tr>
-                    </table>
-                    </ul>
+				<!-- <a href="#popupForSearchFilter" data-rel="popup" data-position-to="window" data-transition="pop" ><img  class="sort ui-btn-left" src="../../Assets/img/icons/notification.svg" ></a>							
+         -->
+         <div class="container-fluid">
+           <div class="col-xs-11">
+            <form>
+              <input data-type="search" id="divOfPs-input">
+             </form>
+           </div>
+           <div class="col-xs-1">
+            <img src="../../Assets/img/icons/camera.svg" style="width: 20px; height: 20px;">
+          </div>
+          
+           
+         </div>
+         
+         <div class="elements container-fluid" data-filter="true" data-input="#divOfPs-input" data-filter-placeholder="Search">
+        <h1>Top categories</h1>
+            <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img class="category-images" src="../../Assets/img/sri_lankan.jpg" alt="Sri lankan" style="width:100%">
+            <h2 id="food">Sri Lankan</h2>
+          </div>
+
+          <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+             <img class="category-images" src="../../Assets/img/cakes.jpg" alt="Sri lankan" style="width:100%">
+              <h2 id="food">Cakes</h2>
+          </div>
+
+
+           <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img  class="category-images" src="../../Assets/img/burger_category.jpg" alt="Sri lankan" style="width:100%">
+              <h2 id="food">Burgers</h2>
+            </div>
+
+            <div id="space-between-rows">This is Hidden</div>
+
+            <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img  class="category-images" src="../../Assets/img/halal.jpg" alt="Halal" style="width:100%">
+              <h2 id="food">Halal</h2>
+            </div>
+
+            <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img  class="category-images" src="../../Assets/img/traditional.jpg" alt="Traditional" style="width:100%">
+              <h2 id="food">Traditional</h2>
+            </div>
+
+            <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img  class="category-images" src="../../Assets/img/drinks.jpg" alt="Beverages" style="width:100%">
+              <h2 id="food">Beverages</h2>
+            </div>
+
+            <div id="space-between-rows">This is Hidden</div>
+
+            <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img  class="category-images" src="../../Assets/img/sweets.jpg" alt="Sweets" style="width:100%">
+              <h2 id="food">Sweets</h2>
+            </div>
+
+            <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img  class="category-images" src="../../Assets/img/seafood.jpg" alt="Sea food" style="width:100%">
+              <h2 id="food">Sea Food</h2>
+            </div>
+
+            <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4">
+              <img  class="category-images" src="../../Assets/img/rice.jpg" alt="Rice Bowls" style="width:100%">
+              <h2 id="food">Rice Bowls</h2>
+            </div>
+                        
+      
+                    <!-- <h1 id="header1">Search</h1>
+                    <div class="container-fluid">  -->
+                    <!-- <li data-role="list-divider">category</li> -->
+
+                    
+                      <!-- <div class="row"> -->
+
+                      <!-- <li> -->
+                      <!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="card">
+                          <img class="category-images" src="../../Assets/img/sri_lankan.jpg" alt="Sri lankan" style="width:100%">
+                          <div id="food">Sri Lankan</div>
+                        </div>
+                      </div> -->
+                      <!-- </li> -->
+
+                      <!-- <li> -->
+                      <!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="card">
+                          <img class="category-images" src="../../Assets/img/cakes.jpg" alt="Sri lankan" style="width:100%">
+                          <div id="food">Cakes</div>
+                        </div>
+                      </div> -->
+                    <!-- </li> -->
+                      
+                    <!-- <li> -->
+                      <!-- <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="card">
+                          <img  class="category-images" src="../../Assets/img/burger_category.jpg" alt="Sri lankan" style="width:100%">
+                          <div id="food">Burgers</div>
+                        </div>
+                      </div> -->
+                    <!-- </li> -->
+
+                  <!-- </div>
+              </div> -->
+            </div>
+
+                    
                 </div> 
            <!-- /content -->
 
-         <!-- footer -->
-         <div>
-            <div data-role="footer">
+         <!-- footer -->  
+            <div class="footer" data-role="footer">
                 <div data-role="navbar" class="navbar" >
                     <ul>
-                        <li><a href="#" data-icon="none"  class="ui-nodisc-icon ui-icon-home-active" id="active" data-ajax="false">Home</a></li>
-                        <li><a href="" data-icon="none" class="ui-nodisc-icon ui-icon-search-inactive" id="inactive" data-ajax="false">Search</a></li>
+                        <li><a href="" data-icon="none"  class="ui-nodisc-icon ui-icon-home-active" id="active" data-ajax="false">Home</a></li>
+                        <li><a href="#" data-icon="none" class="ui-nodisc-icon ui-icon-search-inactive" id="inactive" data-ajax="false">Search</a></li>
                         <li><a href="" data-icon="none" class="ui-nodisc-icon ui-icon-track-inactive" id="inactive" data-ajax="false">Track Order</a></li>
                         <li><a href="" data-icon="none" class="ui-nodisc-icon ui-icon-profile-inactive" id="inactive" data-ajax="false">Account</a></li>
                     </ul>
                 </div>
-            </div>
-         </div>
+            </div>       
 		 <!-- /footer -->
 		
 		</div><!-- /page -->
