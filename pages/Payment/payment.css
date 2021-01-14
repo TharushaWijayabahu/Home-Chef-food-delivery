@@ -80,6 +80,24 @@
     font-weight: bold;
 }
 
+.input-name {
+    margin-top: 2%;
+}
+
+.input {
+    border-color: #ff9700 !important;
+    border-width: 2px !important;
+}
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    #CVV {
+        margin-left: 20px !important;
+    }
+}
+
 
 /* Portrait */
 
@@ -90,6 +108,15 @@
         border: 1px solid grey;
         padding: 4px;
         padding-left: 10px;
+    }
+    #MM {
+        margin-left: 54px !important;
+        margin-right: 55px;
+    }
+    .input {
+        border-color: #ff9700 !important;
+        border-width: 2px !important;
+        width: 80%;
     }
 }
 
@@ -106,8 +133,6 @@
     }
     #select-block1 {
         margin-top: -2px;
-        /* padding-bottom: 1px;
-        margin-left: 2px; */
         margin-left: 8%;
     }
     .menu-ham2 {
@@ -116,17 +141,6 @@
     }
     .addPayment {
         margin: 0 0 0 46%;
-    }
-    #MM {
-        border-radius: 25px;
-        box-shadow: none;
-        border: 1px solid grey;
-        padding: 4px;
-        width: 82px;
-        margin-top: 11px;
-        margin-left: 63px;
-        padding-left: 10px;
-        font-weight: 100;
     }
     #card {
         border-radius: 25px;
@@ -148,18 +162,15 @@
         padding-left: 10px;
     }
     #ADD {
-        margin-top: 10px;
-        background-color: #ff9700;
-        color: white;
-        font-weight: bold;
-        font-family: Arial;
-        border: none;
-        font-size: 12px;
-        font-style: normal;
-        border-radius: 25px;
-        width: 180px;
-        text-shadow: none;
-        margin-left: 13px;
+        margin-left: 40% !important;
+    }
+    #MM {
+        margin-left: 10px !important;
+        margin-right: 40px !important;
+    }
+    #CVV {
+        margin-left: 0px !important;
+        margin-right: 40% !important;
     }
 }
 
@@ -168,6 +179,15 @@
 
 @media only screen and (device-width: 768px) {
     /* For general iPad layouts */
+    #MM {
+        margin-left: 20px !important;
+    }
+    #CVV {
+        margin-left: 20px !important;
+    }
+    .input {
+        width: 80% !important;
+    }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
@@ -200,9 +220,6 @@
     .addPayment {
         margin: 0 0 0 47%;
     }
-    #MM {
-        margin-left: 49px !important;
-    }
     #card {
         width: 230px !important;
         margin-left: 41px;
@@ -219,5 +236,19 @@
     }
     .header-topic {
         margin-right: 30px;
+    }
+    #MM {
+        margin-left: 20px !important;
+        margin-right: 40px !important;
+    }
+    #CVV {
+        margin-left: 0px !important;
+        margin-right: 47px;
+    }
+    .input-field .input {
+        width: 100% !important;
+    }
+    .input-name .input {
+        width: 100% !important;
     }
 }
