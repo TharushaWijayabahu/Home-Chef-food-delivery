@@ -231,7 +231,7 @@ and (orientation: landscape) {
 
     .logincontent{
         background: rgba(0, 0, 0, 0.4);
-        height: 97%;
+        height: 96.7%;
     }
 
     .logo{
@@ -241,7 +241,6 @@ and (orientation: landscape) {
         border-radius: 50%;
         background: transparent;
         margin-top: 10%;
-        margin-bottom: 5%;
     }
     .signup {
         width: 100%;
@@ -400,6 +399,8 @@ and (orientation: landscape) {
         height: 140px;
         border-radius: 50%;
         background: transparent;
+        margin-top: 10%;
+        margin-bottom: 2%;
     }
     .signup {
         width: 100%;
