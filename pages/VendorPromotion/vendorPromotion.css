@@ -41,7 +41,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
     .menu-ham2{
         width: 170px;
-        padding: 5px 0 0 60px;
+        padding: 5px 0 3px 86px;
     }
     #container1 {
         box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
