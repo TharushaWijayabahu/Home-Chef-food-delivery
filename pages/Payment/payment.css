@@ -112,7 +112,7 @@
     }
     .menu-ham2 {
         width: 150px;
-        margin: 5px 0 5px 222px;
+        margin: 5px 0 5px 222px !important;
     }
     .addPayment {
         margin: 0 0 0 46%;
@@ -216,5 +216,8 @@
     }
     #header1 {
         margin-left: 41px !important;
+    }
+    .header-topic {
+        margin-right: 30px;
     }
 }
