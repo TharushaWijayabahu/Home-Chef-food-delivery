@@ -1,0 +1,168 @@
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+
+/* ----------- iPad ----------- */
+
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+    #header{
+      height: 70px;
+    }
+    .logo{
+      float: left;
+      width: 15%;
+      padding-top: 8px;
+      padding-left: 40px;
+      height: 55px;
+    }
+    .locationLogo{
+      padding-right: 120px;
+      padding-top: 15px;
+      width: 28px;
+    }
+    .notificationLogo{
+      padding-right: 40px;
+      padding-top: 15px;
+      width: 28px;
+    }
+    .navbar{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+    #inactive {
+      color: #858282;
+      text-align: center;
+      font-family: Arial;
+      font-size: 100%;
+
+    }
+    #active {
+      color: #fc9920;
+      font-family: Arial;
+      font-size: 100%;
+    }
+    .ui-icon-home:after {
+      background-image:  url("../../Assets/img/icons/home-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+
+    }
+
+    .ui-icon-home-active:after {
+      background-image:  url("../../Assets/img/icons/home-active.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+
+    .ui-icon-search-inactive:after {
+      background-image:  url("../../Assets/img/icons/search-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+
+    .ui-icon-search-active:after {
+      background-image:  url("../../Assets/img/icons/search-active.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+    .ui-icon-track-inactive:after {
+      background-image:  url("../../Assets/img/icons/track-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+
+    .ui-icon-track-active:after {
+      background-image:  url("../../Assets/img/icons/track-active.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+
+    .ui-icon-profile-inactive:after {
+      background-image:  url("../../Assets/img/icons/account-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+    .ui-icon-profile-active:after {
+      background-image:  url("../../Assets/img/icons/account-active.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+  }
