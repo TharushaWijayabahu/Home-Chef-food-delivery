@@ -106,19 +106,30 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+  .navBar {
+    background-color: white;
+  }
   #inactive {
     color: #858282;
     text-align: center;
     font-family: Arial;
-    font-size: 100%;
-
+    font-size: 11pt;
+    background-color: white;
+    border-style: none;
+    border-color: transparent;
+    text-shadow: none;
   }
   #active {
     color: #fc9920;
     font-family: Arial;
-    font-size: 100%;
+    font-size: 11pt;
+    background-color: white;
+    border-style: none;
+    border-color: transparent;
+    text-shadow: none;
   }
-  .ui-icon-home:after {
+
+  .ui-icon-home-inactive:after {
     background-image:  url("../../Assets/img/icons/home-inactive.svg");
     background-size: 90%;
     width: 25px !important;
