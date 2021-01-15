@@ -187,6 +187,13 @@ and (orientation: portrait) {
         padding: 15px;
         height: 120px; /* Should be removed. Only for demonstration */
     }
+    .column2 {
+        float: bottom;
+
+        width: 444.93%;
+        padding: 25px;
+        height: 80px; /* Should be removed. Only for demonstration */
+    }
     #margin-top-link{
         margin: 5px 0 3px 20px;
         color: #858282;
@@ -203,7 +210,19 @@ and (orientation: portrait) {
 
     }
     #margin-top-link4{
-        /*margin: 5px 0 3px 18px;*/
+        margin: 0 0 3px 15px;
+        color: #858282;
+
+
+    }
+    #margin-top-link4-top{
+        /*margin: 0 0 3px 15px;*/
+        color: #858282;
+
+
+    }
+    #margin-top-link5{
+        margin: 0px 5px 3px 30px;
         color: #858282;
 
 
@@ -383,6 +402,13 @@ and (orientation: landscape) {
         padding: 12px;
         height: 150px; /* Should be removed. Only for demonstration */
     }
+    .column2 {
+        float: bottom;
+
+        width: 444.93%;
+        padding: 25px;
+        height: 100px; /* Should be removed. Only for demonstration */
+    }
     #margin-top-link{
         margin: 5px 0 3px 28px;
         color: #858282;
@@ -403,6 +429,18 @@ and (orientation: landscape) {
     }
     #margin-top-link4{
         margin: 5px 0 3px 32px;
+        color: #858282;
+
+
+    }
+    #margin-top-link4-top{
+        margin: 5px 0 3px 32px;
+        color: #858282;
+
+
+    }
+    #margin-top-link5{
+        margin: 5px 0 3px 18px;
         color: #858282;
 
 
@@ -597,7 +635,19 @@ and (orientation: landscape) {
 
     }
     #margin-top-link4{
-        margin: 5px 0 3px 20px;
+        margin: 5px 0 3px 18px;
+        color: #858282;
+
+
+    }
+    #margin-top-link4-top{
+        margin: 5px 0 3px 18px;
+        color: #858282;
+
+
+    }
+    #margin-top-link5{
+        margin: 5px 0 3px 28px;
         color: #858282;
 
 
@@ -769,6 +819,13 @@ and (orientation: landscape) {
         padding: 28px;
         height: 120px; /* Should be removed. Only for demonstration */
     }
+    .column2 {
+        float: bottom;
+
+        width: 444.93%;
+        padding: 25px;
+        height: 100px; /* Should be removed. Only for demonstration */
+    }
     #margin-top-link{
         margin: 5px 0 3px 21px;
         color: #858282;
@@ -789,6 +846,18 @@ and (orientation: landscape) {
     }
     #margin-top-link4{
         margin: 5px 0 3px 18px;
+        color: #858282;
+
+
+    }
+    #margin-top-link4-top{
+        margin: 5px 0 3px 18px;
+        color: #858282;
+
+
+    }
+    #margin-top-link5{
+        margin: 5px 0 3px 28px;
         color: #858282;
 
 
