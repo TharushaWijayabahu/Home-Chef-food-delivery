@@ -14,6 +14,7 @@
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
+    
 
 }
 
@@ -42,7 +43,129 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
+    #header{
+      height: 50px;
+    }
+    .logo{
+      float: left;
+      width: 25%;
+      padding-top: 8px;
+      padding-left: 40px;
+      height: 35px;
+    }
+    .locationLogo{
+      margin-right: 40px;
+      padding-top: 15px;
+      width: 28px;
+    }
+    .notificationLogo{
+      margin-right: 20px;
+      padding-top: 15px;
+      width: 28px;
+    }
+    .navbar{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+    #camera{
+      width: 25px; 
+      height: 25px;
+      margin-top: 15px;
+    }
+    .elements{
+      display: none;
+    }
+    .category-images{
+      height: 100px;
+      border-radius: 9px;
+      opacity: 0.5;
+    }
+    #food{
+      position: absolute;
+      bottom: 30px;
+      right: 50px;
+      color: white;
+      padding-left: 20px;
+      
+    }
+    #space-between-rows{
+      padding-top: 50px;
+      visibility:hidden;
+    }
+    #inactive {
+      color: #858282;
+      text-align: center;
+      font-family: Arial;
+      font-size: 100%;
 
+    }
+    #active {
+      color: #fc9920;
+      font-family: Arial;
+      font-size: 100%;
+    }
+    .ui-icon-home:after {
+      background-image:  url("../../Assets/img/icons/home-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+
+    }
+
+    .ui-icon-home-active:after {
+      background-image:  url("../../Assets/img/icons/home-active.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+
+    .ui-icon-search-inactive:after {
+      background-image:  url("../../Assets/img/icons/search-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+
+    .ui-icon-search-active:after {
+      background-image:  url("../../Assets/img/icons/search-active.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+    .ui-icon-track-inactive:after {
+      background-image:  url("../../Assets/img/icons/track-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+
+    .ui-icon-track-active:after {
+      background-image:  url("../../Assets/img/icons/track-active.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+
+    .ui-icon-profile-inactive:after {
+      background-image:  url("../../Assets/img/icons/account-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
+
+    .ui-icon-profile-active:after {
+      background-image:  url("../../Assets/img/icons/account-active.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+    }
 }
 
 /* Landscape */
@@ -78,27 +201,51 @@
       height: 55px;
     }
     .locationLogo{
-      padding-right: 120px;
       padding-top: 15px;
       width: 28px;
     }
     .notificationLogo{
-      padding-right: 40px;
       padding-top: 15px;
       width: 28px;
+    }
+    #camera{
+      width: 20px; 
+      height: 20px;
+    }
+    .elements-iphone{
+      display: none;
     }
     .navbar{
       position: fixed;
       left: 0;
       bottom: 0;
       width: 100%;
+      right: 0px;
+    margin-bottom: 0px;
+    }
+    .category-images{
+      height: 200px;
+      border-radius: 9px;
+      opacity: 0.5;
+      widows: 100px;
+    }
+    #food{
+      position: absolute;
+      bottom: 65px;
+      right: 75px;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    #space-between-rows{
+      padding-top: 50px;
+      visibility:hidden;
     }
     #inactive {
       color: #858282;
       text-align: center;
       font-family: Arial;
       font-size: 100%;
-
     }
     #active {
       color: #fc9920;
@@ -110,9 +257,7 @@
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-
     }
-
     .ui-icon-home-active:after {
       background-image:  url("../../Assets/img/icons/home-active.svg");
       background-size: 90%;
