@@ -175,9 +175,9 @@ and (orientation: portrait) {
     .column1 {
         float: left;
 
-        width: 23.33%;
-        padding: 12px;
-        height: 150px; /* Should be removed. Only for demonstration */
+        width: 24.73%;
+        padding: 15px;
+        height: 120px; /* Should be removed. Only for demonstration */
     }
     #margin-top-link{
         margin: 5px 0 3px 20px;
@@ -540,23 +540,17 @@ and (orientation: landscape) {
         padding: 10px;
         height: 150px; /* Should be removed. Only for demonstration */
     }
-    .column {
-        float: left;
-        width: 31.33%;
-        padding: 10px;
-        height: 100px; /* Should be removed. Only for demonstration */
-    }
+
     .column1 {
         float: left;
 
-        width: 24.33%;
-        padding: 12px;
-        height: 150px; /* Should be removed. Only for demonstration */
+        width: 24.93%;
+        padding: 25px;
+        height: 120px; /* Should be removed. Only for demonstration */
     }
     #margin-top-link{
-        margin: 15px 0 3px 28px;
+        margin: 15px 0 3px 24px;
         color: #858282;
-
 
     }
     #margin-top-link2{
@@ -724,8 +718,8 @@ and (orientation: landscape) {
         float: left;
 
         width: 24.83%;
-        padding: 12px;
-        height: 150px; /* Should be removed. Only for demonstration */
+        padding: 28px;
+        height: 120px; /* Should be removed. Only for demonstration */
     }
     #margin-top-link{
         margin: 5px 0 3px 21px;
