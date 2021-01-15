@@ -463,7 +463,6 @@ and (orientation: landscape) {
         display: table;
         clear: both;
     }
-
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -599,70 +598,74 @@ and (orientation: landscape) {
         display: table;
         clear: both;
     }
-    .ui-icon-orders-active:after {
-        background-image:  url("../../Assets/img/icons/orders-active.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-      }
-      .ui-icon-orders-inactive:after {
-        background-image:  url("../../Assets/img/icons/orders-inactive.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-      }
-
-      .ui-icon-foodlist-inactive:after{
-        background-image:  url("../../Assets/img/icons/food-list-inactive.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-      }
-      .ui-icon-foodlist-active:after{
-        background-image:  url("../../Assets/img/icons/food-list-active.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-      }
-
-      .ui-icon-promotions-inactive:after {
-        background-image:  url("../../Assets/img/icons/promotions-inactive.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-      }
-      .ui-icon-promotions-active:after {
-        background-image:  url("../../Assets/img/icons/promotions-active.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-      }
-
-      .ui-icon-profile-inactive:after {
-        background-image:  url("../../Assets/img/icons/account-inactive.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-      }
-      .ui-icon-profile-active:after {
-        background-image:  url("../../Assets/img/icons/account-active.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-      }
-
-      #inactive {
-        color: #858282;
-        text-align: center;
-        font-family: Arial;
-        font-size: 100%;
-      }
-
-      #active {
-        color: #fc9920;
-        font-family: Arial;
-        font-size: 100%;
-      }
-
-
 }
+
+
+/* default css */
+
+/* Footer */
+.ui-icon-orders-active:after {
+    background-image:  url("../../Assets/img/icons/orders-active.svg");
+    background-size: 90%;
+    width: 25px !important;
+    height: 35px !important;
+  }
+  .ui-icon-orders-inactive:after {
+    background-image:  url("../../Assets/img/icons/orders-inactive.svg");
+    background-size: 90%;
+    width: 25px !important;
+    height: 35px !important;
+  }
+
+  .ui-icon-foodlist-inactive:after{
+    background-image:  url("../../Assets/img/icons/food-list-inactive.svg");
+    background-size: 90%;
+    width: 25px !important;
+    height: 35px !important;
+  }
+  .ui-icon-foodlist-active:after{
+    background-image:  url("../../Assets/img/icons/food-list-active.svg");
+    background-size: 90%;
+    width: 25px !important;
+    height: 35px !important;
+  }
+
+  .ui-icon-promotions-inactive:after {
+    background-image:  url("../../Assets/img/icons/promotions-inactive.svg");
+    background-size: 90%;
+    width: 25px !important;
+    height: 35px !important;
+  }
+  .ui-icon-promotions-active:after {
+    background-image:  url("../../Assets/img/icons/promotions-active.svg");
+    background-size: 90%;
+    width: 25px !important;
+    height: 35px !important;
+  }
+
+  .ui-icon-profile-inactive:after {
+    background-image:  url("../../Assets/img/icons/account-inactive.svg");
+    background-size: 90%;
+    width: 25px !important;
+    height: 35px !important;
+  }
+  .ui-icon-profile-active:after {
+    background-image:  url("../../Assets/img/icons/account-active.svg");
+    background-size: 90%;
+    width: 25px !important;
+    height: 35px !important;
+  }
+
+  #inactive {
+    color: #858282;
+    text-align: center;
+    font-family: Arial;
+    font-size: 100%;
+  }
+
+  #active {
+    color: #fc9920;
+    font-family: Arial;
+    font-size: 100%;
+  }
+  /* End of Footer */
