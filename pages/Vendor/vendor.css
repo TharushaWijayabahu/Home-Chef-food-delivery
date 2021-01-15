@@ -1,0 +1,286 @@
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+  #header{
+    height: 60px;
+  }
+  .logo{
+    width: 120px;
+    padding-top: 5px;
+    margin-left: 150px;
+  }
+  .back {
+    padding-left: 22px;
+    padding-top: 15px;
+  }
+  .vendorImage {
+    background-image: url("../../Assets/img/pizza.jpg");
+    background-size: cover;
+    width: 380px;
+    height: 400px;
+  }
+  #img1 {
+    width: 380px;
+    height: 400px;
+    /* margin-left: 132px; */
+  }
+  #name {
+    font-size: 22px;
+    height: 12px;
+    color: white;
+    text-shadow: none;
+  }
+  #address {
+    height: 20px;
+    font-size: 18px;
+    color: white;
+    text-shadow: none;
+  }
+  .details {
+    width: 100%;
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 300px;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .cardList {
+    margin-top: 20px;
+  }
+  .image {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 120px;
+    border-radius: 10px;
+  }
+  .desc{
+    padding-top: 20px;
+    padding-left: 30px;
+    color: black;
+  }
+  #cardItem {
+    width: 95.5%;
+    height: 150px;
+    border-radius: 10px;
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+  #header{
+    height: 60px;
+  }
+  .logo{
+    width: 120px;
+    padding-top: 5px;
+    margin-left: 305px !important;
+  }
+  .back {
+    padding-left: 22px;
+    padding-top: 15px;
+  }
+  .vendorImage {
+    background-image: url("../../Assets/img/pizza.jpg");
+    background-size: cover;
+    width: 670px !important;
+    height: 250px !important;
+  }
+  #img1 {
+    width: 670px !important;
+    height: 250px !important;
+    /* margin-left: 132px; */
+  }
+  #name {
+    font-size: 22px;
+    height: 12px;
+    color: white;
+    text-shadow: none;
+  }
+  #address {
+    height: 20px;
+    font-size: 18px;
+    color: white;
+    text-shadow: none;
+  }
+  .details {
+    width: 100%;
+    height: 250px !important;
+    padding-left: 20px;
+    padding-top: 150px !important;
+    background: rgba(0, 0, 0, 0.4) !important;
+  }
+  .cardList {
+    margin-top: 20px;
+  }
+  .image {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 120px;
+    border-radius: 10px;
+  }
+  .desc{
+    padding-top: 20px;
+    padding-left: 30px;
+    color: black;
+  }
+  #cardItem {
+    width: 95.5%;
+    height: 150px;
+    border-radius: 10px;
+  }
+}
+
+
+/* ----------- iPad ----------- */
+
+@media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+    #header{
+      height: 70px;
+    }
+    .logo{
+      width: 150px;
+      padding-top: 5px;
+      margin-left: 340px;
+    }
+    .back {
+      padding-left: 22px;
+      padding-top: 20px;
+    }
+    .vendorImage {
+      background-image: url("../../Assets/img/pizza.jpg");
+      background-size: cover;
+      width: 700px;
+      height: 500px;
+    }
+    #img1 {
+      width: 700px;
+      height: 500px;
+      /* margin-left: 132px; */
+    }
+    #name {
+      font-size: 22px;
+      height: 12px;
+      color: white;
+      text-shadow: none;
+    }
+    #address {
+      height: 20px;
+      font-size: 18px;
+      color: white;
+      text-shadow: none;
+    }
+    .details {
+      width: 100%;
+      height: 500px;
+      padding-left: 20px;
+      padding-top: 380px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .cardList {
+      margin-top: 20px;
+    }
+    .image {
+      margin-left: 20px;
+      margin-top: 15px;
+      width: 120px;
+      border-radius: 10px;
+    }
+    .desc{
+      padding-top: 20px;
+      padding-left: 30px;
+      color: black;
+    }
+    #cardItem {
+      width: 95.5%;
+      height: 150px;
+      border-radius: 10px;
+    }
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+    #header{
+      height: 70px;
+    }
+    .logo{
+      width: 150px;
+      padding-top: 5px;
+      margin-left: 420px;
+    }
+    .back {
+      padding-left: 22px;
+      padding-top: 20px;
+    }
+    .vendorImage {
+      background-image: url("../../Assets/img/pizza.jpg");
+      background-size: cover;
+      width: 950px;
+      height: 500px;
+    }
+    #img1 {
+      width: 950px;
+      height: 500px;
+      /* margin-left: 132px; */
+    }
+    #name {
+      font-size: 22px;
+      height: 12px;
+      color: white;
+      text-shadow: none;
+    }
+    #address {
+      height: 20px;
+      font-size: 18px;
+      color: white;
+      text-shadow: none;
+    }
+    .details {
+      width: 100%;
+      height: 500px;
+      padding-left: 20px;
+      padding-top: 380px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .cardList {
+      margin-top: 20px;
+    }
+    .image {
+      margin-left: 20px;
+      margin-top: 15px;
+      width: 120px;
+      border-radius: 10px;
+    }
+    .desc{
+      padding-top: 20px;
+      padding-left: 30px;
+      color: black;
+    }
+    #cardItem {
+      width: 95.5%;
+      height: 150px;
+      border-radius: 10px;
+    }
+  }
