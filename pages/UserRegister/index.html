@@ -30,10 +30,10 @@
             <img src="../../Assets/img/Logo_final.png" class="logo" />
             <div class="wrapper">
                 <div class="vendorDiv">
-                    <a href="../UserRegister/" data-role="button" rel="external" id="userBtn">User</a>
+                    <a href="#" data-role="button" rel="external" id="userBtn">User</a>
                 </div>
                 <div class="userDiv">
-                    <a href="#" data-role="button" rel="external" id="vendorBtn">Vendor</a>
+                    <a href="../VendorRegister/" data-role="button" rel="external" id="vendorBtn">Vendor</a>
                 </div>
             </div>
             <form>
@@ -41,35 +41,18 @@
                     <input type="email" name="name" id="number" value="" placeholder="Name" data-role=none required/>
                     <input type="text" name="number" id="number" value="" placeholder="Phone Number" data-role=none required/>
                     <input type="email" name="email" id="email" value="" placeholder="Email" data-role=none required/>
-                    <input type="text" name="address" id="address" value="" placeholder="Address" data-role=none required/>
                     <input type="password" name="password" id="password" value="" placeholder="Password" data-role=none required/>
                     <input type="password" name="confirm_pw" id="number" value="" placeholder="Confirm Password" data-role=none required/>
                 </div>
             </form>
 
             <form>
-                <a href="#account-details" data-role="button" rel="external" id="login">Sign up</a>
+                <a href="#account-details" data-role="button" rel="external" id="login" onclick="Save()">Sign up</a>
             </form>
 
             <div class="signup">
                 <p>Already have an account? <a href="../Login">Sign in</a></p>
             </div>
-        </div>
-    </div>
-
-    <div data-role="page" id="account-details" class="loginPage">
-        <div data-role="content" align="center">
-            <img src="../../Assets/img/Logo_final.png" class="logo" />
-            <h1 id="accountDetails">Bank account details</h1>
-
-            <input type="email" name="name" id="number" value="" placeholder="-- Select Account Type --" data-role=none required/>
-            <input type="text" name="number" id="number" value="" placeholder="Account name" data-role=none required/>
-            <input type="email" name="email" id="email" value="" placeholder="Account number" data-role=none required/>
-            <input type="text" name="address" id="address" value="" placeholder="-- Select Bank Name --" data-role=none required/>
-            <input type="text" name="password" id="password" value="" placeholder="-- Select Branch Name --" data-role=none required/>
-            <button type="submit" name="login" onclick="Save()" id="reset">Save</button>
-            </form>
-
         </div>
     </div>
 </body>
