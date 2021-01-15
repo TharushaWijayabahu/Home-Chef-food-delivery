@@ -872,10 +872,12 @@ and (orientation: landscape) {
     text-align: center;
     font-family: Arial;
     font-size: 100%;
+    background-color: white;
 }
 
 #active {
     color: #fc9920;
     font-family: Arial;
     font-size: 100%;
+    background-color: white;
 }
