@@ -33,7 +33,7 @@ and (orientation: landscape) {
 and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3) {
-    }
+}
 
 /* Portrait */
 @media only screen
@@ -44,6 +44,10 @@ and (orientation: portrait) {
     #header {
         z-index: 1000
     }
+    #grad1 {
+        height: 100px;
+        background-color: #fc9920; /* For browsers that do not support gradients */
+    }
     .mhead{
         margin: 3px 0px 5px 0px;
     }
@@ -51,12 +55,20 @@ and (orientation: portrait) {
         width: 120px;
         margin: 5px 0 3px 135px;
     }
-
     #container1 {
         box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
         border-radius: 10px;
         background-color:white;
         color: black;
+    }
+    #av {
+        height:98px;
+        width:98px;
+        margin-top: -50px;
+        margin-bottom: 10px;
+    }
+    .logoAlign{
+        margin: 0 0 3px 35px;
     }
     #usergrid {
         font-family:Arial !important;
@@ -148,8 +160,23 @@ and (orientation: portrait) {
     .itemName{
         color: #000000; font-weight: bold;
     }
+    .accountName{
+        color: #ffffff;
+    }
     .itemPrice{
         color: #858282; margin-top: -8px;
+    }
+    .column {
+        float: left;
+        width: 31.33%;
+        padding: 10px;
+        height: 100px; /* Should be removed. Only for demonstration */
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 
 
@@ -164,6 +191,13 @@ and (orientation: landscape) {
 
     #header {
         z-index: 1000
+    }
+    #grad1 {
+        height: 100px;
+        background-color: #fc9920; /* For browsers that do not support gradients */
+    }
+    .logoAlign{
+        margin: 0 0 3px 35px;
     }
     .mhead{
         margin: 3px 0px 5px 0px;
@@ -268,8 +302,23 @@ and (orientation: landscape) {
     .itemName{
         color: #858282; font-weight: bold;
     }
+    .accountName{
+        color: #ffffff; font-weight: bold;
+    }
     .itemPrice{
         color: #858282; margin-top: -8px;
+    }
+    .column {
+        float: left;
+        width: 31.33%;
+        padding: 10px;
+        height: 100px; /* Should be removed. Only for demonstration */
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 }
 
@@ -284,6 +333,13 @@ and (orientation: landscape) {
     /* For portrait layouts only */
     #header {
         z-index: 1000
+    }
+    #grad1 {
+        height: 150px;
+        background-color: #fc9920; /* For browsers that do not support gradients */
+    }
+    .logoAlign{
+        margin: 0 0 3px 35px;
     }
     .mhead{
         margin: 3px 0px 5px 0px;
@@ -389,8 +445,23 @@ and (orientation: landscape) {
     .itemName{
         color: #000000;margin-top: -65px; font-weight: bold;
     }
+    .accountName{
+        color: #ffffff; font-weight: bold;
+    }
     .itemPrice{
         display:inline ;color: #858282; margin-top: -10px;
+    }
+    .column {
+        float: left;
+        width: 31.33%;
+        padding: 10px;
+        height: 150px; /* Should be removed. Only for demonstration */
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 
 }
@@ -399,6 +470,10 @@ and (orientation: landscape) {
     /* For landscape layouts only */
     #header {
         z-index: 1000
+    }
+    #grad1 {
+        height: 150px;
+        background-color: #fc9920; /* For browsers that do not support gradients */
     }
     .mhead{
         margin: 3px 0px 5px 0px;
@@ -506,7 +581,22 @@ and (orientation: landscape) {
     .itemName{
         color: #000000;margin-top: -65px; font-weight: bold; font-size: 14px;
     }
+    .accountName{
+        color: #ffffff; font-weight: bold; font-size: 14px;
+    }
     .itemPrice{
         display:inline ; color: #858282; margin-top: -10px;
+    }
+    .column {
+        float: left;
+        width: 31.33%;
+        padding: 10px;
+        height: 150px; /* Should be removed. Only for demonstration */
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 }
