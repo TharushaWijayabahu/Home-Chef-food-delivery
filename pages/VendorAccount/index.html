@@ -26,18 +26,24 @@
 </head>
 <body>
 <div data-role="page" id="vendoraccountpage">
+    <!-- header -->
     <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
-
         <div class="mhead">
-
-            <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
+            <div class="">
+                <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
+            </div>
+            <div class="row icons">
+                <div class="">
+                    <a href="#" data-position-to="window" id="notificationLogo">
+                        <img class="notificationLogo ui-btn-right" src="../../Assets/img/icons/notification.svg">
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="menu">
-
         </div>
+        <!-- /header -->
 
-    </div>
-    <div id="grad1">
+        <div id="grad1">
 <!--        <div class="logoAlign">-->
 <!--            <img src="../../Assets/img/burger-shop.jpg" class="round" width="20%">-->
 <!--            <div class="accountName">-->
@@ -93,17 +99,57 @@
         </div>
 
     <br><br>
+    <div class="row3">
+        <div class="column2" style="background-color:#ffffff;">
 
-    <div data-role="footer" data-position="fixed" data-tap-toggle="false" id="footer">
-        <div data-role="navbar" class="navbar">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="../../Assets/img/icons/chat.svg">
+            <br>
+            <!--                 <P id="margin-top-link"> helo</P>-->
+            <a href="foodlist.html" data-icon="none"  id="margin-top-link">Message</a>
+            <hr>
+        </div>
+        <div class="column2" style="background-color:#ffffff;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="../../Assets/img/icons/comment.svg" >
+            <br>
+            <a href="foodlist.html"  id="margin-top-link2" >Reviews</a>
+            <hr>
+        </div>
+        <div class="column2" style="background-color:#ffffff;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="../../Assets/img/icons/send-mail.svg" >
+            <br>
+            <a href="foodlist.html"  id="margin-top-link3" >Email</a>
+            <hr >
+        </div>
+        <div class="column2" style="background-color:#ffffff;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="../../Assets/img/icons/top-three.svg" >
+            <br>
+            <a href="foodlist.html"  id="margin-top-link4" >Top Items</a>
+            <hr>
+
+        </div>
+        <div class="column2" style="background-color:#ffffff;">
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="../../Assets/img/icons/top-three.svg" >
+            <br>
+            <a href="foodlist.html"  id="margin-top-link4" >Top Items</a>
+            <hr>
+
+        </div>
+    </div>
+
+    <div class="footer" data-role="footer" data-position="fixed">
+        <div data-role="navbar" >
             <ul>
-                <li><a href="#" data-icon="none" class="ui-icon-promotion-active" id="active" data-ajax="false">Orders</a></li>
-                <li><a href="foodlist.html" data-icon="none" class="ui-icon-foodlist" id="inactive" data-ajax="false">Food List</a></li>
-                <li><a href="notifications.html" data-icon="none" class="ui-icon-notifications" id="inactive" data-ajax="false"> Promotions</a></li>
-                <li><a href="vendorprofile.html" data-icon="none" class="ui-icon-profile" id="inactive" data-ajax="false"> Account</a></li>
+                <li><a href="" data-icon="none"  class="ui-nodisc-icon ui-icon-orders-active" id="active" data-ajax="false">Orders</a></li>
+                <li><a href="" data-icon="none" class="ui-nodisc-icon ui-icon-foodlist-inactive" id="inactive" data-ajax="false">Food List</a></li>
+                <li><a href="" data-icon="none" class="ui-nodisc-icon ui-icon-promotions-inactive" id="inactive" data-ajax="false">Promotions</a></li>
+                <li><a href="#" data-icon="none" class="ui-nodisc-icon ui-icon-profile-inactive" id="inactive" data-ajax="false">Account</a></li>
             </ul>
-        </div><!-- /navbar -->
-    </div><!-- /footer -->
+        </div>
+    </div>
 
 </div><!-- /page -->
 
