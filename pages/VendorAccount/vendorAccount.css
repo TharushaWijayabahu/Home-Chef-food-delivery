@@ -172,8 +172,42 @@ and (orientation: portrait) {
         padding: 10px;
         height: 100px; /* Should be removed. Only for demonstration */
     }
+    .column1 {
+        float: left;
+
+        width: 23.33%;
+        padding: 12px;
+        height: 150px; /* Should be removed. Only for demonstration */
+    }
+    #margin-top-link{
+        margin: 5px 0 3px 20px;
+        color: #858282;
+
+    }
+    #margin-top-link2{
+        margin: 5px 0 3px 20px;
+        color: #858282;
+    }
+    #margin-top-link3{
+        margin: 5px 0 3px 24px;
+        color: #858282;
+
+
+    }
+    #margin-top-link4{
+        /*margin: 5px 0 3px 18px;*/
+        color: #858282;
+
+
+    }
+
 
     .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .row2:after {
         content: "";
         display: table;
         clear: both;
@@ -320,6 +354,52 @@ and (orientation: landscape) {
         display: table;
         clear: both;
     }
+    .column {
+        float: left;
+        width: 31.33%;
+        padding: 10px;
+        height: 100px; /* Should be removed. Only for demonstration */
+    }
+    .column1 {
+        float: left;
+
+        width: 23.33%;
+        padding: 12px;
+        height: 150px; /* Should be removed. Only for demonstration */
+    }
+    #margin-top-link{
+        margin: 5px 0 3px 28px;
+        color: #858282;
+
+
+    }
+    #margin-top-link2{
+        margin: 5px 0 3px 33px;
+        color: #858282;
+
+
+    }
+    #margin-top-link3{
+        margin: 5px 0 3px 24px;
+        color: #858282;
+
+
+    }
+    #margin-top-link4{
+        margin: 5px 0 3px 32px;
+        color: #858282;
+
+
+    }
+
+
+
+    .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
 }
 
 
@@ -331,6 +411,9 @@ and (orientation: landscape) {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     /* For portrait layouts only */
+    body{
+        background-color: #f9f9f9;
+    }
     #header {
         z-index: 1000
     }
@@ -457,12 +540,56 @@ and (orientation: landscape) {
         padding: 10px;
         height: 150px; /* Should be removed. Only for demonstration */
     }
+    .column {
+        float: left;
+        width: 31.33%;
+        padding: 10px;
+        height: 100px; /* Should be removed. Only for demonstration */
+    }
+    .column1 {
+        float: left;
+
+        width: 24.33%;
+        padding: 12px;
+        height: 150px; /* Should be removed. Only for demonstration */
+    }
+    #margin-top-link{
+        margin: 15px 0 3px 28px;
+        color: #858282;
+
+
+    }
+    #margin-top-link2{
+        margin: 5px 0 3px 22px;
+        color: #858282;
+
+
+    }
+    #margin-top-link3{
+        margin: 5px 0 3px 24px;
+        color: #858282;
+
+
+    }
+    #margin-top-link4{
+        margin: 5px 0 3px 20px;
+        color: #858282;
+
+
+    }
+
 
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
+    .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
 
 }
 
@@ -472,7 +599,7 @@ and (orientation: landscape) {
         z-index: 1000
     }
     #grad1 {
-        height: 150px;
+        height: 180px;
         background-color: #fc9920; /* For browsers that do not support gradients */
     }
     .mhead{
@@ -591,12 +718,50 @@ and (orientation: landscape) {
         float: left;
         width: 31.33%;
         padding: 10px;
+        height: 100px; /* Should be removed. Only for demonstration */
+    }
+    .column1 {
+        float: left;
+
+        width: 24.83%;
+        padding: 12px;
         height: 150px; /* Should be removed. Only for demonstration */
     }
+    #margin-top-link{
+        margin: 5px 0 3px 21px;
+        color: #858282;
+
+
+    }
+    #margin-top-link2{
+        margin: 5px 0 3px 21px;
+        color: #858282;
+
+
+    }
+    #margin-top-link3{
+        margin: 5px 0 3px 24px;
+        color: #858282;
+
+
+    }
+    #margin-top-link4{
+        margin: 5px 0 3px 18px;
+        color: #858282;
+
+
+    }
+
 
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
+    .row2:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
 }
