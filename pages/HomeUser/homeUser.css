@@ -16,9 +16,6 @@
 /* Portrait */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-    #header {
-        height: 55px;
-    }
     .locationLogo {
         padding-top: 10px;
         padding-right: 60px;
@@ -163,14 +160,12 @@
 /* Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-    #header {
-        height: 70px;
+    .menu-ham2 {
+        width: 120px;
+        margin: 5px 0 3px 31%;
     }
-    .logo {
-        float: left;
-        width: 170px !important;
-        padding-top: 10px !important;
-        padding-left: 20px !important;
+    .mhead {
+        margin: 3px 0px 5px 0px;
     }
     .locationLogo {
         padding-top: 10px !important;
