@@ -129,6 +129,10 @@
     #content {
         font-size: 20px;
     }
+    .menu-ham2 {
+        width: 150px;
+        margin: 5px 0 3px 244px;
+    }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -160,5 +164,9 @@
     }
     #content {
         font-size: 20px;
+    }
+    .menu-ham2 {
+        width: 150px;
+        margin: 5px 0 3px 360px;
     }
 }
