@@ -41,8 +41,16 @@ and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: portrait) {
-    #header {
-        z-index: 1000
+    .logo {
+        float: left;
+        width: 120px !important;
+        padding-top: 5px;
+        margin-left: 10px; 
+    }
+    .notificationLogo {
+        padding-top: 10px !important;
+        margin-right: 10px !important;
+        height: 35px !important;
     }
     #grad1 {
         height: 100px;
@@ -188,9 +196,16 @@ and (min-device-width: 414px)
 and (max-device-width: 736px)
 and (-webkit-min-device-pixel-ratio: 3)
 and (orientation: landscape) {
-
-    #header {
-        z-index: 1000
+    .logo {
+        float: left;
+        width: 100px !important;
+        padding-top: 5px;
+        margin-left: 5px; 
+    }
+    .notificationLogo {
+        padding-top: 10px !important;
+        margin-right: 80px !important;
+        height: 25px !important;
     }
     #grad1 {
         height: 100px;
@@ -331,8 +346,16 @@ and (orientation: landscape) {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     /* For portrait layouts only */
-    #header {
-        z-index: 1000
+    .logo {
+        float: left;
+        width: 120px !important;
+        padding-top: 5px;
+        margin-left: 10px; 
+    }
+    .notificationLogo {
+        padding-top: 10px !important;
+        margin-right: 10px !important;
+        height: 35px !important;
     }
     #grad1 {
         height: 150px;
@@ -468,7 +491,19 @@ and (orientation: landscape) {
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
     /* For landscape layouts only */
     #header {
+        height: 75px;
         z-index: 1000
+    }
+    .logo {
+        float: left;
+        width: 150px !important;
+        padding-top: 5px;
+        margin-left: 90px; 
+    }
+    .notificationLogo {
+        padding-top: 10px !important;
+        margin-right: 20px !important;
+        height: 50px !important;
     }
     #grad1 {
         height: 150px;
@@ -669,3 +704,13 @@ and (orientation: landscape) {
     font-size: 100%;
   }
   /* End of Footer */
+
+  /*Header*/
+  .mhead {
+    margin: 3px 0px 5px 0px;   
+}
+#header {    
+    z-index: 1000
+}
+/*Header*/
+
