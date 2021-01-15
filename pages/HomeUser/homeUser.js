@@ -28,7 +28,7 @@ $(document).ready(function(){
     ]*/
     localStorage.setItem("vendorList", JSON.stringify(vendorList))
     vendorList.forEach(function(obj) {
-        document.getElementById("favourites").innerHTML +='<div class="card" id="cardItem"> <img src="'+ obj.imageurl+'" class="cardImage"><div class="row" id="customCard"><div class="desc"><p class="name"><b>'+ obj.name+'</b></p><span class="address">'+ obj.address + '</span></div><div class="stars"><span class="fa fa-star checked fa-xs" style="color: #FFCC36;margin-left:19%; font-size: 1rem;"></span><span class="fa checked fa-xs" style="font-size: 1rem;">'+obj.rating+'</span></div></div></div>';
+        document.getElementById("favourites").innerHTML +='<a href="../Vendor/"><div class="card" id="cardItem"> <img src="'+ obj.imageurl+'" class="cardImage"><div class="row" id="customCard"><div class="desc"><p class="name"><b>'+ obj.name+'</b></p><span class="address">'+ obj.address + '</span></div><div class="stars"><span class="fa fa-star checked fa-xs" style="color: #FFCC36;margin-left:19%; font-size: 1rem;"></span><span class="fa checked fa-xs" style="font-size: 1rem;">'+obj.rating+'</span></div></div></div></a>';
     })
 
     var topVendorList = localStorage.getItem("topVendorList");
