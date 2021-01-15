@@ -1,10 +1,10 @@
 .mhead {
-    margin: 3px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
 }
 
 .logo {
     width: 120px;
-    margin: 5px 0 3px 24%;
+    margin: 3px 0 3px 24%;
 }
 
 
@@ -73,10 +73,8 @@
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    /*#favourites {
-    overflow-x: scroll;
-    white-space: nowrap;
-  }*/
+
+
     .lists {
         overflow-x: scroll !important;
         white-space: nowrap !important;
@@ -95,64 +93,72 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    #inactive {
-        color: #858282;
-        text-align: center;
-        font-family: Arial;
-        font-size: 100%;
-    }
-    #active {
-        color: #fc9920;
-        font-family: Arial;
-        font-size: 100%;
-    }
-    .ui-icon-home:after {
-        background-image: url("../../Assets/img/icons/home-inactive.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-    }
+    /*footer*/
     .ui-icon-home-active:after {
-        background-image: url("../../Assets/img/icons/home-active.svg");
+        background-image:  url("../../Assets/img/icons/home-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
-    .ui-icon-search-inactive:after {
-        background-image: url("../../Assets/img/icons/search-inactive.svg");
+    .ui-icon-home-inactive:after {
+        background-image:  url("../../Assets/img/icons/home-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
-    .ui-icon-search-active:after {
-        background-image: url("../../Assets/img/icons/search-active.svg");
+
+    .ui-icon-search-inactive:after{
+        background-image:  url("../../Assets/img/icons/search-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
+    .ui-icon-search-active:after{
+        background-image:  url("../../Assets/img/icons/search-active.svg");
+        background-size: 90%;
+        width: 25px !important;
+        height: 35px !important;
+    }
+
     .ui-icon-track-inactive:after {
-        background-image: url("../../Assets/img/icons/track-inactive.svg");
+        background-image:  url("../../Assets/img/icons/track-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
     .ui-icon-track-active:after {
-        background-image: url("../../Assets/img/icons/track-active.svg");
+        background-image:  url("../../Assets/img/icons/track-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
+
     .ui-icon-profile-inactive:after {
-        background-image: url("../../Assets/img/icons/account-inactive.svg");
+        background-image:  url("../../Assets/img/icons/account-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
     .ui-icon-profile-active:after {
-        background-image: url("../../Assets/img/icons/account-active.svg");
+        background-image:  url("../../Assets/img/icons/account-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
+    }
+
+    #inactive {
+        color: #858282;
+        text-align: center;
+        font-family: Arial;
+        font-size: 11pt;
+        background-color: white;
+    }
+
+    #active {
+        color: #fc9920;
+        font-family: Arial;
+        font-size: 11pt;
+        background-color: white;
     }
 }
 
@@ -165,7 +171,7 @@
         margin: 5px 0 3px 31%;
     }
     .mhead {
-        margin: 3px 0px 5px 0px;
+        margin: 0px 0px 5px 0px;
     }
     .locationLogo {
         padding-top: 10px !important;
@@ -239,64 +245,72 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    #inactive {
-        color: #858282;
-        text-align: center;
-        font-family: Arial;
-        font-size: 100%;
-    }
-    #active {
-        color: #fc9920;
-        font-family: Arial;
-        font-size: 100%;
-    }
-    .ui-icon-home:after {
-        background-image: url("../../Assets/img/icons/home-inactive.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-    }
+    /*footer*/
     .ui-icon-home-active:after {
-        background-image: url("../../Assets/img/icons/home-active.svg");
+        background-image:  url("../../Assets/img/icons/home-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
-    .ui-icon-search-inactive:after {
-        background-image: url("../../Assets/img/icons/search-inactive.svg");
+    .ui-icon-home-inactive:after {
+        background-image:  url("../../Assets/img/icons/home-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
-    .ui-icon-search-active:after {
-        background-image: url("../../Assets/img/icons/search-active.svg");
+
+    .ui-icon-search-inactive:after{
+        background-image:  url("../../Assets/img/icons/search-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
+    .ui-icon-search-active:after{
+        background-image:  url("../../Assets/img/icons/search-active.svg");
+        background-size: 90%;
+        width: 25px !important;
+        height: 35px !important;
+    }
+
     .ui-icon-track-inactive:after {
-        background-image: url("../../Assets/img/icons/track-inactive.svg");
+        background-image:  url("../../Assets/img/icons/track-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
     .ui-icon-track-active:after {
-        background-image: url("../../Assets/img/icons/track-active.svg");
+        background-image:  url("../../Assets/img/icons/track-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
+
     .ui-icon-profile-inactive:after {
-        background-image: url("../../Assets/img/icons/account-inactive.svg");
+        background-image:  url("../../Assets/img/icons/account-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
     .ui-icon-profile-active:after {
-        background-image: url("../../Assets/img/icons/account-active.svg");
+        background-image:  url("../../Assets/img/icons/account-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
+    }
+
+    #inactive {
+        color: #858282;
+        text-align: center;
+        font-family: Arial;
+        font-size: 11pt;
+        background-color: white;
+    }
+
+    #active {
+        color: #fc9920;
+        font-family: Arial;
+        font-size: 11pt;
+        background-color: white;
     }
 }
 
@@ -389,64 +403,72 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    #inactive {
-        color: #858282;
-        text-align: center;
-        font-family: Arial;
-        font-size: 100%;
-    }
-    #active {
-        color: #fc9920;
-        font-family: Arial;
-        font-size: 100%;
-    }
-    .ui-icon-home:after {
-        background-image: url("../../Assets/img/icons/home-inactive.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-    }
+    /*footer*/
     .ui-icon-home-active:after {
-        background-image: url("../../Assets/img/icons/home-active.svg");
+        background-image:  url("../../Assets/img/icons/home-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
-    .ui-icon-search-inactive:after {
-        background-image: url("../../Assets/img/icons/search-inactive.svg");
+    .ui-icon-home-inactive:after {
+        background-image:  url("../../Assets/img/icons/home-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
-    .ui-icon-search-active:after {
-        background-image: url("../../Assets/img/icons/search-active.svg");
+
+    .ui-icon-search-inactive:after{
+        background-image:  url("../../Assets/img/icons/search-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
+    .ui-icon-search-active:after{
+        background-image:  url("../../Assets/img/icons/search-active.svg");
+        background-size: 90%;
+        width: 25px !important;
+        height: 35px !important;
+    }
+
     .ui-icon-track-inactive:after {
-        background-image: url("../../Assets/img/icons/track-inactive.svg");
+        background-image:  url("../../Assets/img/icons/track-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
     .ui-icon-track-active:after {
-        background-image: url("../../Assets/img/icons/track-active.svg");
+        background-image:  url("../../Assets/img/icons/track-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
+
     .ui-icon-profile-inactive:after {
-        background-image: url("../../Assets/img/icons/account-inactive.svg");
+        background-image:  url("../../Assets/img/icons/account-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
     .ui-icon-profile-active:after {
-        background-image: url("../../Assets/img/icons/account-active.svg");
+        background-image:  url("../../Assets/img/icons/account-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
+    }
+
+    #inactive {
+        color: #858282;
+        text-align: center;
+        font-family: Arial;
+        font-size: 11pt;
+        background-color: white;
+    }
+
+    #active {
+        color: #fc9920;
+        font-family: Arial;
+        font-size: 11pt;
+        background-color: white;
     }
 }
 
@@ -531,63 +553,71 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
-    #inactive {
-        color: #858282;
-        text-align: center;
-        font-family: Arial;
-        font-size: 100%;
-    }
-    #active {
-        color: #fc9920;
-        font-family: Arial;
-        font-size: 100%;
-    }
-    .ui-icon-home:after {
-        background-image: url("../../Assets/img/icons/home-inactive.svg");
-        background-size: 90%;
-        width: 25px !important;
-        height: 35px !important;
-    }
+    /*footer*/
     .ui-icon-home-active:after {
-        background-image: url("../../Assets/img/icons/home-active.svg");
+        background-image:  url("../../Assets/img/icons/home-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
-    .ui-icon-search-inactive:after {
-        background-image: url("../../Assets/img/icons/search-inactive.svg");
+    .ui-icon-home-inactive:after {
+        background-image:  url("../../Assets/img/icons/home-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
-    .ui-icon-search-active:after {
-        background-image: url("../../Assets/img/icons/search-active.svg");
+
+    .ui-icon-search-inactive:after{
+        background-image:  url("../../Assets/img/icons/search-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
+    .ui-icon-search-active:after{
+        background-image:  url("../../Assets/img/icons/search-active.svg");
+        background-size: 90%;
+        width: 25px !important;
+        height: 35px !important;
+    }
+
     .ui-icon-track-inactive:after {
-        background-image: url("../../Assets/img/icons/track-inactive.svg");
+        background-image:  url("../../Assets/img/icons/track-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
     .ui-icon-track-active:after {
-        background-image: url("../../Assets/img/icons/track-active.svg");
+        background-image:  url("../../Assets/img/icons/track-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
+
     .ui-icon-profile-inactive:after {
-        background-image: url("../../Assets/img/icons/account-inactive.svg");
+        background-image:  url("../../Assets/img/icons/account-inactive.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
     }
     .ui-icon-profile-active:after {
-        background-image: url("../../Assets/img/icons/account-active.svg");
+        background-image:  url("../../Assets/img/icons/account-active.svg");
         background-size: 90%;
         width: 25px !important;
         height: 35px !important;
+    }
+
+    #inactive {
+        color: #858282;
+        text-align: center;
+        font-family: Arial;
+        font-size: 11pt;
+        background-color: white;
+    }
+
+    #active {
+        color: #fc9920;
+        font-family: Arial;
+        font-size: 11pt;
+        background-color: white;
     }
 }
