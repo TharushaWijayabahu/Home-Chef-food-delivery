@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>HOME CHEF</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        <link rel="stylesheet" type="text/css" href="product.css">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!--slider-->	
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <!--slider-->
+	
+    </head>
+
+    <body>
+    <div data-role="page" id="homeUser" >
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
+            <div class="row">
+                <div class="">
+                    <a href="../Vendor/" data-ajax="false"><img class="back ui-btn-left" src="../../Assets/img/icons/back1.svg"></a>
+                </div>
+                <div class="">
+                    <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
+                </div>
+
+            </div>
+        </div>
+        <div data-role="content" align="center">
+            <img class="productImage" src="../../Assets/img/pizza1.jpg"  />
+            <div id="container3">
+                <div id="p-name">Cheese Pizza</div>
+                <div id="input_div">
+                    <img src="../../Assets/img/icons/add-button.svg" class="plus-product" height="25" width="25" >
+                    <input type="number" name="number" id="quantity" value="1" data-role=none disabled/>
+                    <img src="../../Assets/img/icons/remove.svg" class="minus-product"  height="25" width="25">
+                </div>
+                <div id="p-amount">750</div>
+
+                <div id="p-head"><p> Size </p></div>
+                <div class="ui-grid-b" id="selection2">
+                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size" checked="checked" > </div>
+                    <div class="ui-block-b" id="select2-block2">Small</div>
+                    <div class="ui-block-c" id="select2-block3">Rs.750</div>
+                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size"   > </div>
+                    <div class="ui-block-b" id="select2-block2">Medium</div>
+                    <div class="ui-block-c" id="select2-block3">Rs.1390</div>
+                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size"   > </div>
+                    <div class="ui-block-b" id="select2-block2">Large</div>
+                    <div class="ui-block-c" id="select2-block3">Rs.1970</div>
+                </div>
+                <div align="center">
+                    <a  href=""  data-role="button" class="add-cart" id="add-cart" onclick="addtocart()">Add To Cart</a>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </body>
+    <script>
+        // On click plus button
+        $(document).ready(function() {
+            $(".plus-product").click(function() {
+                var $n = $(this)
+                    .parent("#input_div")
+                    .find("#quantity");
+
+                $n.val(Number($n.val()) + 1);
+
+            });
+        });
+
+        // On click minus button
+
+        $(document).ready(function() {
+            $(".minus-product").click(function() {
+                var $n = $(this)
+                    .parent("#input_div")
+                    .find("#quantity");
+
+                var amount = Number($n.val());
+                console.log(amount)
+                if (amount > 1) {
+                    $n.val(amount - 1);
+
+                }
+            });
+        });
+
+        function addtocart(){
+            var name = $("#p-name" ).text();
+            var price = $("#p-amount" ).text();
+            var n = document.getElementById("quantity").value;
+
+            var amount = Number(n);
+            console.log(amount)
+            console.log(Number(price))
+
+            var totalPrice = amount * Number(price);
+            console.log(totalPrice)
+
+            let pList = localStorage.getItem("pList");
+            pList = (pList) ? JSON.parse(pList) : []
+            pList.push(name)
+            localStorage.setItem("pList", JSON.stringify(pList))
+
+            let aList = localStorage.getItem("aList");
+            aList = (aList) ? JSON.parse(aList) : []
+            aList.push(totalPrice)
+            localStorage.setItem("aList", JSON.stringify(aList))
+            window.location.href = "../Cart/index.html";
+        }
+    </script>
+
+</html>	
