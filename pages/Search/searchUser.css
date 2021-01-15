@@ -63,12 +63,6 @@
       padding-top: 15px;
       width: 28px;
     }
-    .navbar{
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-    }
     #camera{
       width: 25px; 
       height: 25px;
@@ -215,18 +209,10 @@
     .elements-iphone{
       display: none;
     }
-    .navbar{
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      right: 0px;
-    margin-bottom: 0px;
-    }
     .category-images{
       height: 200px;
       border-radius: 9px;
-      opacity: 0.5;
+      opacity: 0.8;
       widows: 100px;
     }
     #food{

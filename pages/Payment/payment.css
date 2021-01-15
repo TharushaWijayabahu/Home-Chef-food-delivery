@@ -111,7 +111,7 @@
     }
     #MM {
         margin-left: 54px !important;
-        margin-right: 55px;
+        margin-right: 55px !important;
     }
     .input {
         border-color: #ff9700 !important;
@@ -170,7 +170,6 @@
     }
     #CVV {
         margin-left: 0px !important;
-        margin-right: 40% !important;
     }
 }
 
