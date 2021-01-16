@@ -47,7 +47,7 @@
         <div id="cartlist"> </div>
         <hr class="style-eight" />
         <div id="gamification">
-            <input id="points" type="number" placeholder="Enter redeem points..."  maxlength="5">
+            <input id="points" type="textarea" placeholder="Enter redeem points..."  maxlength="5">
             <a  href="#v-promo-popup-success" data-role="button" data-rel="popup" data-position-to="window" data-transition="pop" class="addPoints" onclick='redeemPoints()'>Add</a>
         </div>
         <hr class="style-eight" />
@@ -211,7 +211,7 @@
             recalculateCart();
             console.log(Number(val))
         }
-        if(Number(val)==0){
+        else if(Number(val)==0){
             var message=("Please enter a valid amount of points")
             console.log(Number(currentPoints))
             $('#message').text(message);
@@ -319,7 +319,7 @@
                         //This will be printed when the transaction is successful. To charge, server side scripting is required.
                         if(token.id){
                             $("#thankyouPayment").html("Thank you, your payment was successful!");
-                            window.location.href = "../../pages/PastOrder/index.html";
+                            window.location.href = "../../pages/CurrentOrder/index.html";
 
                             //You can also use the following code to re-submit the form content to another file for further processing
                             //$form.get(0).submit();
