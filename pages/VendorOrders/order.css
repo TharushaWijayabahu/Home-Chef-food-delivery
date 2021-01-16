@@ -133,6 +133,14 @@
         margin-top: -2%;
         font-size: 20px;
     }
+    #newOrderBtn {
+        font-size: 22px;
+        height: 60px;
+    }
+    #pstOrderBtn {
+        font-size: 22px;
+        height: 60px;
+    }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -160,5 +168,13 @@
         color: #858282;
         margin-top: -2%;
         font-size: 20px;
+    }
+    #newOrderBtn {
+        font-size: 24px;
+        height: 60px;
+    }
+    #pstOrderBtn {
+        font-size: 24px;
+        height: 60px;
     }
 }
