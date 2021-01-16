@@ -1,0 +1,71 @@
+.container-foodlist {
+    box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+#usergrid {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.ma {
+    margin-left: 84px;
+    margin-top: -114px;
+    padding-bottom: 0px;
+    padding-top: 61px;
+}
+
+.itemName {
+    margin-left: 2%;
+    color: #000000;
+    font-weight: bold;
+}
+
+.itemPrice {
+    margin-left: 2%;
+    color: #858282;
+    margin-top: -2%;
+}
+
+.round {
+    margin-left: 1%;
+    border-color: #fc9920;
+    border-radius: 50%;
+}
+
+#Submit {
+    background-color: #fc9920;
+    color: #ffffff;
+    border: Black;
+    font-size: 11px;
+    font-style: normal;
+    border-radius: 25px;
+    width: 78px;
+    height: 28px;
+    text-shadow: none;
+    margin: -13% 0 6% 75%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#add-item {
+    margin-top: 10px;
+    background-color: #ff9700;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border: none;
+    font-size: 12px;
+    font-style: normal;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-shadow: none;
+}
+
+.add-icon {
+    margin-top: 17%;
+    font-size: 25px;
+}

@@ -1,6 +1,12 @@
 $(document).ready(function() {
-    let message = localStorage.getItem("message");
+    let message = ''
+    let commentList = localStorage.getItem("commentList");
+    commentList = (commentList) ? JSON.parse(commentList) : []
+    console.log(commentList)
 
+    commentList.map(x => {
+        message = x.comment
+    })
 
 
     message == null || message == undefined ? message = '':
@@ -9,11 +15,7 @@ $(document).ready(function() {
 })
 $(document).ready(function() {
     let customerName = localStorage.getItem("customerName");
-
-
-
-
-    customerName == null || customerName == undefined ? customerName = '':
+    customerName == null || customerName == undefined ? customerName = 'JOHN DOE':
         console.log('review is : ', customerName)
     $('#customerName').text(customerName);
 })
