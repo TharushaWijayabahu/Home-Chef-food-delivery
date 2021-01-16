@@ -47,8 +47,8 @@
         <div id="cartlist"> </div>
         <hr class="style-eight" />
         <div id="gamification">
-            <input id="points" type="textarea" placeholder="Enter redeem points..."  maxlength="5">
-            <a  href="" data-role="button" class="addPoints" onclick='redeemPoints()'>Add</a>
+            <input id="points" type="number" placeholder="Enter redeem points..."  maxlength="5">
+            <a  href="#v-promo-popup-success" data-role="button" data-rel="popup" data-position-to="window" data-transition="pop" class="addPoints" onclick='redeemPoints()'>Add</a>
         </div>
         <hr class="style-eight" />
         <div id="promo">
@@ -86,6 +86,17 @@
         </div>
         <div align="center">
             <a  href="" data-role="button" onclick='myFunction()' class="checkout" id="checkout" >Place Order</a>
+        </div>
+        <div data-role="popup" id="v-promo-popup-success">
+            <div data-role="content" >
+
+                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+                <br>
+                <center><img id="av" src="../../Assets/img/icons/gift-icon.png" width="85" height="85"></center>
+                <h1 id="header1"><span id="message"></span></h1>
+                <br>
+
+            </div>
         </div>
 
     </div><!--content-->
@@ -195,10 +206,19 @@
             //console.log(val)
             localStorage.setItem("totalPoint", newPoints)
             localStorage.setItem("points", val)
+            var message=("congratulations points redeemed successfully")
+            $('#message').text(message);
             recalculateCart();
+            console.log(Number(val))
+        }
+        if(Number(val)==0){
+            var message=("Please enter a valid amount of points")
+            console.log(Number(currentPoints))
+            $('#message').text(message);
         }
         else {
-            alert("Not enough points to redeem")
+            var message=("Sorry insufficient Loyalty point balance")
+            $('#message').text(message);
         }
 
 
