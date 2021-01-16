@@ -1,103 +1,88 @@
 /* ----------- iPhone X ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3) {
 
-}
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {}
+
 
 /* Portrait */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
 
-}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+
 
 /* Landscape */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
 
-}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
+
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
+
 /* Portrait and Landscape */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3) {
-}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {}
+
 
 /* Portrait */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .logo {
         float: left;
         width: 120px !important;
         padding-top: 5px;
-        margin-left: 10px;
+        margin-left: 3%;
     }
     .notificationLogo {
         padding-top: 10px !important;
-        margin-right: 10px !important;
+        margin-right: 3% !important;
         height: 35px !important;
     }
     #grad1 {
         height: 100px;
-        background-color: #fc9920; /* For browsers that do not support gradients */
+        background-color: #fc9920;
+        /* For browsers that do not support gradients */
     }
-    .mhead{
+    .mhead {
         margin: 3px 0px 5px 0px;
     }
-    .menu-ham2{
+    .menu-ham2 {
         width: 120px;
         margin: 5px 0 3px 135px;
     }
     #container1 {
-        box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
+        box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color:white;
+        background-color: white;
         color: black;
     }
     #av {
-        height:98px;
-        width:98px;
+        height: 98px;
+        width: 98px;
         margin-top: -50px;
         margin-bottom: 10px;
     }
-    .logoAlign{
+    .logoAlign {
         margin: 0 0 3px 35px;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #v-promo-popup{
-        width:320px;
+    #v-promo-popup {
+        width: 320px;
     }
-    #v-promo-popup-edit{
-        width:320px;
+    #v-promo-popup-edit {
+        width: 320px;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #sau{
+    #sau {
         font-family: Arial;
-        font-style:normal;
-        font-size:12px;
+        font-style: normal;
+        font-size: 12px;
         font-weight: 100;
     }
     #Submit {
@@ -114,10 +99,12 @@ and (orientation: portrait) {
         margin-bottom: 23px;
         margin-left: 255px;
         transition-duration: 0.4s;
-
         cursor: pointer;
     }
-    #un, #us, #ug, #uk {
+    #un,
+    #us,
+    #ug,
+    #uk {
         font-family: Arial;
         text-align: center;
         font-size: 12px;
@@ -132,17 +119,16 @@ and (orientation: portrait) {
         text-shadow: none;
     }
     #submit {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #he2 {
@@ -152,10 +138,10 @@ and (orientation: portrait) {
         margin-top: 0px !important;
         font-weight: regular;
     }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
+    #header1 {
+        font-family: Arial !important;
+        font-size: 20px !important;
+        text-align: center !important;
         margin-top: 20px !important;
         font-weight: bold;
     }
@@ -165,70 +151,62 @@ and (orientation: portrait) {
         padding-bottom: 0px;
         padding-top: 61px;
     }
-    .itemName{
-        color: #000000; font-weight: bold;
+    .itemName {
+        color: #000000;
+        font-weight: bold;
     }
-    .accountName{
+    .accountName {
         color: #ffffff;
     }
-    .itemPrice{
-        color: #858282; margin-top: -8px;
+    .itemPrice {
+        color: #858282;
+        margin-top: -8px;
     }
     .column {
         float: left;
         width: 31.33%;
         padding: 10px;
-        height: 100px; /* Should be removed. Only for demonstration */
+        height: 100px;
+        /* Should be removed. Only for demonstration */
     }
     .column1 {
         float: left;
-
         width: 32.73%;
         padding: 15px;
-        height: 120px; /* Should be removed. Only for demonstration */
+        height: 120px;
+        /* Should be removed. Only for demonstration */
     }
     .column2 {
         float: bottom;
-
         width: 444.93%;
         padding: 25px;
-        height: 80px; /* Should be removed. Only for demonstration */
+        height: 80px;
+        /* Should be removed. Only for demonstration */
     }
-    #margin-top-link{
+    #margin-top-link {
         margin: 5px 0 3px 20px;
         color: #858282;
-
     }
-    #margin-top-link2{
+    #margin-top-link2 {
         margin: 5px 0 3px 18px;
         color: #858282;
     }
-    #margin-top-link3{
+    #margin-top-link3 {
         margin: 5px 0 3px 24px;
         color: #858282;
-
-
     }
-    #margin-top-link4{
+    #margin-top-link4 {
         margin: 0 0 3px 15px;
         color: #858282;
-
-
     }
-    #margin-top-link4-top{
+    #margin-top-link4-top {
         /*margin: 0 0 3px 15px;*/
         color: #858282;
-
-
     }
-    #margin-top-link5{
+    #margin-top-link5 {
         margin: 0px 5px 3px 30px;
         color: #858282;
-
-
     }
-
-
     .row:after {
         content: "";
         display: table;
@@ -239,68 +217,62 @@ and (orientation: portrait) {
         display: table;
         clear: both;
     }
-
-
 }
 
-/* Landscape */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
 
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
     .logo {
         float: left;
         width: 100px !important;
         padding-top: 5px;
-        margin-left: 5px;
+        margin-left: 3%;
     }
     .notificationLogo {
         padding-top: 10px !important;
-        margin-right: 80px !important;
+        margin-right: 3% !important;
         height: 25px !important;
     }
     #grad1 {
         height: 100px;
-        background-color: #fc9920; /* For browsers that do not support gradients */
+        background-color: #fc9920;
+        /* For browsers that do not support gradients */
     }
-    .logoAlign{
+    .logoAlign {
         margin: 0 0 3px 35px;
     }
-    .mhead{
+    .mhead {
         margin: 3px 0px 5px 0px;
     }
-    .menu-ham2{
+    .menu-ham2 {
         width: 120px;
         margin: 5px 0 3px 105px;
     }
     #container1 {
-        box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
+        box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color:white;
+        background-color: white;
         color: black;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #v-promo-popup{
-        width:320px;
+    #v-promo-popup {
+        width: 320px;
     }
-    #v-promo-popup-edit{
-        width:320px;
+    #v-promo-popup-edit {
+        width: 320px;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #sau{
+    #sau {
         font-family: Arial;
-        font-style:normal;
-        font-size:12px;
+        font-style: normal;
+        font-size: 12px;
         font-weight: 100;
     }
     #Submit {
@@ -317,10 +289,12 @@ and (orientation: landscape) {
         margin-bottom: 23px;
         margin-left: 255px;
         transition-duration: 0.4s;
-
         cursor: pointer;
     }
-    #un, #us, #ug, #uk {
+    #un,
+    #us,
+    #ug,
+    #uk {
         font-family: Arial;
         text-align: center;
         font-size: 12px;
@@ -335,17 +309,16 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submit {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #he2 {
@@ -355,10 +328,10 @@ and (orientation: landscape) {
         margin-top: 0px !important;
         font-weight: regular;
     }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
+    #header1 {
+        font-family: Arial !important;
+        font-size: 20px !important;
+        text-align: center !important;
         margin-top: 20px !important;
         font-weight: bold;
     }
@@ -368,22 +341,25 @@ and (orientation: landscape) {
         padding-bottom: 28px;
         padding-top: 55px;
     }
-    .itemName{
-        color: #858282; font-weight: bold;
+    .itemName {
+        color: #858282;
+        font-weight: bold;
     }
-    .accountName{
-        color: #ffffff; font-weight: bold;
+    .accountName {
+        color: #ffffff;
+        font-weight: bold;
     }
-    .itemPrice{
-        color: #858282; margin-top: -8px;
+    .itemPrice {
+        color: #858282;
+        margin-top: -8px;
     }
     .column {
         float: left;
         width: 31.33%;
         padding: 10px;
-        height: 100px; /* Should be removed. Only for demonstration */
+        height: 100px;
+        /* Should be removed. Only for demonstration */
     }
-
     .row:after {
         content: "";
         display: table;
@@ -393,67 +369,52 @@ and (orientation: landscape) {
         float: left;
         width: 31.33%;
         padding: 10px;
-        height: 100px; /* Should be removed. Only for demonstration */
+        height: 100px;
+        /* Should be removed. Only for demonstration */
     }
     .column1 {
         float: left;
-
         width: 23.33%;
         padding: 12px;
-        height: 150px; /* Should be removed. Only for demonstration */
+        height: 150px;
+        /* Should be removed. Only for demonstration */
     }
     .column2 {
         float: bottom;
-
         width: 444.93%;
         padding: 25px;
-        height: 100px; /* Should be removed. Only for demonstration */
+        height: 100px;
+        /* Should be removed. Only for demonstration */
     }
-    #margin-top-link{
+    #margin-top-link {
         margin: 5px 0 3px 28px;
         color: #858282;
-
-
     }
-    #margin-top-link2{
+    #margin-top-link2 {
         margin: 5px 0 3px 33px;
         color: #858282;
-
-
     }
-    #margin-top-link3{
+    #margin-top-link3 {
         margin: 5px 0 3px 24px;
         color: #858282;
-
-
     }
-    #margin-top-link4{
+    #margin-top-link4 {
         margin: 5px 0 3px 32px;
         color: #858282;
-
-
     }
-    #margin-top-link4-top{
+    #margin-top-link4-top {
         margin: 5px 0 3px 32px;
         color: #858282;
-
-
     }
-    #margin-top-link5{
+    #margin-top-link5 {
         margin: 5px 0 3px 18px;
         color: #858282;
-
-
     }
-
-
-
     .row2:after {
         content: "";
         display: table;
         clear: both;
     }
-
 }
 
 
@@ -465,60 +426,59 @@ and (orientation: landscape) {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     /* For portrait layouts only */
-    body{
+    body {
         background-color: #f9f9f9;
     }
     .logo {
         float: left;
         width: 120px !important;
         padding-top: 5px;
-        margin-left: 10px;
+        margin-left: 3%;
     }
     .notificationLogo {
         padding-top: 10px !important;
-        margin-right: 10px !important;
+        margin-right: 3% !important;
         height: 35px !important;
     }
     #grad1 {
         height: 150px;
-        background-color: #fc9920; /* For browsers that do not support gradients */
+        background-color: #fc9920;
+        /* For browsers that do not support gradients */
     }
-    .logoAlign{
+    .logoAlign {
         margin: 0 0 3px 35px;
     }
-    .mhead{
+    .mhead {
         margin: 3px 0px 5px 0px;
     }
-    .menu-ham2{
+    .menu-ham2 {
         width: 120px;
         margin: 5px 0 3px 300px;
     }
     #container1 {
-        box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
+        box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color:white;
+        background-color: white;
         color: black;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #v-promo-popup{
-        width:350px;
+    #v-promo-popup {
+        width: 350px;
     }
-    #v-promo-popup-edit{
-        width:350px;
+    #v-promo-popup-edit {
+        width: 350px;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #sau{
+    #sau {
         font-family: Arial;
-        font-style:normal;
-        font-size:12px;
+        font-style: normal;
+        font-size: 12px;
         font-weight: 100;
     }
     #Submit {
@@ -528,7 +488,7 @@ and (orientation: landscape) {
         font-size: 11px;
         font-style: normal;
         border-radius: 25px;
-        top:-42px;
+        top: -42px;
         width: 98px;
         height: 28px;
         text-shadow: none;
@@ -536,10 +496,12 @@ and (orientation: landscape) {
         margin-bottom: 0px;
         margin-left: 580px;
         transition-duration: 0.4s;
-
         cursor: pointer;
     }
-    #un, #us, #ug, #uk {
+    #un,
+    #us,
+    #ug,
+    #uk {
         font-family: Arial;
         text-align: center;
         font-size: 12px;
@@ -554,17 +516,16 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submit {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #he2 {
@@ -574,10 +535,10 @@ and (orientation: landscape) {
         margin-top: 0px !important;
         font-weight: regular;
     }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
+    #header1 {
+        font-family: Arial !important;
+        font-size: 20px !important;
+        text-align: center !important;
         margin-top: 20px !important;
         font-weight: bold;
     }
@@ -587,73 +548,65 @@ and (orientation: landscape) {
         padding-bottom: 0px;
         padding-top: 61px;
     }
-    .itemName{
-        color: #000000;margin-top: -65px; font-weight: bold;
+    .itemName {
+        color: #000000;
+        margin-top: -65px;
+        font-weight: bold;
     }
-    .accountName{
-        color: #ffffff; font-weight: bold;
+    .accountName {
+        color: #ffffff;
+        font-weight: bold;
     }
-    .itemPrice{
-        display:inline ;color: #858282; margin-top: -10px;
+    .itemPrice {
+        display: inline;
+        color: #858282;
+        margin-top: -10px;
     }
     .column {
         float: left;
         width: 31.33%;
         padding: 10px;
-        height: 150px; /* Should be removed. Only for demonstration */
+        height: 150px;
+        /* Should be removed. Only for demonstration */
     }
-
     .column1 {
         float: left;
-
         width: 32.83%;
         padding: 25px;
-        height: 120px; /* Should be removed. Only for demonstration */
+        height: 120px;
+        /* Should be removed. Only for demonstration */
     }
     .column2 {
         float: bottom;
-
         width: 444.93%;
         padding: 25px;
-        height: 100px; /* Should be removed. Only for demonstration */
+        height: 100px;
+        /* Should be removed. Only for demonstration */
     }
-    #margin-top-link{
+    #margin-top-link {
         margin: 15px 0 3px 24px;
         color: #858282;
-
     }
-    #margin-top-link2{
+    #margin-top-link2 {
         margin: 5px 0 3px 22px;
         color: #858282;
-
-
     }
-    #margin-top-link3{
+    #margin-top-link3 {
         margin: 5px 0 3px 24px;
         color: #858282;
-
-
     }
-    #margin-top-link4{
+    #margin-top-link4 {
         margin: 5px 0 3px 18px;
         color: #858282;
-
-
     }
-    #margin-top-link4-top{
+    #margin-top-link4-top {
         margin: 5px 0 3px 18px;
         color: #858282;
-
-
     }
-    #margin-top-link5{
+    #margin-top-link5 {
         margin: 5px 0 3px 28px;
         color: #858282;
-
-
     }
-
-
     .row:after {
         content: "";
         display: table;
@@ -669,8 +622,6 @@ and (orientation: landscape) {
         display: table;
         clear: both;
     }
-
-
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -683,51 +634,49 @@ and (orientation: landscape) {
         float: left;
         width: 150px !important;
         padding-top: 5px;
-        margin-left: 90px;
+        margin-left: 3%;
     }
     .notificationLogo {
         padding-top: 10px !important;
-        margin-right: 20px !important;
+        margin-right: 3% !important;
         height: 50px !important;
     }
     #grad1 {
         height: 180px;
-        background-color: #fc9920; /* For browsers that do not support gradients */
+        background-color: #fc9920;
+        /* For browsers that do not support gradients */
     }
-    .mhead{
+    .mhead {
         margin: 3px 0px 5px 0px;
     }
-    .menu-ham2{
-        width: 120px;!important;
-        margin: 5px 0 3px 450px;!important;
+    .menu-ham2 {
+        width: 120px !important;
+        margin: 5px 0 3px 450px !important;
     }
     #container1 {
-        box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
+        box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color:white;
+        background-color: white;
         color: black;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #v-promo-popup{
-        width:471px;
-
+    #v-promo-popup {
+        width: 471px;
     }
-    #v-promo-popup-edit{
-        width:471px;
+    #v-promo-popup-edit {
+        width: 471px;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #sau{
+    #sau {
         font-family: Arial;
-        font-style:normal;
-        font-size:12px;
+        font-style: normal;
+        font-size: 12px;
         font-weight: 100;
     }
     #Submit {
@@ -737,7 +686,7 @@ and (orientation: landscape) {
         font-size: 11px;
         font-style: normal;
         border-radius: 25px;
-        top:-61px;
+        top: -61px;
         width: 164px;
         height: 46px;
         text-shadow: none;
@@ -746,10 +695,12 @@ and (orientation: landscape) {
         margin-left: 764px;
         transition-duration: 0.4s;
         position: relative;
-
         cursor: pointer;
     }
-    #un, #us, #ug, #uk {
+    #un,
+    #us,
+    #ug,
+    #uk {
         font-family: Arial;
         text-align: center;
         font-size: 12px;
@@ -764,17 +715,16 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submit {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:14px;
-        font-style:normal;
+        border: none;
+        font-size: 14px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #he2 {
@@ -784,10 +734,10 @@ and (orientation: landscape) {
         margin-top: 0px !important;
         font-weight: regular;
     }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
+    #header1 {
+        font-family: Arial !important;
+        font-size: 20px !important;
+        text-align: center !important;
         margin-top: 20px !important;
         font-weight: bold;
     }
@@ -797,73 +747,67 @@ and (orientation: landscape) {
         padding-bottom: 0px;
         padding-top: 61px;
     }
-    .itemName{
-        color: #000000;margin-top: -65px; font-weight: bold; font-size: 14px;
+    .itemName {
+        color: #000000;
+        margin-top: -65px;
+        font-weight: bold;
+        font-size: 14px;
     }
-    .accountName{
-        color: #ffffff; font-weight: bold; font-size: 14px;
+    .accountName {
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 14px;
     }
-    .itemPrice{
-        display:inline ; color: #858282; margin-top: -10px;
+    .itemPrice {
+        display: inline;
+        color: #858282;
+        margin-top: -10px;
     }
     .column {
         float: left;
         width: 31.33%;
         padding: 10px;
-        height: 100px; /* Should be removed. Only for demonstration */
+        height: 100px;
+        /* Should be removed. Only for demonstration */
     }
     .column1 {
         float: left;
-
         width: 33%;
         padding: 28px;
-        height: 120px; /* Should be removed. Only for demonstration */
+        height: 120px;
+        /* Should be removed. Only for demonstration */
     }
     .column2 {
         float: bottom;
-
         width: 444.93%;
         padding: 25px;
-        height: 100px; /* Should be removed. Only for demonstration */
+        height: 100px;
+        /* Should be removed. Only for demonstration */
     }
-    #margin-top-link{
+    #margin-top-link {
         margin: 5px 0 3px 21px;
         color: #858282;
-
-
     }
-    #margin-top-link2{
+    #margin-top-link2 {
         margin: 5px 0 3px 21px;
         color: #858282;
-
-
     }
-    #margin-top-link3{
+    #margin-top-link3 {
         margin: 5px 0 3px 24px;
         color: #858282;
-
-
     }
-    #margin-top-link4{
+    #margin-top-link4 {
         margin: 5px 0 3px 18px;
         color: #858282;
-
-
     }
-    #margin-top-link4-top{
+    #margin-top-link4-top {
         margin: 5px 0 3px 18px;
         color: #858282;
-
-
     }
-    #margin-top-link5{
+    #margin-top-link5 {
         margin: 5px 0 3px 28px;
         color: #858282;
-
-
     }
-
-
     .row:after {
         content: "";
         display: table;
@@ -875,97 +819,93 @@ and (orientation: landscape) {
         clear: both;
     }
     /*Header*/
-
     #header {
         z-index: 1000
     }
     /*Header*/
-
-
 }
+
+
 /* Footer */
+
 #inactive {
     color: #858282;
     text-align: center;
     font-family: Arial;
     font-size: 100%;
-
 }
+
 #active {
     color: #fc9920;
     font-family: Arial;
     font-size: 100%;
 }
+
 .ui-icon-home:after {
-    background-image:  url("../../Assets/img/icons/home-inactive.svg");
+    background-image: url("../../Assets/img/icons/home-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
-
 }
 
 .ui-icon-home-active:after {
-    background-image:  url("../../Assets/img/icons/home-active.svg");
+    background-image: url("../../Assets/img/icons/home-active.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
+
 .ui-icon-home-inactive:after {
-    background-image:  url("../../Assets/img/icons/home-inactive.svg");
+    background-image: url("../../Assets/img/icons/home-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
-
-
 
 .ui-icon-search-inactive:after {
-    background-image:  url("../../Assets/img/icons/search-inactive.svg");
+    background-image: url("../../Assets/img/icons/search-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
 
-
 .ui-icon-search-active:after {
-    background-image:  url("../../Assets/img/icons/search-active.svg");
+    background-image: url("../../Assets/img/icons/search-active.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
 
 .ui-icon-track-inactive:after {
-    background-image:  url("../../Assets/img/icons/track-inactive.svg");
+    background-image: url("../../Assets/img/icons/track-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
-
 
 .ui-icon-track-active:after {
-    background-image:  url("../../Assets/img/icons/track-active.svg");
+    background-image: url("../../Assets/img/icons/track-active.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
-
 
 .ui-icon-profile-inactive:after {
-    background-image:  url("../../Assets/img/icons/account-inactive.svg");
+    background-image: url("../../Assets/img/icons/account-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
-
 
 .ui-icon-profile-inactive:after {
-    background-image:  url("../../Assets/img/icons/account-inactive.svg");
+    background-image: url("../../Assets/img/icons/account-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
+
 .ui-icon-profile-active:after {
-    background-image:  url("../../Assets/img/icons/account-active.svg");
+    background-image: url("../../Assets/img/icons/account-active.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
