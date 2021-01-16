@@ -111,7 +111,7 @@ and (orientation: portrait) {
         margin: .4em 0;
         text-shadow: none;
     }
-    #submit {
+    #submits {
         margin-top:10px;
         background-color: #ff9700;
         color:white;
@@ -231,7 +231,7 @@ and (orientation: landscape) {
         margin: .4em 0;
         text-shadow: none;
     }
-    #submit {
+    #submits {
         margin-top:10px;
         background-color: #ff9700;
         color:white;
@@ -352,7 +352,7 @@ and (orientation: landscape) {
         margin: .4em 0;
         text-shadow: none;
     }
-    #submit {
+    #submits {
         margin-top:10px;
         background-color: #ff9700;
         color:white;
@@ -469,7 +469,7 @@ and (orientation: landscape) {
         margin: .4em 0;
         text-shadow: none;
     }
-    #submit {
+    #submits {
         margin-top:10px;
         background-color: #ff9700;
         color:white;
