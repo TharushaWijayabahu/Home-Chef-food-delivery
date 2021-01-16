@@ -38,7 +38,6 @@
         </div>
         <div data-role="content">
             <h2 class="text-center">Food List</h2>
-            </br>
             <center>
                 <a href="#addItem-popup" data-position-to="window" data-role="button" data-rel="popup" data-transition="pop" id="add-item">
                     <i class="fas fa-plus add-icon"></i></a>
@@ -48,16 +47,80 @@
             <div class="container-foodlist" id="container-foodlist">
                 <div class="ui-grid-a" id="usergrid">
                     <a href="#foodlist-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
-                        <img src="../../Assets/img/Kiribath.jpg" class="round" width="20%">
+                        <img src="../../Assets/img/pizza-recipe.jpg" class="round" width="20%">
                         <div class="ma">
                             <div class="itemName">
-                                <p>Home Made Kiribath</p>
+                                <p>Home made pizza</p>
                             </div>
                             <div class="itemPrice">
-                                <p>Rs.300 (60% OFF)</p>
+                                <p>Sausage & onions with ...</p>
                             </div>
                         </div>
-                        <button id="Submit">Edit</button>
+                        <button id="Submit">Customize</button>
+                    </a>
+                </div>
+            </div>
+            <div class="container-foodlist" id="container-foodlist">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#foodlist-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/pizza-recipe.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Sausage & onions with ...</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Customize</button>
+                    </a>
+                </div>
+            </div>
+            <div class="container-foodlist" id="container-foodlist">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#foodlist-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/pizza-recipe.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Sausage & onions with ...</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Customize</button>
+                    </a>
+                </div>
+            </div>
+            <div class="container-foodlist" id="container-foodlist">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#foodlist-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/pizza-recipe.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Sausage & onions with ...</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Customize</button>
+                    </a>
+                </div>
+            </div>
+            <div class="container-foodlist" id="container-foodlist">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#foodlist-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/pizza-recipe.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Sausage & onions with ...</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Customize</button>
                     </a>
                 </div>
             </div>
@@ -73,52 +136,109 @@
                 </ul>
             </div>
         </div>
-    </div>
-
-    <div data-role="popup" id="addItem-popup">
-        <div data-role="content">
-            <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="" height="15" width="15"></a>
-            <br>
-            <h1 id="header1">Add Promotion</h1>
-            <br>
-            <center><img id="av" src="../../Assets/img/camera.png"></center>
-            <br>
-            <h1 id="he2">Add Picture</h1>
-
-
-            <center>
-                <input type="text" name="user" id="un" value="" placeholder="Title" data-role=none required/>
-                <input type="text" name="user" id="us" value="" placeholder="Deal" data-role=none required/>
-                <input type="text" name="user" id="ug" value="" placeholder="Promo Code" data-role=none required/>
-                <input type="text" name="user" id="uk" value="" placeholder="Amount" data-role=none required/>
-                <a href="#" data-role="button" data-rel="popup" id="submits">ADD</a>
-            </center>
-
-
+        <div data-role="popup" id="addItem-popup">
+            <div data-role="content">
+                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="" height="15" width="15"></a>
+                <br>
+                <h2 class="text-center" id="header1">Add Food Item</h2>
+                <br>
+                <center><img id="av" src="../../Assets/img/camera.png"></center>
+                <h4 class="text-center" id="he2">Add Picture</h4>
+                <center>
+                    <input type="text" name="user" id="un" value="" placeholder="Title" data-role=none required/>
+                    <input type="text" name="user" id="us" value="" placeholder="Description" data-role=none required/>
+                    <input type="text" name="user" id="ug" value="" placeholder="Type" data-role=none required/>
+                    <input type="number" name="user" id="uk" value="" placeholder="Price" data-role=none required/>
+                    <a href="#" data-role="button" data-rel="popup" id="submits">ADD</a>
+                </center>
+            </div>
         </div>
-    </div>
-    <div data-role="popup" id="foodlist-edit">
-        <div data-role="content">
-            <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
-            <br>
-            <h1 id="header1">Update Promo</h1>
-            <br>
-            <center><img id="av" src="../../Assets/img/camera.png"></center>
-            <br>
-            <h1 id="he2">Add Picture</h1>
-            <form>
-                <div data-role="fieldcontain">
-                    <center>
-                        <input type="text" name="user" id="us" value="" placeholder="Deal" data-role=none />
-                        <input type="text" name="user" id="ug" value="" placeholder="Promo Code" data-role=none />
-                        <input type="text" name="user" id="uk" value="" placeholder="Amount" data-role=none />
-                        <a href="#" data-role="button" id="submits-edit" data-rel="popup">Update</a>
-                    </center>
-                </div>
-            </form>
+        <div data-role="popup" id="foodlist-edit">
+            <div data-role="content">
+                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="" height="15" width="15"></a>
+                <br>
+                <h2 class="text-center" id="header1">Update Food Item</h2>
+                <br>
+                <center><img id="av" src="../../Assets/img/camera.png"></center>
+                <h4 class="text-center" id="he2">Update Picture</h4>
+                <center>
+                    <input type="text" name="user" id="un" value="" placeholder="Title" data-role=none required/>
+                    <input type="text" name="user" id="us" value="" placeholder="Description" data-role=none required/>
+                    <input type="text" name="user" id="ug" value="" placeholder="Type" data-role=none required/>
+                    <input type="number" name="user" id="uk" value="" placeholder="Price" data-role=none required/>
+                    <a href="#" data-role="button" data-rel="popup" id="submits-edit">Update</a>
+                </center>
+            </div>
+        </div>
+        <div data-role="popup" id="add-popup-success">
+            <div data-role="content">
+                <a href="#" data-rel="back" id="popupback">
+                    <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+                <br>
+                <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
+                <h3 class="text-center" id="header1">Food Item added Successfully</h1>
+                    <br>
+            </div>
+        </div>
+        <div data-role="popup" id="edit-popup-success">
+            <div data-role="content">
+                <a href="#" data-rel="back" id="popupback">
+                    <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+                <br>
+                <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
+                <h3 class="text-center" id="header1">Food Item updated Successfully</h1>
+                    <br>
+            </div>
         </div>
     </div>
     <script>
+        var buttonClick = false;
+        $(document).on("pageinit", function() {
+            $("#addItem-popup").on({
+                popupafterclose: function() {
+                    if (buttonClick) {
+                        setTimeout(function() {
+                            $("#add-popup-success").popup("open", {
+                                positionTo: "#addItem-popup"
+                            })
+                        }, 100);
+                        buttonClick = false;
+                    } else {
+                        console.log(buttonClick);
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $("#submits").click(function() {
+                buttonClick = true;
+                $("#addItem-popup").popup("close");
+            });
+        });
+
+        $(document).on("pageinit", function() {
+            $("#foodlist-edit").on({
+                popupafterclose: function() {
+                    if (buttonClick) {
+                        setTimeout(function() {
+                            $("#edit-popup-success").popup("open", {
+                                positionTo: "#foodlist-edit"
+                            })
+                        }, 100);
+                        buttonClick = false;
+                    } else {
+                        console.log(buttonClick);
+                    }
+                }
+            });
+        });
+        $(document).ready(function() {
+            $("#submits-edit").click(function() {
+                buttonClick = true;
+                $("#foodlist-edit").popup("close");
+            });
+        });
     </script>
 </body>
 
