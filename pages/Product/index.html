@@ -7,26 +7,23 @@
 		
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
         <link rel="stylesheet" type="text/css" href="product.css">
-        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> <!--slider-->	
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <!--slider-->
+        <script src="../../Assets/js/js.min.js"></script> <!--slider-->
+        <link rel="stylesheet" href="../../Assets/css/style.min.css"> <!--slider-->
 	
     </head>
 
     <body>
     <div data-role="page" id="homeUser" >
         <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
-            <div class="row">
-                <div class="">
-                    <a href="../Vendor/" data-ajax="false"><img class="back ui-btn-left" src="../../Assets/img/icons/back1.svg"></a>
-                </div>
-                <div class="">
-                    <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
-                </div>
 
+            <div class="mhead">
+                <a class="back-btn" href="../Vendor">
+                    < Back</a>
+                <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
             </div>
+            <!-- /grid-b -->
         </div>
         <div data-role="content" align="center">
             <img class="productImage" src="../../Assets/img/pizza1.jpg"  />
@@ -41,13 +38,13 @@
 
                 <div id="p-head"><p> Size </p></div>
                 <div class="ui-grid-b" id="selection2">
-                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size" checked="checked" > </div>
+                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size1" checked="checked" value="750" > </div>
                     <div class="ui-block-b" id="select2-block2">Small</div>
                     <div class="ui-block-c" id="select2-block3">Rs.750</div>
-                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size"   > </div>
+                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size2" value="1390"> </div>
                     <div class="ui-block-b" id="select2-block2">Medium</div>
                     <div class="ui-block-c" id="select2-block3">Rs.1390</div>
-                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size"   > </div>
+                    <div class="ui-block-a" id="select2-block1"><input type="radio" name="radio-choice" id="size3" value="1970"> </div>
                     <div class="ui-block-b" id="select2-block2">Large</div>
                     <div class="ui-block-c" id="select2-block3">Rs.1970</div>
                 </div>
@@ -70,6 +67,16 @@
 
                 $n.val(Number($n.val()) + 1);
 
+                var sizes = document.getElementsByName("radio-choice");
+                var size;
+                for(var i = 0; i < sizes.length; i++){
+                    if(sizes[i].checked){
+                        size = sizes[i].value;
+                    }
+                }
+
+                var finalprice = Number($n.val())*Number(size)
+                document.getElementById("p-amount").innerHTML = finalprice;
             });
         });
 
@@ -82,25 +89,26 @@
                     .find("#quantity");
 
                 var amount = Number($n.val());
-                console.log(amount)
+
                 if (amount > 1) {
                     $n.val(amount - 1);
-
                 }
+                var sizes = document.getElementsByName("radio-choice");
+                var size;
+                for(var i = 0; i < sizes.length; i++){
+                    if(sizes[i].checked){
+                        size = sizes[i].value;
+                    }
+                }
+
+                var finalprice = Number($n.val())*Number(size)
+                document.getElementById("p-amount").innerHTML = finalprice;
             });
         });
 
         function addtocart(){
             var name = $("#p-name" ).text();
             var price = $("#p-amount" ).text();
-            var n = document.getElementById("quantity").value;
-
-            var amount = Number(n);
-            console.log(amount)
-            console.log(Number(price))
-
-            var totalPrice = amount * Number(price);
-            console.log(totalPrice)
 
             let pList = localStorage.getItem("pList");
             pList = (pList) ? JSON.parse(pList) : []
@@ -109,9 +117,9 @@
 
             let aList = localStorage.getItem("aList");
             aList = (aList) ? JSON.parse(aList) : []
-            aList.push(totalPrice)
+            aList.push(price)
             localStorage.setItem("aList", JSON.stringify(aList))
-            window.location.href = "../Cart/index.html";
+            window.location.href = "../Cart/";
         }
     </script>
 
