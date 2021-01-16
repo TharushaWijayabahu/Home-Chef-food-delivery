@@ -45,12 +45,14 @@
         font-size: 16px;
         height: 12px;
         color: #858282;
+        text-shadow: none;
     }
     .address {
         height: 20px;
         font-size: 14px;
         color: #858282;
         width: 20px;
+        text-shadow: none;
     }
     .desc {
         position: relative;
@@ -60,6 +62,10 @@
         margin-top: 5px;
         margin-left: 5px;
         height: 55px;
+    }
+    .link {
+        font-weight: normal !important;
+        color: #858282 !important;
     }
     .stars {
         position: relative;
@@ -213,6 +219,10 @@
         margin-top: 5px;
         margin-left: 5px;
         height: 55px;
+    }
+    .link {
+        font-weight: normal !important;
+        color: #858282 !important;
     }
     .stars {
         position: relative;
@@ -373,6 +383,10 @@
         margin-left: 5px;
         height: 55px;
     }
+    .link {
+        font-weight: normal !important;
+        color: #858282 !important;
+    }
     .stars {
         position: relative;
         float: right;
@@ -523,6 +537,10 @@
         margin-top: 5px;
         margin-left: 5px;
         height: 55px;
+    }
+    .link {
+       font-weight: normal !important;
+        color: #858282 !important;
     }
     .stars {
         position: relative;
