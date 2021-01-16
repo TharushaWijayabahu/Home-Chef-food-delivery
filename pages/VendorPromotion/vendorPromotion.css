@@ -1,86 +1,69 @@
 /* ----------- iPhone X ----------- */
 
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3) {
 
-}
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {}
+
 
 /* Portrait */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
 
-}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+
 
 /* Landscape */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 812px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
 
-}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
+
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
+
 /* Portrait and Landscape */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3) {
-    }
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {}
+
 
 /* Portrait */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: portrait) {
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     #header {
         z-index: 1000
     }
-    .mhead{
+    .mhead {
         margin: 3px 0px 5px 0px;
     }
-    .menu-ham2{
+    .menu-ham2 {
         width: 120px;
         margin: 5px 0 3px 135px;
     }
-
     #container1 {
-        box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
+        box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color:white;
+        background-color: white;
         color: black;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #v-promo-popup{
-        width:320px;
+    #v-promo-popup {
+        width: 320px;
     }
-    #v-promo-popup-edit{
-        width:320px;
+    #v-promo-popup-edit {
+        width: 320px;
     }
-    #v-promo-popup-success{
-          width:320px;
-      }
+    #v-promo-popup-success {
+        width: 320px;
+    }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #sau{
+    #sau {
         font-family: Arial;
-        font-style:normal;
-        font-size:12px;
+        font-style: normal;
+        font-size: 12px;
         font-weight: 100;
     }
     #Submit {
@@ -97,10 +80,12 @@ and (orientation: portrait) {
         margin-bottom: 23px;
         margin-left: 255px;
         transition-duration: 0.4s;
-
         cursor: pointer;
     }
-    #un, #us, #ug, #uk {
+    #un,
+    #us,
+    #ug,
+    #uk {
         font-family: Arial;
         text-align: center;
         font-size: 12px;
@@ -115,31 +100,29 @@ and (orientation: portrait) {
         text-shadow: none;
     }
     #submits {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #submits-edit {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #he2 {
@@ -149,10 +132,10 @@ and (orientation: portrait) {
         margin-top: 0px !important;
         font-weight: regular;
     }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
+    #header1 {
+        font-family: Arial !important;
+        font-size: 20px !important;
+        text-align: center !important;
         margin-top: 20px !important;
         font-weight: bold;
     }
@@ -162,62 +145,57 @@ and (orientation: portrait) {
         padding-bottom: 0px;
         padding-top: 61px;
     }
-    .itemName{
-        color: #000000; font-weight: bold;
+    .itemName {
+        color: #000000;
+        font-weight: bold;
     }
-    .itemPrice{
-        color: #858282; margin-top: -8px;
+    .itemPrice {
+        color: #858282;
+        margin-top: -8px;
     }
-
-
 }
 
-/* Landscape */
-@media only screen
-and (min-device-width: 414px)
-and (max-device-width: 736px)
-and (-webkit-min-device-pixel-ratio: 3)
-and (orientation: landscape) {
 
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
     #header {
         z-index: 1000
     }
-    .mhead{
+    .mhead {
         margin: 3px 0px 5px 0px;
     }
-    .menu-ham2{
+    .menu-ham2 {
         width: 120px;
         margin: 5px 0 3px 105px;
     }
     #container1 {
-        box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
+        box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color:white;
+        background-color: white;
         color: black;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #v-promo-popup{
-        width:320px;
+    #v-promo-popup {
+        width: 320px;
     }
-    #v-promo-popup-edit{
-        width:320px;
+    #v-promo-popup-edit {
+        width: 320px;
     }
-    #v-promo-popup-success{
-        width:320px;
+    #v-promo-popup-success {
+        width: 320px;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #sau{
+    #sau {
         font-family: Arial;
-        font-style:normal;
-        font-size:12px;
+        font-style: normal;
+        font-size: 12px;
         font-weight: 100;
     }
     #Submit {
@@ -234,10 +212,12 @@ and (orientation: landscape) {
         margin-bottom: 23px;
         margin-left: 255px;
         transition-duration: 0.4s;
-
         cursor: pointer;
     }
-    #un, #us, #ug, #uk {
+    #un,
+    #us,
+    #ug,
+    #uk {
         font-family: Arial;
         text-align: center;
         font-size: 12px;
@@ -252,31 +232,29 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submits {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #submits-edit {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #he2 {
@@ -286,10 +264,10 @@ and (orientation: landscape) {
         margin-top: 0px !important;
         font-weight: regular;
     }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
+    #header1 {
+        font-family: Arial !important;
+        font-size: 20px !important;
+        text-align: center !important;
         margin-top: 20px !important;
         font-weight: bold;
     }
@@ -299,11 +277,13 @@ and (orientation: landscape) {
         padding-bottom: 28px;
         padding-top: 55px;
     }
-    .itemName{
-        color: #858282; font-weight: bold;
+    .itemName {
+        color: #858282;
+        font-weight: bold;
     }
-    .itemPrice{
-        color: #858282; margin-top: -8px;
+    .itemPrice {
+        color: #858282;
+        margin-top: -8px;
     }
 }
 
@@ -319,42 +299,40 @@ and (orientation: landscape) {
     #header {
         z-index: 1000
     }
-    .mhead{
+    .mhead {
         margin: 3px 0px 5px 0px;
     }
-    .menu-ham2{
+    .menu-ham2 {
         width: 120px;
         margin: 5px 0 3px 300px;
     }
     #container1 {
-        box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
+        box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color:white;
+        background-color: white;
         color: black;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #v-promo-popup{
-        width:350px;
+    #v-promo-popup {
+        width: 350px;
     }
-    #v-promo-popup-edit{
-        width:350px;
+    #v-promo-popup-edit {
+        width: 350px;
     }
-    #v-promo-popup-success{
-        width:350px;
+    #v-promo-popup-success {
+        width: 350px;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #sau{
+    #sau {
         font-family: Arial;
-        font-style:normal;
-        font-size:12px;
+        font-style: normal;
+        font-size: 12px;
         font-weight: 100;
     }
     #Submit {
@@ -364,7 +342,7 @@ and (orientation: landscape) {
         font-size: 11px;
         font-style: normal;
         border-radius: 25px;
-        top:-42px;
+        top: -42px;
         width: 98px;
         height: 28px;
         text-shadow: none;
@@ -372,10 +350,12 @@ and (orientation: landscape) {
         margin-bottom: 0px;
         margin-left: 580px;
         transition-duration: 0.4s;
-
         cursor: pointer;
     }
-    #un, #us, #ug, #uk {
+    #un,
+    #us,
+    #ug,
+    #uk {
         font-family: Arial;
         text-align: center;
         font-size: 12px;
@@ -390,31 +370,29 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submits {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #submits-edit {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
+        border: none;
+        font-size: 12px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #he2 {
@@ -424,10 +402,10 @@ and (orientation: landscape) {
         margin-top: 0px !important;
         font-weight: regular;
     }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
+    #header1 {
+        font-family: Arial !important;
+        font-size: 20px !important;
+        text-align: center !important;
         margin-top: 20px !important;
         font-weight: bold;
     }
@@ -437,13 +415,16 @@ and (orientation: landscape) {
         padding-bottom: 0px;
         padding-top: 61px;
     }
-    .itemName{
-        color: #000000;margin-top: -65px; font-weight: bold;
+    .itemName {
+        color: #000000;
+        margin-top: -65px;
+        font-weight: bold;
     }
-    .itemPrice{
-        display:inline ;color: #858282; margin-top: -10px;
+    .itemPrice {
+        display: inline;
+        color: #858282;
+        margin-top: -10px;
     }
-
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -451,43 +432,40 @@ and (orientation: landscape) {
     #header {
         z-index: 1000
     }
-    .mhead{
+    .mhead {
         margin: 3px 0px 5px 0px;
     }
-    .menu-ham2{
-        width: 120px;!important;
-        margin: 5px 0 3px 450px;!important;
+    .menu-ham2 {
+        width: 120px!important;
+        margin: 5px 0 3px 450px!important;
     }
     #container1 {
-        box-shadow: -1px 1px 6px 2px rgba(0,0,0,0.2);
+        box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
         border-radius: 10px;
-        background-color:white;
+        background-color: white;
         color: black;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #v-promo-popup{
-        width:471px;
-
+    #v-promo-popup {
+        width: 471px;
     }
-    #v-promo-popup-edit{
-        width:471px;
+    #v-promo-popup-edit {
+        width: 471px;
     }
-    #v-promo-popup-success{
-        width:471px;
+    #v-promo-popup-success {
+        width: 471px;
     }
     #usergrid {
-        font-family:Arial !important;
-        font-size:14px !important;
-
+        font-family: Arial !important;
+        font-size: 14px !important;
     }
-    #sau{
+    #sau {
         font-family: Arial;
-        font-style:normal;
-        font-size:12px;
+        font-style: normal;
+        font-size: 12px;
         font-weight: 100;
     }
     #Submit {
@@ -497,7 +475,7 @@ and (orientation: landscape) {
         font-size: 11px;
         font-style: normal;
         border-radius: 25px;
-        top:-61px;
+        top: -61px;
         width: 164px;
         height: 46px;
         text-shadow: none;
@@ -506,10 +484,12 @@ and (orientation: landscape) {
         margin-left: 764px;
         transition-duration: 0.4s;
         position: relative;
-
         cursor: pointer;
     }
-    #un, #us, #ug, #uk {
+    #un,
+    #us,
+    #ug,
+    #uk {
         font-family: Arial;
         text-align: center;
         font-size: 12px;
@@ -524,31 +504,29 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submits {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:14px;
-        font-style:normal;
+        border: none;
+        font-size: 14px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #submits-edit {
-        margin-top:10px;
+        margin-top: 10px;
         background-color: #ff9700;
-        color:white;
+        color: white;
         font-weight: bold;
         font-family: Arial;
-        border:none;
-        font-size:14px;
-        font-style:normal;
+        border: none;
+        font-size: 14px;
+        font-style: normal;
         border-radius: 25px;
-        width:201px;
-
+        width: 201px;
         text-shadow: none;
     }
     #he2 {
@@ -558,10 +536,10 @@ and (orientation: landscape) {
         margin-top: 0px !important;
         font-weight: regular;
     }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
+    #header1 {
+        font-family: Arial !important;
+        font-size: 20px !important;
+        text-align: center !important;
         margin-top: 20px !important;
         font-weight: bold;
     }
@@ -571,10 +549,15 @@ and (orientation: landscape) {
         padding-bottom: 0px;
         padding-top: 61px;
     }
-    .itemName{
-        color: #000000;margin-top: -65px; font-weight: bold; font-size: 14px;
+    .itemName {
+        color: #000000;
+        margin-top: -65px;
+        font-weight: bold;
+        font-size: 14px;
     }
-    .itemPrice{
-        display:inline ; color: #858282; margin-top: -10px;
+    .itemPrice {
+        display: inline;
+        color: #858282;
+        margin-top: -10px;
     }
 }

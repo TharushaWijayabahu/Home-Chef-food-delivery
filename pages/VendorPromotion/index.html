@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <title>HOME CHEF</title>
@@ -19,12 +19,11 @@
 </head>
 
 <style>
-
-
     .round {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
     }
+    
     #ADD-btn {
         margin-top: 10px;
         background-color: #ff9700;
@@ -39,217 +38,221 @@
         height: 50px;
         text-shadow: none;
     }
-
-
 </style>
 
 <body>
-<div data-role="page" id="vendorpromotionspage">
+    <div data-role="page" id="vendorpromotionspage">
 
-    <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
 
-        <div class="mhead">
+            <div class="mhead">
 
-            <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
-        </div>
-        <div class="menu">
-
-        </div>
-
-    </div><!-- /header -->
-
-
-    <div data-role="content">
-        <h1 id="header1">My Promotions</h1>
-        <br>
-        <center><a href="#v-promo-popup" data-rel="popup" data-position-to="window" data-transition="pop" ><img src="../../Assets/img/icons/add-button.svg"  height="34" width="34"></a>
-            <h4>Add Promotions</h4></center>
-
-        <br>
-        <div id="container1">
-            <div class="ui-grid-a" id="usergrid">
-                <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop" >
-                    <img src="../../Assets/img/Kiribath.jpg" class="round" width="20%">
-                    <div class="ma">
-                        <div class="itemName">
-                            <p >Home Made Kiribath</p>
-                        </div>
-                        <div class="itemPrice">
-                            <p>Rs.300 (60% OFF)</p>
-                        </div>
-                    </div>
-                    <button	id="Submit">Edit</button>
-                </a>
+                <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
             </div>
-        </div>
-        <br>
-        <div id="container1">
-            <div class="ui-grid-a" id="usergrid">
-                <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop" >
-                    <img src="../../Assets/img/coconutSambol.jpg" class="round" width="20%">
-                    <div class="ma">
-                        <div class="itemName">
-                            <p >Home Made sambol</p>
-                        </div>
-                        <div class="itemPrice">
-                            <p>Rs.80 (30% OFF)</p>
-                        </div>
-                    </div>
-                    <button	id="Submit">Edit</button>
-                </a>
+            <div class="menu">
+
             </div>
-        </div>
-        <br>
-        <div id="container1">
-            <div class="ui-grid-a" id="usergrid">
-                <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop" >
-                    <img src="../../Assets/img/potatoes.jpg" class="round" width="20%">
-                    <div class="ma">
-                        <div class="itemName">
-                            <p >Home Made Potatoes</p>
-                        </div>
-                        <div class="itemPrice">
-                            <p>Rs.300 (40% OFF)</p>
-                        </div>
-                    </div>
-                    <button	id="Submit">Edit</button>
-                </a>
-            </div>
-        </div>
-        <br>
-        <div id="container1">
-            <div class="ui-grid-a" id="usergrid">
-                <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop" >
-                    <img src="../../Assets/img/rice.jpg" class="round" width="20%">
-                    <div class="ma">
-                        <div class="itemName">
-                            <p >Home Made Rice</p>
-                        </div>
-                        <div class="itemPrice">
-                            <p>Rs.100 (20% OFF)</p>
-                        </div>
-                    </div>
-                    <button	id="Submit">Edit</button>
-                </a>
-            </div>
-        </div>
-        <br>
-        <div id="container1">
-            <div class="ui-grid-a" id="usergrid">
-                <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop" >
-                    <img src="../../Assets/img/FishCurry.jpg" class="round" width="20%">
-                    <div class="ma">
-                        <div class="itemName">
-                            <p >Home Made Fish Curry</p>
-                        </div>
-                        <div class="itemPrice">
-                            <p>Rs.300 (20% OFF)</p>
-                        </div>
-                    </div>
-                    <button	id="Submit">Edit</button>
-                </a>
-            </div>
-        </div>
-        <br>
-        <div id="container1">
-            <div class="ui-grid-a" id="usergrid">
-                <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop" >
-                    <img src="../../Assets/img/margerita.png" class="round" width="20%">
-                    <div class="ma">
-                        <div class="itemName">
-                            <p >Home Made Pizza</p>
-                        </div>
-                        <div class="itemPrice">
-                            <p>Rs.500 (60% OFF)</p>
-                        </div>
-                    </div>
-                    <button	id="Submit">Edit</button>
-                </a>
-            </div>
-        </div>
-
-    </div>
-
-
-
-    <div data-role="popup" id="v-promo-popup" data-dismissible="false">
-        <div data-role="content" >
-            <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="" height="15" width="15"></a>
-            <br>
-            <h1 id="header1">Add Promotion</h1>
-            <br>
-            <center><img id="av" src="../../Assets/img/camera.png"></center>
-            <br>
-            <h1 id="he2">Add Picture</h1>
-
-
-                    <center>
-                        <input type="text" name="user" id="un" value="" placeholder="Title" data-role=none required/>
-                        <input type="text" name="user" id="us" value="" placeholder="Deal" data-role=none required/>
-                        <input type="text" name="user" id="ug" value="" placeholder="Promo Code" data-role=none required/>
-                        <input type="text" name="user" id="uk" value="" placeholder="Amount" data-role=none required/>
-                        <a  href="#" data-role="button" data-rel="popup" id="submits"  >ADD</a>
-                    </center>
-
 
         </div>
-    </div>
-    <div data-role="popup" id="v-promo-popup-edit">
-        <div data-role="content" >
-            <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+        <!-- /header -->
+
+
+        <div data-role="content">
+            <h1 id="header1">My Promotions</h1>
             <br>
-            <h1 id="header1">Update Promo</h1>
+            <center>
+                <a href="#v-promo-popup" data-rel="popup" data-position-to="window" data-transition="pop"><img src="../../Assets/img/icons/add-button.svg" height="34" width="34"></a>
+                <h4>Add Promotions</h4>
+            </center>
+
             <br>
-            <center><img id="av" src="../../Assets/img/camera.png"></center>
-            <br>
-            <h1 id="he2">Add Picture</h1>
-            <form>
-                <div data-role="fieldcontain">
-                    <center>
-                        <input type="text" name="user" id="us" value="" placeholder="Deal" data-role=none />
-                        <input type="text" name="user" id="ug" value="" placeholder="Promo Code" data-role=none />
-                        <input type="text" name="user" id="uk" value="" placeholder="Amount" data-role=none />
-                        <a  href="#" data-role="button"  id="submits-edit" data-rel="popup" >Update</a>
-                    </center>
+            <div id="container1">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/Kiribath.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home Made Kiribath</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Rs.300 (60% OFF)</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Edit</button>
+                    </a>
                 </div>
-            </form>
+            </div>
+            <br>
+            <div id="container1">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/coconutSambol.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home Made sambol</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Rs.80 (30% OFF)</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Edit</button>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div id="container1">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/potatoes.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home Made Potatoes</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Rs.300 (40% OFF)</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Edit</button>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div id="container1">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/rice.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home Made Rice</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Rs.100 (20% OFF)</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Edit</button>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div id="container1">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/FishCurry.jpg" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home made pizza</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Sausage & onions with a double layer of mozz...</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Edit</button>
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div id="container1">
+                <div class="ui-grid-a" id="usergrid">
+                    <a href="#v-promo-popup-edit" id="sau" data-rel="popup" data-position-to="window" data-transition="pop">
+                        <img src="../../Assets/img/margerita.png" class="round" width="20%">
+                        <div class="ma">
+                            <div class="itemName">
+                                <p>Home Made Pizza</p>
+                            </div>
+                            <div class="itemPrice">
+                                <p>Rs.500 (60% OFF)</p>
+                            </div>
+                        </div>
+                        <button id="Submit">Edit</button>
+                    </a>
+                </div>
+            </div>
+
         </div>
-    </div>
-    <div data-role="popup" id="v-promo-popup-success">
-        <div data-role="content" >
 
-            <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
-            <br>
-            <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
-            <h1 id="header1">Promotion added Successfully</h1>
-            <br>
 
+
+        <div data-role="popup" id="v-promo-popup" data-dismissible="false">
+            <div data-role="content">
+                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="" height="15" width="15"></a>
+                <br>
+                <h1 id="header1">Add Promotion</h1>
+                <br>
+                <center><img id="av" src="../../Assets/img/camera.png"></center>
+                <br>
+                <h1 id="he2">Add Picture</h1>
+
+
+                <center>
+                    <input type="text" name="user" id="un" value="" placeholder="Title" data-role=none required/>
+                    <input type="text" name="user" id="us" value="" placeholder="Deal" data-role=none required/>
+                    <input type="text" name="user" id="ug" value="" placeholder="Promo Code" data-role=none required/>
+                    <input type="text" name="user" id="uk" value="" placeholder="Amount" data-role=none required/>
+                    <a href="#" data-role="button" data-rel="popup" id="submits">ADD</a>
+                </center>
+
+
+            </div>
         </div>
-    </div>
-    <div data-role="popup" id="v-promo-popup-edit-success">
-        <div data-role="content" >
-
-            <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
-            <br>
-            <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
-            <h1 id="header1">Promotion Updated Successfully</h1>
-            <br>
-
+        <div data-role="popup" id="v-promo-popup-edit">
+            <div data-role="content">
+                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+                <br>
+                <h1 id="header1">Update Promo</h1>
+                <br>
+                <center><img id="av" src="../../Assets/img/camera.png"></center>
+                <br>
+                <h1 id="he2">Add Picture</h1>
+                <form>
+                    <div data-role="fieldcontain">
+                        <center>
+                            <input type="text" name="user" id="us" value="" placeholder="Deal" data-role=none />
+                            <input type="text" name="user" id="ug" value="" placeholder="Promo Code" data-role=none />
+                            <input type="text" name="user" id="uk" value="" placeholder="Amount" data-role=none />
+                            <a href="#" data-role="button" id="submits-edit" data-rel="popup">Update</a>
+                        </center>
+                    </div>
+                </form>
+            </div>
         </div>
+        <div data-role="popup" id="v-promo-popup-success">
+            <div data-role="content">
+
+                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+                <br>
+                <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
+                <h1 id="header1">Promotion added Successfully</h1>
+                <br>
+
+            </div>
+        </div>
+        <div data-role="popup" id="v-promo-popup-edit-success">
+            <div data-role="content">
+
+                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+                <br>
+                <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
+                <h1 id="header1">Promotion Updated Successfully</h1>
+                <br>
+
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" id="footer">
+            <div data-role="navbar" class="navbar">
+                <ul>
+                    <li><a href="#" data-icon="none" class="ui-icon-promotion-active" id="active" data-ajax="false">Orders</a></li>
+                    <li><a href="foodlist.html" data-icon="none" class="ui-icon-foodlist" id="inactive" data-ajax="false">Food List</a></li>
+                    <li><a href="notifications.html" data-icon="none" class="ui-icon-notifications" id="inactive" data-ajax="false"> Promotions</a></li>
+                    <li><a href="vendorprofile.html" data-icon="none" class="ui-icon-profile" id="inactive" data-ajax="false"> Account</a></li>
+                </ul>
+            </div>
+            <!-- /navbar -->
+        </div>
+        <!-- /footer -->
+
     </div>
-
-    <div data-role="footer" data-position="fixed" data-tap-toggle="false" id="footer">
-        <div data-role="navbar" class="navbar">
-            <ul>
-                <li><a href="#" data-icon="none" class="ui-icon-promotion-active" id="active" data-ajax="false">Orders</a></li>
-                <li><a href="foodlist.html" data-icon="none" class="ui-icon-foodlist" id="inactive" data-ajax="false">Food List</a></li>
-                <li><a href="notifications.html" data-icon="none" class="ui-icon-notifications" id="inactive" data-ajax="false"> Promotions</a></li>
-                <li><a href="vendorprofile.html" data-icon="none" class="ui-icon-profile" id="inactive" data-ajax="false"> Account</a></li>
-            </ul>
-        </div><!-- /navbar -->
-    </div><!-- /footer -->
-
-</div><!-- /page -->
+    <!-- /page -->
 
 
 
@@ -259,12 +262,12 @@
 <script>
     var buttonClick = false;
 
-    $(document).on("pageinit", function () {
+    $(document).on("pageinit", function() {
         $("#v-promo-popup").on({
-            popupafterclose: function () {
+            popupafterclose: function() {
                 if (buttonClick) {
                     console.log("Opening 2nd Popup.");
-                    setTimeout(function () {
+                    setTimeout(function() {
                         $("#v-promo-popup-success").popup("open", {
                             positionTo: "#v-promo-popup"
                         })
@@ -277,20 +280,20 @@
         });
     });
 
-    $(document).ready(function () {
-        $("#submits").click(function () {
+    $(document).ready(function() {
+        $("#submits").click(function() {
             buttonClick = true;
             console.log("First Button clicked");
             $("#v-promo-popup").popup("close");
         });
     });
 
-    $(document).on("pageinit", function () {
+    $(document).on("pageinit", function() {
         $("#v-promo-popup-edit").on({
-            popupafterclose: function () {
+            popupafterclose: function() {
                 if (buttonClick) {
                     console.log("Opening 2nd Popup.");
-                    setTimeout(function () {
+                    setTimeout(function() {
                         $("#v-promo-popup-edit-success").popup("open", {
                             positionTo: "#v-promo-popup-edit"
                         })
@@ -303,13 +306,13 @@
         });
     });
 
-    $(document).ready(function () {
-        $("#submits-edit").click(function () {
+    $(document).ready(function() {
+        $("#submits-edit").click(function() {
             buttonClick = true;
             console.log("First Button clicked");
             $("#v-promo-popup-edit").popup("close");
         });
     });
-
 </script>
+
 </html>
