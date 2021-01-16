@@ -13,7 +13,7 @@
     <!--<link rel="stylesheet" type="text/css" href="../../Assets/css/grid.min.css">
     <link rel="stylesheet" type="text/css" href="../../Assets/css/style.min.css">-->
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <!--    <script src="../../Assets/js/js.min.js"></script>-->
@@ -31,9 +31,18 @@
                 </div>
                 <div class="row icons">
                     <div class="">
-                        <a href="#" data-position-to="window" id="locationLogo">
+                        <a href="#promo1" data-position-to="window" id="locationLogo" data-rel="popup" data-transition="pop">
                             <img class="locationLogo ui-btn-right" src="../../Assets/img/icons/location.svg">
                         </a>
+                        <div data-role="popup" id="promo1">
+                            <div data-role="content">
+                                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="" height="15" width="15"></a>
+                                <br><br>
+                                <button class= "geeks" type="button" onclick="getlocation();">Get Current Location</button>
+                                <div id="currentmap" style="width: 300px; height: 300px;">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="">
                         <a href="#" data-position-to="window" id="notificationLogo">
@@ -121,6 +130,49 @@
             </div>
         </div>-->
     </div>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN3_8xCRJksK8ZT1bZv1O5HxSCF9iAnZw&callback=initMap">
+    </script>
+    <script type="text/javascript">
+        function getlocation(){
+            if(navigator.geolocation){
+                navigator.geolocation.getCurrentPosition(showLoc, errHand);
+            }
+        }
+        function showLoc(pos){
+            latt = pos.coords.latitude;
+            long = pos.coords.longitude;
+            var lattlong = new google.maps.LatLng(latt, long);
+            var OPTions = {
+                center: lattlong,
+                zoom: 18,
+                mapTypeControl: true,
+                navigationControlOptions: {style:google.maps.NavigationControlStyle.SMALL}
+            }
+            var mapg = new google.maps.Map(document.getElementById("currentmap"), OPTions);
+            var markerg =
+                new google.maps.Marker({position:lattlong, map:mapg, title:"You are here!"});
+        }
+
+        function errHand(err) {
+            switch(err.code) {
+                case err.PERMISSION_DENIED:
+                    result.innerHTML = "The application doesn't have the permission"  +
+                        "to make use of location services"
+                    break;
+                case err.POSITION_UNAVAILABLE:
+                    result.innerHTML = "The location of the device is uncertain"
+                    break;
+                case err.TIMEOUT:
+                    result.innerHTML = "The request to get user location timed out"
+                    break;
+                case err.UNKNOWN_ERROR:
+                    result.innerHTML = "Time to fetch location information exceeded"+
+                        "the maximum timeout interval"
+                    break;
+            }
+        }
+    </script>
 </body>
 
 </html>

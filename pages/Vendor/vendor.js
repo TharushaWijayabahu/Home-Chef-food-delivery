@@ -19,7 +19,7 @@ $(document).ready(function(){
         {'id':'5','imageurl':'../../Assets/img/cheese.jpg','name':'Pizza 5','price':'1470', 'rating':'4.2'}
     ]
     menuItems.forEach(function(obj) {
-        document.getElementById("cardList").innerHTML +='<a href="#">\n' +
+        document.getElementById("cardList").innerHTML +='<a href="../Product/">\n' +
             '                <div class="card" id="cardItem">\n' +
             '                    <div class="row no-gutters">\n' +
             '                        <div class="image">\n' +
