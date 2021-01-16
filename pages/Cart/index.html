@@ -46,9 +46,13 @@
         </div>
         <div id="cartlist"> </div>
         <hr class="style-eight" />
+        <div id="gamification">
+            <input id="points" type="textarea" placeholder="Enter redeem points..."  maxlength="5">
+            <a  href="" data-role="button" class="addPoints" onclick='redeemPoints()'>Add</a>
+        </div>
+        <hr class="style-eight" />
         <div id="promo">
             <input id="promo-code" type="textarea" placeholder="Enter promo code..."  maxlength="5">
-            <input id="points" type="textarea" onchange="redeemPoints(this.value)" placeholder="Enter redeem points..."  maxlength="5">
         </div>
         <hr class="style-eight" />
         <div id="totals">
@@ -132,12 +136,9 @@
     var shippingRate = 20.00;
     var fadeTime = 100;
 
-
-
     $(document).ready(function() {
         recalculateCart();
     });
-
 
     //On click Plus button
 
@@ -183,9 +184,24 @@
     $('.remove').click(function() {
         removeItem(this);
     });
-    function redeemPoints(val) {
-       localStorage.setItem("points", val)
-        recalculateCart();
+
+    function redeemPoints() {
+        var val = document.getElementById("points").value
+        var currentPoints = localStorage.getItem("totalPoint")
+
+        if(Number(currentPoints) >= Number(val)) {
+            var newPoints = Number(currentPoints) - Number(val)
+
+            //console.log(val)
+            localStorage.setItem("totalPoint", newPoints)
+            localStorage.setItem("points", val)
+            recalculateCart();
+        }
+        else {
+            alert("Not enough points to redeem")
+        }
+
+
     }
 
 
