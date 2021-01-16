@@ -650,10 +650,8 @@
         margin: 3px 0px 5px 0px;
     }
     .menu-ham2 {
-        width: 120px;
-        !important;
-        margin: 5px 0 3px 450px;
-        !important;
+        width: 120px!important;
+        margin: 5px 0 3px 450px !important;
     }
     #container1 {
         box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
