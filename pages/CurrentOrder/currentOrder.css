@@ -184,69 +184,6 @@
         border-radius: 10px !important;
         text-shadow: none !important;
     }
-    #popupback{
-        border-color: transparent;
-        box-shadow: none;
-    }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
-        margin-top: 20px !important;
-        font-weight: bold;
-    }
-    .rating-stars ul {
-        list-style-type:none;
-        padding:0;
-
-        -moz-user-select:none;
-        -webkit-user-select:none;
-    }
-    .rating-stars ul > li.star {
-        display:inline-block;
-
-    }
-
-    /* Idle State of the stars */
-    .rating-stars ul > li.star > i.fa {
-        font-size:2.5em; /* Change the size of the stars */
-        color:#ccc; /* Color on idle state */
-    }
-
-    /* Hover state of the stars */
-    .rating-stars ul > li.star.hover > i.fa {
-        color:#FFCC36;
-    }
-
-    /* Selected state of the stars */
-    .rating-stars ul > li.star.selected > i.fa {
-        color:#FFCC36;
-    }
-    #message {
-        text-decoration: none;
-        font-size: regular !important;
-        font-weight: 100;
-        line-height: 20px;
-        width: 254px;
-        height: 102px;
-        border: 1px solid grey;
-        border-radius: 17px;
-        padding: 4px 6px 10px 8px;
-    }
-    #submit {
-        margin-top:10px;
-        background-color: #ff9700;
-        color:white;
-        font-weight: bold;
-        font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
-        border-radius: 25px;
-        width:201px;
-
-        text-shadow: none;
-    }
 }
 
 
@@ -423,69 +360,6 @@
         font-style: normal !important;
         border-radius: 10px !important;
         text-shadow: none !important;
-    }
-    #popupback{
-        border-color: transparent;
-        box-shadow: none;
-    }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
-        margin-top: 20px !important;
-        font-weight: bold;
-    }
-    .rating-stars ul {
-        list-style-type:none;
-        padding:0;
-
-        -moz-user-select:none;
-        -webkit-user-select:none;
-    }
-    .rating-stars ul > li.star {
-        display:inline-block;
-
-    }
-
-    /* Idle State of the stars */
-    .rating-stars ul > li.star > i.fa {
-        font-size:2.5em; /* Change the size of the stars */
-        color:#ccc; /* Color on idle state */
-    }
-
-    /* Hover state of the stars */
-    .rating-stars ul > li.star.hover > i.fa {
-        color:#FFCC36;
-    }
-
-    /* Selected state of the stars */
-    .rating-stars ul > li.star.selected > i.fa {
-        color:#FFCC36;
-    }
-    #message {
-        text-decoration: none;
-        font-size: regular !important;
-        font-weight: 100;
-        line-height: 20px;
-        width: 254px;
-        height: 102px;
-        border: 1px solid grey;
-        border-radius: 17px;
-        padding: 4px 6px 10px 8px;
-    }
-    #submit {
-        margin-top:10px;
-        background-color: #ff9700;
-        color:white;
-        font-weight: bold;
-        font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
-        border-radius: 25px;
-        width:201px;
-
-        text-shadow: none;
     }
 }
 
@@ -670,69 +544,6 @@
         font-style: normal !important;
         border-radius: 10px !important;
         text-shadow: none !important;
-    }
-    #popupback{
-        border-color: transparent;
-        box-shadow: none;
-    }
-    #header1{
-        font-family:Arial !important;
-        font-size:20px !important;
-        text-align:center !important;
-        margin-top: 20px !important;
-        font-weight: bold;
-    }
-    .rating-stars ul {
-        list-style-type:none;
-        padding:0;
-
-        -moz-user-select:none;
-        -webkit-user-select:none;
-    }
-    .rating-stars ul > li.star {
-        display:inline-block;
-
-    }
-
-    /* Idle State of the stars */
-    .rating-stars ul > li.star > i.fa {
-        font-size:2.5em; /* Change the size of the stars */
-        color:#ccc; /* Color on idle state */
-    }
-
-    /* Hover state of the stars */
-    .rating-stars ul > li.star.hover > i.fa {
-        color:#FFCC36;
-    }
-
-    /* Selected state of the stars */
-    .rating-stars ul > li.star.selected > i.fa {
-        color:#FFCC36;
-    }
-    #message {
-        text-decoration: none;
-        font-size: regular !important;
-        font-weight: 100;
-        line-height: 20px;
-        width: 254px;
-        height: 102px;
-        border: 1px solid grey;
-        border-radius: 17px;
-        padding: 4px 6px 10px 8px;
-    }
-    #submit {
-        margin-top:10px;
-        background-color: #ff9700;
-        color:white;
-        font-weight: bold;
-        font-family: Arial;
-        border:none;
-        font-size:12px;
-        font-style:normal;
-        border-radius: 25px;
-        width:201px;
-
-        text-shadow: none;
     }
 
 }
