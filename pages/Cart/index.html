@@ -45,9 +45,12 @@
             <div id="subtotal">130.00</div>
         </div>
         <div id="cartlist"> </div>
+        <hr class="style-eight" />
         <div id="promo">
-            <input id="promo-code" type="textarea" placeholder="Add promo code"  maxlength="5">
+            <input id="promo-code" type="textarea" placeholder="Enter promo code..."  maxlength="5">
+            <input id="points" type="textarea" onchange="redeemPoints(this.value)" placeholder="Enter redeem points..."  maxlength="5">
         </div>
+        <hr class="style-eight" />
         <div id="totals">
             <div class="totals-item ui-grid-a" id="total-grid">
                 <div class="subtotal ui-block-a" id="total-block1">Subtotal</div>
@@ -78,7 +81,7 @@
             <br>
         </div>
         <div align="center">
-            <a  href="" data-role="button" onclick='myFunction()' class="checkout" id="checkout" >Proceed</a>
+            <a  href="" data-role="button" onclick='myFunction()' class="checkout" id="checkout" >Place Order</a>
         </div>
 
     </div><!--content-->
@@ -180,20 +183,30 @@
     $('.remove').click(function() {
         removeItem(this);
     });
+    function redeemPoints(val) {
+       localStorage.setItem("points", val)
+        recalculateCart();
+    }
 
 
     /* Recalculate cart */
 
     function recalculateCart() {
         var subtotal = 0;
-
+        var points = localStorage.getItem("points")
+        points = (points) ? points : 0
         /* Sum up row totals */
 
         $('.product').each(function() {
             subtotal += parseFloat($(this).children('#subtotal').text());
 
         });
+        /*$("#points").bind("change paste keyup", function() {
+            points = $(this).val()
+        });*/
 
+        subtotal -= Number(points)
+        console.log(subtotal)
         /* Calculate totals */
 
         var tax = subtotal * taxRate;
