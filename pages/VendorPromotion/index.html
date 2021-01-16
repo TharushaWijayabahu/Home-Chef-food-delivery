@@ -188,7 +188,7 @@
                         <input type="text" name="user" id="us" value="" placeholder="Deal" data-role=none required/>
                         <input type="text" name="user" id="ug" value="" placeholder="Promo Code" data-role=none required/>
                         <input type="text" name="user" id="uk" value="" placeholder="Amount" data-role=none required/>
-                        <a  href="#" data-role="button" data-rel="popup" id="submits" >ADD</a>
+                        <a  href="#" data-role="button" data-rel="popup" id="submits"  >ADD</a>
                     </center>
 
 
@@ -209,7 +209,7 @@
                         <input type="text" name="user" id="us" value="" placeholder="Deal" data-role=none />
                         <input type="text" name="user" id="ug" value="" placeholder="Promo Code" data-role=none />
                         <input type="text" name="user" id="uk" value="" placeholder="Amount" data-role=none />
-                        <a  href="#" data-role="button"  id="submits" data-rel="back" >Update</a>
+                        <a  href="#" data-role="button"  id="submits-edit" data-rel="popup" >Update</a>
                     </center>
                 </div>
             </form>
@@ -218,7 +218,22 @@
     <div data-role="popup" id="v-promo-popup-success">
         <div data-role="content" >
 
-            <h1 id="header1">Updated Promo successfully</h1>
+            <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+            <br>
+            <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
+            <h1 id="header1">Promotion added Successfully</h1>
+            <br>
+
+        </div>
+    </div>
+    <div data-role="popup" id="v-promo-popup-edit-success">
+        <div data-role="content" >
+
+            <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+            <br>
+            <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
+            <h1 id="header1">Promotion Updated Successfully</h1>
+            <br>
 
         </div>
     </div>
@@ -267,6 +282,32 @@
             buttonClick = true;
             console.log("First Button clicked");
             $("#v-promo-popup").popup("close");
+        });
+    });
+
+    $(document).on("pageinit", function () {
+        $("#v-promo-popup-edit").on({
+            popupafterclose: function () {
+                if (buttonClick) {
+                    console.log("Opening 2nd Popup.");
+                    setTimeout(function () {
+                        $("#v-promo-popup-edit-success").popup("open", {
+                            positionTo: "#v-promo-popup-edit"
+                        })
+                    }, 100);
+                    buttonClick = false;
+                } else {
+                    console.log(buttonClick);
+                }
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $("#submits-edit").click(function () {
+            buttonClick = true;
+            console.log("First Button clicked");
+            $("#v-promo-popup-edit").popup("close");
         });
     });
 

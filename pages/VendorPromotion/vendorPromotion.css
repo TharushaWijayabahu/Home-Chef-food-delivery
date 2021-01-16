@@ -69,6 +69,9 @@ and (orientation: portrait) {
     #v-promo-popup-edit{
         width:320px;
     }
+    #v-promo-popup-success{
+          width:320px;
+      }
     #usergrid {
         font-family:Arial !important;
         font-size:14px !important;
@@ -112,6 +115,20 @@ and (orientation: portrait) {
         text-shadow: none;
     }
     #submits {
+        margin-top:10px;
+        background-color: #ff9700;
+        color:white;
+        font-weight: bold;
+        font-family: Arial;
+        border:none;
+        font-size:12px;
+        font-style:normal;
+        border-radius: 25px;
+        width:201px;
+
+        text-shadow: none;
+    }
+    #submits-edit {
         margin-top:10px;
         background-color: #ff9700;
         color:white;
@@ -189,6 +206,9 @@ and (orientation: landscape) {
     #v-promo-popup-edit{
         width:320px;
     }
+    #v-promo-popup-success{
+        width:320px;
+    }
     #usergrid {
         font-family:Arial !important;
         font-size:14px !important;
@@ -232,6 +252,20 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submits {
+        margin-top:10px;
+        background-color: #ff9700;
+        color:white;
+        font-weight: bold;
+        font-family: Arial;
+        border:none;
+        font-size:12px;
+        font-style:normal;
+        border-radius: 25px;
+        width:201px;
+
+        text-shadow: none;
+    }
+    #submits-edit {
         margin-top:10px;
         background-color: #ff9700;
         color:white;
@@ -309,6 +343,9 @@ and (orientation: landscape) {
     #v-promo-popup-edit{
         width:350px;
     }
+    #v-promo-popup-success{
+        width:350px;
+    }
     #usergrid {
         font-family:Arial !important;
         font-size:14px !important;
@@ -353,6 +390,20 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submits {
+        margin-top:10px;
+        background-color: #ff9700;
+        color:white;
+        font-weight: bold;
+        font-family: Arial;
+        border:none;
+        font-size:12px;
+        font-style:normal;
+        border-radius: 25px;
+        width:201px;
+
+        text-shadow: none;
+    }
+    #submits-edit {
         margin-top:10px;
         background-color: #ff9700;
         color:white;
@@ -425,6 +476,9 @@ and (orientation: landscape) {
     #v-promo-popup-edit{
         width:471px;
     }
+    #v-promo-popup-success{
+        width:471px;
+    }
     #usergrid {
         font-family:Arial !important;
         font-size:14px !important;
@@ -470,6 +524,20 @@ and (orientation: landscape) {
         text-shadow: none;
     }
     #submits {
+        margin-top:10px;
+        background-color: #ff9700;
+        color:white;
+        font-weight: bold;
+        font-family: Arial;
+        border:none;
+        font-size:14px;
+        font-style:normal;
+        border-radius: 25px;
+        width:201px;
+
+        text-shadow: none;
+    }
+    #submits-edit {
         margin-top:10px;
         background-color: #ff9700;
         color:white;
