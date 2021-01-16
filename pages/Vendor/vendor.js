@@ -19,20 +19,26 @@ $(document).ready(function(){
         {'id':'5','imageurl':'../../Assets/img/cheese.jpg','name':'Pizza 5','price':'1470', 'rating':'4.2'}
     ]
     menuItems.forEach(function(obj) {
-        document.getElementById("cardList").innerHTML +='<a href="../Cart/"><div class="card" id="cardItem">\n' +
-            '                <div class="row no-gutters">\n' +
-            '                    <div class="image">\n' +
-            '                        <img src="'+obj.imageurl+'" class="card-img" style="border-radius: 10px" alt="...">\n' +
-            '                    </div>\n' +
-            '                    <div class="desc">\n' +
-            '                        <div class="card-body">\n' +
-            '                            <h5 class="card-title">'+obj.name+'</h5>\n' +
-            '                            <p class="card-text">Rs. '+obj.price+'</p>\n' +
+        document.getElementById("cardList").innerHTML +='<a href="#">\n' +
+            '                <div class="card" id="cardItem">\n' +
+            '                    <div class="row no-gutters">\n' +
+            '                        <div class="image">\n' +
+            '                            <img src="'+obj.imageurl+'" class="card-img" style="border-radius: 10px" alt="...">\n' +
+            '                        </div>\n' +
+            '                        <div class="desc">\n' +
+            '                            <div class="card-body">\n' +
+            '                                <h5 class="card-title">'+obj.name+'</h5>\n' +
+            '                               <p class="card-text">Rs. '+obj.price+'</p>\n' +
+            '                            </div>\n' +
+            '                        </div>\n' +
+            '                        <div class="next">\n' +
+            '                            <div class="nextImage">\n' +
+            '                                <img src="../../Assets/img/icons/next.svg" class="nextIcon"alt="...">\n' +
+            '                            </div>\n' +
             '                        </div>\n' +
             '                    </div>\n' +
-            '                </div></a>\n' +
-            '            </div>' +
-            '<hr>';
+            '                </div>\n' +
+            '            </a><hr>';
 
     });
 });
