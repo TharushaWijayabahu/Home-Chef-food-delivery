@@ -39,6 +39,14 @@
     text-shadow: none;
 }
 
+.activeBtn {
+    background-color: #fc9920 !important;
+}
+
+.inactiveBtn {
+    background-color: #858282 !important;
+}
+
 .container-orderList {
     margin-top: 2%;
     box-shadow: -1px 1px 6px 2px rgba(0, 0, 0, 0.2);
@@ -78,13 +86,33 @@
 }
 
 .risht-icon {
+    margin-left: -30%;
+    margin-top: 50%;
+}
+
+.chevron-icon {
+    margin-top: 45%;
+}
+
+.stopwatch-icon {
+    margin-left: -18%;
     margin-top: 50%;
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
     .risht-icon {
+        margin-left: 0!important;
         width: 40%;
         margin-top: 50%;
+    }
+    .chevron-icon {
+        width: 30%;
+        margin-top: 25%;
+    }
+    .stopwatch-icon {
+        width: 40%;
+        margin-left: -18%;
+        margin-top: 30%;
     }
     .round {
         margin-left: 3%;
@@ -92,6 +120,7 @@
         border-radius: 50%;
     }
     .itemName {
+        margin-top: 2% !important;
         margin-left: 18%;
         color: #000000;
         font-weight: bold;
@@ -99,7 +128,6 @@
     .itemPrice {
         margin-left: 18%;
         color: #858282;
-        margin-top: -2% !important;
     }
     .ma {
         margin-left: 84px;
@@ -115,6 +143,7 @@
         padding-bottom: 4%;
     }
     .risht-icon {
+        margin-left: 0!important;
         width: 40%;
         margin-top: 50%;
     }
@@ -141,6 +170,15 @@
         font-size: 22px;
         height: 60px;
     }
+    .chevron-icon {
+        width: 30%;
+        margin-top: 30%;
+    }
+    .stopwatch-icon {
+        width: 50%;
+        margin-left: -18%;
+        margin-top: 40%;
+    }
 }
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -150,6 +188,7 @@
         padding-bottom: 4%;
     }
     .risht-icon {
+        margin-left: 0!important;
         width: 35%;
         margin-top: 33%;
     }
@@ -176,5 +215,14 @@
     #pstOrderBtn {
         font-size: 24px;
         height: 60px;
+    }
+    .chevron-icon {
+        width: 20%;
+        margin-top: 25%;
+    }
+    .stopwatch-icon {
+        width: 40%;
+        margin-left: -18%;
+        margin-top: 25%;
     }
 }
