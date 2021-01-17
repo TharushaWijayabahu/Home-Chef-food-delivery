@@ -1,4 +1,12 @@
+.back-btn {
+  margin-left: 2%;
+  text-decoration: none !important;
+  font-size: 18px;
+}
 
+.back-btn a:hover {
+  text-decoration: none !important;
+}
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 

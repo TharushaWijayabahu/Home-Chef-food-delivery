@@ -8,6 +8,8 @@
 }
 
 
+
+
 /* footer */
 #inactive {
   color: #858282;
@@ -126,7 +128,7 @@
 
   .content {
     position: fixed;
-    bottom: 70px;
+    bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
