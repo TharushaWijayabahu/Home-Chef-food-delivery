@@ -43,16 +43,7 @@ padding:0px;
 color:black !important;
 }
 
-#email {
-width: 26px;
-/* height: 26px; */
-padding-top: 9px;
-position: absolute;
-margin-top: -44px;
-margin-left: 320px;
-margin-right: -20px;
-z-index: 15;
-}
+
 
 .notificationLogo {
     padding-top: 10px;
@@ -156,6 +147,17 @@ z-index: 15;
         font-weight: bold;
     }
 
+    #email {
+        width: 26px;
+        /* height: 26px; */
+        padding-top: 9px!important;
+        position: absolute;
+        margin-top: -44px!important;
+        margin-left: 320px!important;
+        margin-right: -20px!important;
+        z-index: 15;
+        }
+
     #uu {
         border: none;
         text-decoration: none;
@@ -202,7 +204,7 @@ z-index: 15;
 {
   position: absolute;
   top: 70%;
-  left: 87%;
+  left: 87%!important;
   z-index: 2;
 }
 
@@ -283,10 +285,10 @@ z-index: 15;
 } 
 #email {
     width: 26px;
-    padding-top: 0;
+    padding-top: 55px;
     position: absolute;
     margin-top: -44px;
-    margin-left: 320px;
+    margin-left: 0px;
     margin-right: -20px;
     z-index: 15;
     }
