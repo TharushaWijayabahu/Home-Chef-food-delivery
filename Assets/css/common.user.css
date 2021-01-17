@@ -25,42 +25,42 @@
 
 /* Footer */
 
-.ui-icon-orders-active:after {
-    background-image: url("../../Assets/img/icons/orders-active.svg");
+.ui-icon-home-active:after {
+    background-image: url("../../Assets/img/icons/home-active.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
 
-.ui-icon-orders-inactive:after {
-    background-image: url("../../Assets/img/icons/orders-inactive.svg");
+.ui-icon-home-inactive:after {
+    background-image: url("../../Assets/img/icons/home-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
 
-.ui-icon-foodlist-inactive:after {
-    background-image: url("../../Assets/img/icons/food-list-inactive.svg");
+.ui-icon-search-inactive:after {
+    background-image: url("../../Assets/img/icons/search-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
 
-.ui-icon-foodlist-active:after {
-    background-image: url("../../Assets/img/icons/food-list-active.svg");
+.ui-icon-search-active:after {
+    background-image: url("../../Assets/img/icons/search-active.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
 
-.ui-icon-promotions-inactive:after {
-    background-image: url("../../Assets/img/icons/promotions-inactive.svg");
+.ui-icon-track-inactive:after {
+    background-image: url("../../Assets/img/icons/track-inactive.svg");
     background-size: 90%;
     width: 25px !important;
     height: 35px !important;
 }
 
-.ui-icon-promotions-active:after {
+.ui-icon-track-active:after {
     background-image: url("../../Assets/img/icons/promotions-active.svg");
     background-size: 90%;
     width: 25px !important;
