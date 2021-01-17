@@ -7,34 +7,6 @@
   margin: 0px 0px 5px 0px;
 }
 
-/* ----------- iPhone X ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    
-
-}
-
-/* Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-
-}
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
@@ -83,78 +55,74 @@
       padding-top: 50px;
       visibility:hidden;
     }
-    #inactive {
-      color: #858282;
-      text-align: center;
-      font-family: Arial;
-      font-size: 100%;
-
-    }
-    #active {
-      color: #fc9920;
-      font-family: Arial;
-      font-size: 100%;
-    }
-    .ui-icon-home:after {
-      background-image:  url("../../Assets/img/icons/home-inactive.svg");
-      background-size: 90%;
-      width: 25px !important;
-      height: 35px !important;
-
-    }
-
+    
+    /*footer*/
     .ui-icon-home-active:after {
       background-image:  url("../../Assets/img/icons/home-active.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
+  }
+  .ui-icon-home-inactive:after {
+      background-image:  url("../../Assets/img/icons/home-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+  }
 
-
-    .ui-icon-search-inactive:after {
+  .ui-icon-search-inactive:after{
       background-image:  url("../../Assets/img/icons/search-inactive.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
-
-
-    .ui-icon-search-active:after {
+  }
+  .ui-icon-search-active:after{
       background-image:  url("../../Assets/img/icons/search-active.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
+  }
 
-    .ui-icon-track-inactive:after {
+  .ui-icon-track-inactive:after {
       background-image:  url("../../Assets/img/icons/track-inactive.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
-
-
-    .ui-icon-track-active:after {
+  }
+  .ui-icon-track-active:after {
       background-image:  url("../../Assets/img/icons/track-active.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
+  }
 
-
-    .ui-icon-profile-inactive:after {
+  .ui-icon-profile-inactive:after {
       background-image:  url("../../Assets/img/icons/account-inactive.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
-
-    .ui-icon-profile-active:after {
+  }
+  .ui-icon-profile-active:after {
       background-image:  url("../../Assets/img/icons/account-active.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
+  }
+
+  #inactive {
+      color: #858282;
+      text-align: center;
+      font-family: Arial;
+      font-size: 11pt;
+      background-color: white;
+  }
+
+  #active {
+      color: #fc9920;
+      font-family: Arial;
+      font-size: 11pt;
+      background-color: white;
+  }
 }
 
 /* Landscape */
@@ -165,6 +133,12 @@
   and (orientation: landscape) { 
 
 }
+
+
+
+
+
+
 
 
 /* ----------- iPad ----------- */
