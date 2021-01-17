@@ -99,6 +99,54 @@
     margin-top: 50%;
 }
 
+#order-confirm {
+    width: 320px;
+}
+
+#popupback {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+#un,
+#us,
+#ug,
+#uk {
+    font-family: Arial;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+    width: 201px;
+    height: 32px;
+    border-radius: 25px;
+    background: #ffffff;
+    border: .9px solid #d0cfcf;
+    margin: .4em 0;
+    text-shadow: none;
+}
+
+#sau {
+    font-family: Arial;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+#submit {
+    margin-top: 10px;
+    background-color: #ff9700;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border: none;
+    font-size: 12px;
+    font-style: normal;
+    border-radius: 25px;
+    width: 201px;
+    text-shadow: none;
+}
+
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
     .risht-icon {
         margin-left: 0!important;
