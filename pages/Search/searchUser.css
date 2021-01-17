@@ -45,7 +45,7 @@
     .category-images{
       height: 100px;
       border-radius: 9px;
-      opacity: 0.8;
+      opacity: 0.7;
     }
     #food{
       position: absolute;
@@ -176,8 +176,10 @@
       width: 28px;
     }
     #camera{
-      width: 20px; 
-      height: 20px;
+      width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 70px;
     }
     .elements-iphone{
       display: none;
@@ -185,7 +187,7 @@
     .category-images{
       height: 200px;
       border-radius: 9px;
-      opacity: 0.8;
+      opacity: 0.7;
       widows: 100px;
     }
     #food{
@@ -200,73 +202,80 @@
       padding-top: 50px;
       visibility:hidden;
     }
-    #inactive {
-      color: #858282;
-      text-align: center;
-      font-family: Arial;
-      font-size: 100%;
-    }
-    #active {
-      color: #fc9920;
-      font-family: Arial;
-      font-size: 100%;
-    }
-    .ui-icon-home:after {
-      background-image:  url("../../Assets/img/icons/home-inactive.svg");
-      background-size: 90%;
-      width: 25px !important;
-      height: 35px !important;
-    }
+    /*footer*/
     .ui-icon-home-active:after {
       background-image:  url("../../Assets/img/icons/home-active.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
+  }
+  .ui-icon-home-inactive:after {
+      background-image:  url("../../Assets/img/icons/home-inactive.svg");
+      background-size: 90%;
+      width: 25px !important;
+      height: 35px !important;
+  }
 
-
-    .ui-icon-search-inactive:after {
+  .ui-icon-search-inactive:after{
       background-image:  url("../../Assets/img/icons/search-inactive.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
-
-
-    .ui-icon-search-active:after {
+  }
+  .ui-icon-search-active:after{
       background-image:  url("../../Assets/img/icons/search-active.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
+  }
 
-    .ui-icon-track-inactive:after {
+  .ui-icon-track-inactive:after {
       background-image:  url("../../Assets/img/icons/track-inactive.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
-
-
-    .ui-icon-track-active:after {
+  }
+  .ui-icon-track-active:after {
       background-image:  url("../../Assets/img/icons/track-active.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
+  }
 
-
-    .ui-icon-profile-inactive:after {
+  .ui-icon-profile-inactive:after {
       background-image:  url("../../Assets/img/icons/account-inactive.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
-    }
-
-    .ui-icon-profile-active:after {
+  }
+  .ui-icon-profile-active:after {
       background-image:  url("../../Assets/img/icons/account-active.svg");
       background-size: 90%;
       width: 25px !important;
       height: 35px !important;
+  }
+
+  #inactive {
+      color: #858282;
+      text-align: center;
+      font-family: Arial;
+      font-size: 11pt;
+      background-color: white;
+  }
+
+  #active {
+      color: #fc9920;
+      font-family: Arial;
+      font-size: 11pt;
+      background-color: white;
+  }
+
+    .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+      width: 108%;
+    }
+
+    .h1, h1{
+      margin-left: 2%!important;
+    margin-bottom: 2.5%!important;
     }
   }

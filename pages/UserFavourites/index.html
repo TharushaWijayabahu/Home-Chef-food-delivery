@@ -34,26 +34,6 @@
         <!-- /header -->
 
 
-
-
-
-        <!-- header -->
-        <!-- <div data-role="header" class="mhead" data-position="fixed" data-tap-toggle="false">
-            <div class="row">
-                <div class="">
-                    <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
-                </div>
-                <div class="row icons">
-                    <div class="">
-                        <a href="#" data-position-to="window" id="notificationLogo">
-                            <img class="notificationLogo ui-btn-right" src="../../Assets/img/icons/notification.svg">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- /header -->
-
         <!-- content -->
         <div data-role="content">
         <h1 id="header1">Favourites</h1> 
@@ -74,17 +54,17 @@
             <ul id="di" data-filter="true" data-input="#divOfPs-input" data-filter-placeholder="Search">
 
             <div id="uu" class=" ui-child">
-                <a href="../main/vendorpage.html#arthurs"  data-ajax="false" >
+                <a href="#"  data-ajax="false" >
                     <div style="position: relative;">
                         <img src="../../Assets/img/pizza.jpg" id="img-fav">
-                        <img src="../../Assets/img/icons/liked-heart.svg" class="heart-icon" width="33" height="33">
+                        <img src="../../Assets/img/icons/liked-heart.svg" id="heart-unheart" class="heart-icon" width="33" height="33" onclick="amend()">
                     </div >
                     <h2 id="prod-n">Arthur's Pizza</h2>
                     <span id="address">No.5, Temple's road, Rathmalana</span>
                 </a>
             </div>
             <div id="uu" class="ui-child">
-                <a href="../main/vendorpage.html#streeetburger"  data-ajax="false" >
+                <a href="#"  data-ajax="false" >
                     <div style="position: relative;">
                         <img src="../../Assets/img/pizza.jpg" id="img-fav">
                         <img src="../../Assets/img/icons/liked-heart.svg" class="heart-icon" width="33" height="33">
@@ -147,6 +127,10 @@
          var message = "Done"
         }); 
     } 
+
+    function amend(){
+        document.getElementById("heart-unheart").src="../../Assets/img/icons/unlike-heart.svg";
+    }
 
 
     
