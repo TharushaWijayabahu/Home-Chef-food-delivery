@@ -1,5 +1,12 @@
+.back-btn {
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 18px;
+}
 
-
+.back-btn a:hover {
+    text-decoration: none;
+}
 
 /* Portrait and Landscape */
 

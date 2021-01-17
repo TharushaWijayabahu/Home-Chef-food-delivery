@@ -1,4 +1,12 @@
+.back-btn {
+    margin-left: 2%;
+    text-decoration: none !important;
+    font-size: 18px;
+}
 
+.back-btn a:hover {
+    text-decoration: none !important;
+}
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
@@ -32,12 +40,12 @@ and (orientation: portrait) {
     }
     .back-btn {
         margin-left: 2%;
-        text-decoration: none;
+        text-decoration: none !important;
         font-size: 18px;
     }
 
     .back-btn a:hover {
-        text-decoration: none;
+        text-decoration: none !important;
     }
 
     .menu-ham2 {
@@ -295,7 +303,7 @@ and (orientation: landscape) {
     }
     .back-btn {
         margin-left: 2%;
-        text-decoration: none;
+        text-decoration: none !important;
         font-size: 18px;
     }
     .menu-ham2 {
