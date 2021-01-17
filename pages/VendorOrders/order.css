@@ -99,7 +99,8 @@
     margin-top: 50%;
 }
 
-#order-confirm {
+#order-confirm,
+#order-details {
     width: 320px;
 }
 
