@@ -42,13 +42,19 @@
         <!-- content -->
         <div data-role="content">
         <h1 id="header1">Favourites</h1> 
-			<div>
+        <div class="container-fluid">
+            <div class="col-xs-11">
                 <form>
                     <input data-type="search" id="divOfPs-input">
-                    <input type="image" id= "email" src="../../Assets/img/icons/send-mail.svg" onclick="sendEmail()"/>
-                </form>
+                </form>     
+               
+            </div>
+            <div class="col-xs-1">
+             <a href="#add-popup-success" data-rel="popup" data-position-to="window" data-transition="pop" class="addPoints" onclick='sendEmail()'><img id= "email" src="../../Assets/img/icons/send-mail.svg" alt=""></a>
                 
-            </div>	
+            </div>
+            </div>
+            <hr>
             		
             <ul id="di" data-filter="true" data-input="#divOfPs-input" data-filter-placeholder="Search">
 
@@ -85,8 +91,20 @@
                 </a>
             </li>
             </ul>
+           
+            <div data-role="popup" id="add-popup-success">
+                <div data-role="content">
+                    <a href="#" data-rel="back" id="popupback">
+                        <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
+                    <br>
+                    <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
+                    <h3 class="text-center" id="header1">Email Sent Successfully!</h1>
+                        <br>
+                </div>
             </div>
         <!-- /content -->
+
+        
 
     </div>
     <!-- /page -->
@@ -111,7 +129,7 @@
     //  }]
       }) 
         .then(function (message) { 
-          alert(message) 
+         var message = "Done"
         }); 
     } 
 

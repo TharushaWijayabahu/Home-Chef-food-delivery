@@ -13,9 +13,10 @@
        background-color: transparent;
        text-shadow: none;
        box-shadow: none;
-       width: 345.22px;       
+       width: 100%;   
+       padding-left: 0%;    
    }
-   
+
    #di>li.ui-last-child, #di>li.ui-last-child>a.ui-btn {
    -webkit-border-bottom-right-radius: initial; 
    border-bottom-right-radius: initial; 
@@ -43,6 +44,10 @@ ul {
 	font-weight: bold;
 }
 
+#add-popup-success {
+    width: 100%;
+}
+
    #uu {
        border: none;
        text-decoration: none;
@@ -53,22 +58,21 @@ ul {
        border-top-left-radius: 10px;
        background-color: white;
        color: black;
-           
+       min-height: 220px;    
    }
    #prod-n {
      font-family: arial;
-   padding: 4px;
-   font-size: 14px;
-   margin-left: 29px;
+   font-size: 16px;
+   margin-left: 5%;
    font-weight: bold;
-   margin-bottom: -4px;
+   margin-bottom: 0px;
    text-shadow: none;
    text-decoration: none;
    }
    #address {
-     font-family: arial;
-   font-size: 9px;
-   margin-left: 32px;
+   font-family: arial;
+   font-size: 12px;
+   margin-left: 5.5%;
    font-weight: 100;
    color: grey;
    }
@@ -76,8 +80,7 @@ ul {
 
    #img-fav{
     width: 100%;
-   max-height: 10em;
-   max-width: 22em;
+   max-height: 11em;
    position: relative;
    z-index: 1;
    border-top-right-radius: 10px;
@@ -85,6 +88,9 @@ ul {
    top:0;
    left: 0;
    
+}
+.col-xs-11{
+    padding-left: 0%!important;
 }
 #heart {
     color: red;
@@ -98,8 +104,8 @@ ul {
 .heart-icon
 {
   position: absolute;
-  top: 90px;
-  left: 260px;
+  top: 70%;
+  left: 87%;
   z-index: 2;
 }
 .fa-lg {
