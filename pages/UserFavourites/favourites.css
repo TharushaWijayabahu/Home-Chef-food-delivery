@@ -1,12 +1,27 @@
 
-.logo {
-    width: 120px;
-    margin: 3px 0 3px 6.5% !important;
-  }
+
   
   .mhead {
-    margin: 0px 0px 5px 0px;
-  }
+    margin: 3px 0px 5px 0px;
+}
+  #header {
+    z-index: 1000;
+}
+
+.back-btn {
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-ham2 {
+    width: 120px;
+    margin: 5px 0 3px 15%
+}
+
+.back-btn a:hover {
+    text-decoration: none !important;
+}
   
 
    #di>li.ui-last-child, #di>li.ui-last-child>a.ui-btn {
