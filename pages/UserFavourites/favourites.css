@@ -7,15 +7,8 @@
   .mhead {
     margin: 0px 0px 5px 0px;
   }
-  #di {
-    border: none;
-       text-decoration: none;
-       background-color: transparent;
-       text-shadow: none;
-       box-shadow: none;
-       width: 345.22px;       
-   }
-   
+  
+
    #di>li.ui-last-child, #di>li.ui-last-child>a.ui-btn {
    -webkit-border-bottom-right-radius: initial; 
    border-bottom-right-radius: initial; 
@@ -32,89 +25,19 @@
    border-bottom-right-radius: 5px
 }
 
-ul {
-    list-style-type: none;
-  }
-  #header1{
-	font-family:Arial !important;
-	font-size:20px !important;
-	text-align:center !important;
-	margin-top: 20px !important;
-	font-weight: bold;
-}
 
-   #uu {
-       border: none;
-       text-decoration: none;
-       background-color: transparent;
-       margin-bottom: 14px;
-       box-shadow: -1px 1px 6px 1px rgba(0,0,0,0.2);
-       border-top-right-radius: 10px;
-       border-top-left-radius: 10px;
-       background-color: white;
-       color: black;
-           
-   }
-   #prod-n {
-     font-family: arial;
-   padding: 4px;
-   font-size: 14px;
-   margin-left: 29px;
-   font-weight: bold;
-   margin-bottom: -4px;
-   text-shadow: none;
-   text-decoration: none;
-   }
-   #address {
-     font-family: arial;
-   font-size: 9px;
-   margin-left: 32px;
-   font-weight: 100;
-   color: grey;
-   }
-   
 
-   #img-fav{
+#add-popup-success {
     width: 100%;
-   max-height: 10em;
-   max-width: 22em;
-   position: relative;
-   z-index: 1;
-   border-top-right-radius: 10px;
-   border-top-left-radius: 10px;
-   top:0;
-   left: 0;
-   
-}
-#heart {
-    color: red;
-  margin-left: -15%;
-  position: absolute;
-  margin-top: 118px;
-  z-index: 3;
-  text-decoration: none;
-  text-shadow: none;
-}
-.heart-icon
-{
-  position: absolute;
-  top: 90px;
-  left: 260px;
-  z-index: 2;
-}
-.fa-lg {
-  font-size: 2em;
-  line-height: .75em;
-  vertical-align: -15%;
 }
 
-.stars {
-  margin-left: 70%;
-  font-size: 1.3rem;
-  position: relative;
-  margin-top: -35px;
-  margin-bottom: 28px;
-}		
+  
+.col-xs-11{
+    padding-left: 0%!important;
+}
+
+
+
 #uu a {
 padding:0px; 
 color:black !important;
@@ -130,42 +53,15 @@ margin-left: 320px;
 margin-right: -20px;
 z-index: 15;
 }
-.sort{
-     margin-left: 331.5px;
-   margin-top: 122px;
-   z-index: 8;
-}
-    .notificationLogo {
-      padding-top: 10px;
-      padding-right: 10px;
-      height: 35px;
+
+.notificationLogo {
+    padding-top: 10px;
+    padding-right: 10px;
+    height: 35px;
   }
-    #camera{
-      width: 25px; 
-      height: 25px;
-      margin-top: 15px;
-    }
-    .elements{
-      display: none;
-    }
-    .category-images{
-      height: 100px;
-      border-radius: 9px;
-      opacity: 0.8;
-    }
-    #food{
-      position: absolute;
-      bottom: 30px;
-      right: 50px;
-      color: white;
-      padding-left: 20px;
-      
-    }
-    #space-between-rows{
-      padding-top: 50px;
-      visibility:hidden;
-    }
     
+    
+   
     /*footer*/
     .ui-icon-home-active:after {
       background-image:  url("../../Assets/img/icons/home-active.svg");
@@ -233,3 +129,161 @@ z-index: 15;
       font-size: 11pt;
       background-color: white;
   }
+
+
+
+  /* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+    #di {
+        border: none;
+           text-decoration: none;
+           background-color: transparent;
+           text-shadow: none;
+           box-shadow: none;
+           width: 100%;   
+           padding-left: 0%;    
+       }
+
+       ul {
+        list-style-type: none;
+      }
+      #header1{
+        font-family:Arial !important;
+        font-size:20px !important;
+        text-align:center !important;
+        margin-top: 20px !important;
+        font-weight: bold;
+    }
+
+    #uu {
+        border: none;
+        text-decoration: none;
+        background-color: transparent;
+        margin-bottom: 14px;
+        box-shadow: -1px 1px 6px 1px rgba(0,0,0,0.2);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: white;
+        color: black;
+        min-height: 220px;    
+    }
+    #prod-n {
+      font-family: arial;
+    font-size: 16px;
+    margin-left: 5%;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-decoration: none;
+    }
+    #address {
+    font-family: arial;
+    font-size: 12px;
+    margin-left: 5.5%;
+    font-weight: 100;
+    color: grey;
+    }
+    
+ 
+    #img-fav{
+     width: 100%;
+    max-height: 11em;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    top:0;
+    left: 0;
+    
+ }
+
+ .heart-icon
+{
+  position: absolute;
+  top: 70%;
+  left: 87%;
+  z-index: 2;
+}
+
+}
+
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+    #di {
+          border: none;
+           text-decoration: none;
+           background-color: transparent;
+           text-shadow: none;
+           box-shadow: none;
+           width: 95%;   
+           padding-left: 3%;    
+       }
+
+       ul {
+        list-style-type: none;
+      }
+      #header1{
+        font-family:Arial !important;
+        font-size:20px !important;
+        text-align:center !important;
+        margin-top: 20px !important;
+        font-weight: bold;
+    }
+
+    #uu {
+        border: none;
+        text-decoration: none;
+        background-color: transparent;
+        margin-bottom: 14px;
+        box-shadow: -1px 1px 6px 1px rgba(0,0,0,0.2);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: white;
+        color: black;
+        min-height: 260px;    
+    }
+    #prod-n {
+      font-family: arial;
+    font-size: 16px;
+    margin-left: 5%;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-shadow: none;
+    text-decoration: none;
+    }
+    #address {
+    font-family: arial;
+    font-size: 12px;
+    margin-left: 5.5%;
+    font-weight: 100;
+    color: grey;
+    }
+    
+ 
+    #img-fav{
+     width: 100%;
+    max-height: 14em;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    top:0;
+    left: 0;
+    
+ }
+
+ .heart-icon
+{
+  position: absolute;
+  top: 75%;
+  left: 92%;
+  z-index: 2;
+  height: 20%;
+} 
+#email {
+    
+    }
+}
+
+
