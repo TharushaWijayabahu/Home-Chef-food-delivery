@@ -7,6 +7,10 @@
   margin: 0px 0px 5px 0px;
 }
 
+#searchUser{
+  min-height: 100%!important;
+}
+
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 

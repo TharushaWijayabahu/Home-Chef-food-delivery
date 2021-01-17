@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HOME CHEF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" type="text/css" href="searchUser.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!--slider-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!--slider-->
+
+</head>
+
+<body>
+    <div data-role="page" id="searchUser">
+
+        <!-- header -->
+        <div data-role="header" class="mhead" data-position="fixed" data-tap-toggle="false">
+            <div class="row">
+                <div class="">
+                    <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
+                </div>
+                <div class="row icons">
+                    <div class="">
+                        <a href="#" data-position-to="window" id="notificationLogo">
+                            <img class="notificationLogo ui-btn-right" src="../../Assets/img/icons/notification.svg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /header -->
+
+        <!-- content -->
+        <div data-role="content">
+            <h1>Top categories</h1>
+            <h1 id="header1">Favourites</h1> 
+				
+				<form method="post">
+						<input type="image" id= "email" src="../images/icons/email.png" onclick="sendEmail()"/>
+				</form>
+
+				<a href="#" data-ajax="false"><img  class="sort ui-btn-left" src="../images/filter.svg" ></a>
+					<a href="#popupDialog" data-rel="popup" data-position-to="window" data-transition="pop" ><img class="sort ui-btn-left" src="../images/filter.svg" ></a>			
+					<ul id="di" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search">
+					<li id="uu" class="ui-child">
+						<a href="../main/vendorpage.html#arthurs"  data-ajax="false" >
+							<img src="../images/icons/pizza.jpg" id="img-fav">
+							<div id="heart"  class="fa fa-heart fa-lg" ></div>
+							<h2 id="prod-n">Arthur's Pizza</h2>
+							<span id="address">No.5, Temple's road, Rathmalana</span>
+							<div class="stars">
+								<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+							<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+							<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+							<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+							<span class="fa fa-star checked fa-xs" style="color: #ccc;"></span>
+							</div>
+						</a>
+					</li>
+					<li id="uu" class="ui-child">
+						<a href="../main/vendorpage.html#streeetburger"  data-ajax="false" >
+							<img src="../images/icons/street burger.jpg" id="img-fav">
+							<div id="heart"  class="fa fa-heart fa-lg" ></div>
+							<h2 id="prod-n">Street Burger</h2>
+							<span id="address">No.6, Marine Drive, Colpetty</span>
+							<div class="stars">
+								<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+								<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+								<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+								<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+								<span class="fa fa-star checked fa-xs" style="color: #ccc;"></span>
+							</div>
+						</a>
+					</li>
+					<li id="uu" class="ui-child">
+						<a href="#"  style="padding:0px; ;">
+							<img src="../images/icons/history.jpg" id="img-fav">
+							<div id="heart"  class="fa fa-heart fa-lg" ></div>
+							<h2 id="prod-n">Cauldron</h2>
+							<span id="address">No.4, W A Mawatha, Wellawatte</span>
+							<div class="stars">
+								<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+							<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+							<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+							<span class="fa fa-star checked fa-xs" style="color: #FFCC36;"></span>
+							<span class="fa fa-star checked fa-xs" style="color: #ccc;"></span>
+							</div>
+						</a>
+					</li>
+        </div>
+        <!-- /content -->
+
+        <div class="footer" data-role="footer" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="../HomeUser/index.html" data-icon="none" class="ui-nodisc-icon ui-icon-home-inactive" id="inactive" data-ajax="false">Home</a></li>
+                    <li><a href="#" data-icon="none" class="ui-nodisc-icon ui-icon-search-active" id="active" data-ajax="false">Search</a></li>
+                    <li><a href="../CurrentOrder/index.html" data-icon="none" class="ui-nodisc-icon ui-icon-track-inactive" id="inactive" data-ajax="false">Track Order</a></li>
+                    <li><a href="../UserAccount/index.html" data-icon="none" class="ui-nodisc-icon ui-icon-profile-inactive" id="inactive" data-ajax="false">Account</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /navbar -->
+
+    </div>
+    <!-- /page -->
+</body>
+
+</html>
