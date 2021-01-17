@@ -22,6 +22,10 @@
 .back-btn a:hover {
     text-decoration: none !important;
 }
+
+a{
+    text-decoration: none;
+}
   
 
    #di>li.ui-last-child, #di>li.ui-last-child>a.ui-btn {
@@ -138,6 +142,9 @@ color:black !important;
 
 
 
+
+
+
   /* Portrait iphone*/
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
@@ -204,14 +211,15 @@ color:black !important;
     
  
     #img-fav{
-     width: 100%;
-    max-height: 11em;
-    position: relative;
-    z-index: 1;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    top:0;
-    left: 0;
+        width: 100%!important;
+        max-height: 11em;
+        position: relative;
+        z-index: 1;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        top: 0;
+        right: 15px!important;
+        left:0;
     
  }
 
