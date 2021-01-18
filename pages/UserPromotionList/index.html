@@ -24,34 +24,20 @@
 
 <body>
     <div data-role="page" id="promotions">
-        <div data-role="header" class="mhead" data-position="fixed" data-tap-toggle="false">
-            <div class="row">
-                <div class="">
-                    <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
+
+            <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
+    
+                <div class="mhead">
+                    <a class="back-btn" href="../UserAccount/">
+                        < Back</a>
+                            <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
                 </div>
-                <div class="row icons">
-                    <div class="">
-                        <a href="#promo1" data-position-to="window" id="locationLogo" data-rel="popup" data-transition="pop">
-                            <img class="locationLogo ui-btn-right" src="../../Assets/img/icons/location.svg">
-                        </a>
-                        <div data-role="popup" id="promo1">
-                            <div data-role="content">
-                                <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="" height="15" width="15"></a>
-                                <br><br>
-                                <button class= "geeks" type="button" onclick="getlocation();">Get Current Location</button>
-                                <div id="currentmap" style="width: 300px; height: 300px;">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="">
-                        <a href="../UserNotification/index.html" data-position-to="window" id="notificationLogo">
-                            <img class="notificationLogo ui-btn-right" src="../../Assets/img/icons/notification.svg">
-                        </a>
-                    </div>
-                </div>
+                <!-- /grid-b -->
             </div>
-        </div>
+            <!-- /header -->
+
+
+
         <div data-role="content">
             <div id="myCarousel">
                 <!-- Wrapper for slides -->
@@ -68,12 +54,13 @@
                 </div>
 
                 <div class="elements-iphone container-fluid">
+                    <div class="row">
                     <div class="ui-child col-xs-6 col-sm-6 col-md-6 col-lg-6" id="uu">
                             <a href="#"  data-ajax="false" >
                                 <div style="position: relative;">
                                     <img src="../../Assets/img/pizza.jpg" id="img-fav">
                                 </div >
-                                <h2 id="prod-n">Street Burger</h2>
+                                <h2 id="prod-n">Spicy Hut</h2>
                                 <span id="address">No.6, Marine Drive, Colpetty</span>
                             </a>
                     </div>
@@ -83,10 +70,11 @@
                             <div style="position: relative;">
                                 <img src="../../Assets/img/pizza.jpg" id="img-fav">
                             </div >
-                            <h2 id="prod-n">Street Burger</h2>
+                            <h2 id="prod-n">Spicy Hut</h2>
                             <span id="address">No.6, Marine Drive, Colpetty</span>
                         </a>
                 </div>
+            </div>
 
                 </div>
                        

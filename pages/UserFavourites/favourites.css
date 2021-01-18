@@ -1,12 +1,31 @@
 
-.logo {
-    width: 120px;
-    margin: 3px 0 3px 6.5% !important;
-  }
+
   
   .mhead {
-    margin: 0px 0px 5px 0px;
-  }
+    margin: 3px 0px 5px 0px;
+}
+  #header {
+    z-index: 1000;
+}
+
+.back-btn {
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-ham2 {
+    width: 120px;
+    margin: 5px 0 3px 15%
+}
+
+.back-btn a:hover {
+    text-decoration: none !important;
+}
+
+a{
+    text-decoration: none;
+}
   
 
    #di>li.ui-last-child, #di>li.ui-last-child>a.ui-btn {
@@ -43,16 +62,7 @@ padding:0px;
 color:black !important;
 }
 
-#email {
-width: 26px;
-/* height: 26px; */
-padding-top: 9px;
-position: absolute;
-margin-top: -44px;
-margin-left: 320px;
-margin-right: -20px;
-z-index: 15;
-}
+
 
 .notificationLogo {
     padding-top: 10px;
@@ -132,7 +142,10 @@ z-index: 15;
 
 
 
-  /* Portrait */
+
+
+
+  /* Portrait iphone*/
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     #di {
@@ -155,6 +168,17 @@ z-index: 15;
         margin-top: 20px !important;
         font-weight: bold;
     }
+
+    #email {
+        width: 26px;
+        /* height: 26px; */
+        padding-top: 9px!important;
+        position: absolute;
+        margin-top: -44px!important;
+        margin-left: 320px!important;
+        margin-right: -20px!important;
+        z-index: 15;
+        }
 
     #uu {
         border: none;
@@ -187,14 +211,15 @@ z-index: 15;
     
  
     #img-fav{
-     width: 100%;
-    max-height: 11em;
-    position: relative;
-    z-index: 1;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    top:0;
-    left: 0;
+        width: 100%!important;
+        max-height: 11em;
+        position: relative;
+        z-index: 1;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        top: 0;
+        right: 15px!important;
+        left:0;
     
  }
 
@@ -202,13 +227,13 @@ z-index: 15;
 {
   position: absolute;
   top: 70%;
-  left: 87%;
+  left: 87%!important;
   z-index: 2;
 }
 
 }
 
-
+/* Landscape iphone*/
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
     #di {
           border: none;
@@ -282,8 +307,186 @@ z-index: 15;
   height: 20%;
 } 
 #email {
-    
+    width: 26px;
+    padding-top: 55px;
+    position: absolute;
+    margin-top: -44px;
+    margin-left: 0px;
+    margin-right: -20px;
+    z-index: 15;
     }
 }
 
+/* For portrait Tab */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    #di {
+         border: none;
+         text-decoration: none;
+         background-color: transparent;
+         text-shadow: none;
+         box-shadow: none;
+         width: 95%;   
+         padding-left: 3%;    
+     }
 
+     ul {
+      list-style-type: none;
+       }
+
+    #header1{
+      font-family:Arial !important;
+      font-size:20px !important;
+      text-align:center !important;
+      margin-top: 20px !important;
+      font-weight: bold;
+  }
+
+  #uu {
+      border: none;
+      text-decoration: none;
+      background-color: transparent;
+      margin-bottom: 14px;
+      box-shadow: -1px 1px 6px 1px rgba(0,0,0,0.2);
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      background-color: white;
+      color: black;
+      min-height: 260px;    
+  }
+  #prod-n {
+    font-family: arial;
+  font-size: 16px;
+  margin-left: 5%;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-shadow: none;
+  text-decoration: none;
+  }
+  #address {
+  font-family: arial;
+  font-size: 12px;
+  margin-left: 5.5%;
+  font-weight: 100;
+  color: grey;
+  }
+  
+
+  #img-fav{
+   width: 100%;
+  max-height: 14em;
+  position: relative;
+  z-index: 1;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  top:0;
+  left: 0;
+  
+}
+
+.heart-icon
+{
+position: absolute;
+top: 75%;
+left: 92%;
+z-index: 2;
+height: 20%;
+} 
+#email {
+  width: 26px;
+  padding-top: 55px;
+  position: absolute;
+  margin-top: -44px;
+  margin-left: 0px;
+  margin-right: -20px;
+  z-index: 15;
+  }
+
+  
+  }
+
+
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  
+    #di {
+        border: none;
+        text-decoration: none;
+        background-color: transparent;
+        text-shadow: none;
+        box-shadow: none;
+        width: 95%;   
+        padding-left: 3%;    
+    }
+
+    ul {
+     list-style-type: none;
+      }
+
+   #header1{
+     font-family:Arial !important;
+     font-size:20px !important;
+     text-align:center !important;
+     margin-top: 20px !important;
+     font-weight: bold;
+ }
+
+ #uu {
+     border: none;
+     text-decoration: none;
+     background-color: transparent;
+     margin-bottom: 14px;
+     box-shadow: -1px 1px 6px 1px rgba(0,0,0,0.2);
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     background-color: white;
+     color: black;
+     min-height: 260px;    
+ }
+ #prod-n {
+   font-family: arial;
+ font-size: 16px;
+ margin-left: 5%;
+ font-weight: bold;
+ margin-bottom: 0px;
+ text-shadow: none;
+ text-decoration: none;
+ }
+ #address {
+ font-family: arial;
+ font-size: 12px;
+ margin-left: 5.5%;
+ font-weight: 100;
+ color: grey;
+ }
+ 
+
+ #img-fav{
+  width: 100%;
+ max-height: 14em;
+ position: relative;
+ z-index: 1;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+ top:0;
+ left: 0;
+ 
+}
+
+.heart-icon
+{
+position: absolute;
+top: 75%;
+left: 92%;
+z-index: 2;
+height: 20%;
+} 
+#email {
+ width: 26px;
+ padding-top: 55px;
+ position: absolute;
+ margin-top: -44px;
+ margin-left: 0px;
+ margin-right: -20px;
+ z-index: 15;
+ }
+
+}

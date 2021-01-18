@@ -1,10 +1,33 @@
 .mhead {
-    margin: 0px 0px 5px 0px;
+    margin: 3px 0px 5px 0px;
 }
 
 .logo {
     width: 120px;
     margin: 3px 0 3px 24%;
+}
+
+#header {
+    z-index: 1000;
+}
+
+.back-btn {
+    margin-left: 2%;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu-ham2 {
+    width: 120px;
+    margin: 5px 0 3px 15%
+}
+
+.back-btn a:hover {
+    text-decoration: none !important;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -90,17 +113,19 @@
        font-weight: 100;
        color: grey;
        }
+
+     
        
     
        #img-fav{
-        width: 100%;
-       max-height: 11em;
-       position: relative;
-       z-index: 1;
-       border-top-right-radius: 10px;
-       border-top-left-radius: 10px;
-       top:0;
-       left: 0;
+        width: 108%;
+    max-height: 11em;
+    position: relative;
+    z-index: 1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    top: 0;
+    right: 14.6px;
        
     }
     .col-xs-11{
@@ -198,6 +223,8 @@
     }
     .title {
         font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     .pad {
         text-align: left;

@@ -20,24 +20,19 @@
 </head>
 
 <body>
-    <div data-role="page" id="searchUser">
+    <div data-role="page" id="aboutuspage">
 
-        <!-- header -->
-        <div data-role="header" class="mhead" data-position="fixed" data-tap-toggle="false">
-            <div class="row">
-                <div class="">
-                    <img class="logo" src="../../Assets/img/rectangle_logo_black.png">
-                </div>
-                <div class="row icons">
-                    <div class="">
-                        <a href="#" data-position-to="window" id="notificationLogo">
-                            <img class="notificationLogo ui-btn-right" src="../../Assets/img/icons/notification.svg">
-                        </a>
-                    </div>
-                </div>
+        <div data-role="header" data-position="fixed" data-tap-toggle="false" id="header">
+
+            <div class="mhead">
+                <a class="back-btn" href="../UserAccount/">
+                    < Back</a>
+                        <img class="menu-ham2" src="../../Assets/img/rectangle_logo_black.png">
             </div>
+            <!-- /grid-b -->
         </div>
         <!-- /header -->
+
 
         <!-- content -->
         <div data-role="content">
@@ -58,38 +53,38 @@
             		
             <ul id="di" data-filter="true" data-input="#divOfPs-input" data-filter-placeholder="Search">
 
-            <li id="uu" class="ui-child">
-                <a href="../main/vendorpage.html#arthurs"  data-ajax="false" >
+            <div id="uu" class=" ui-child">
+                <a href="#"  data-ajax="false" >
                     <div style="position: relative;">
                         <img src="../../Assets/img/pizza.jpg" id="img-fav">
-                        <img src="../../Assets/img/icons/liked-heart.svg" class="heart-icon" width="33" height="33">
+                        <img src="../../Assets/img/icons/liked-heart.svg" id="heart-unheart" class="heart-icon" width="33" height="33" onclick="amend()">
                     </div >
                     <h2 id="prod-n">Arthur's Pizza</h2>
                     <span id="address">No.5, Temple's road, Rathmalana</span>
                 </a>
-            </li>
-            <li id="uu" class="ui-child">
-                <a href="../main/vendorpage.html#streeetburger"  data-ajax="false" >
+            </div>
+            <div id="uu" class="ui-child">
+                <a href="#"  data-ajax="false" >
                     <div style="position: relative;">
-                        <img src="../../Assets/img/pizza.jpg" id="img-fav">
+                        <img src="../../Assets/img/cupcakes.jpg" id="img-fav">
                         <img src="../../Assets/img/icons/liked-heart.svg" class="heart-icon" width="33" height="33">
                     </div >
                     <h2 id="prod-n">Street Burger</h2>
                     <span id="address">No.6, Marine Drive, Colpetty</span>
                     
                 </a>
-            </li>
-            <li id="uu" class="ui-child">
+            </div>
+            <div id="uu" class="ui-child">
                 <a href="#"  style="padding:0px; ;">
                     <div style="position: relative;">
-                        <img src="../../Assets/img/pizza.jpg" id="img-fav">
+                        <img src="../../Assets/img/kottu.jpg" id="img-fav">
                         <img src="../../Assets/img/icons/liked-heart.svg" class="heart-icon" width="33" height="33">
                     </div >
                     <h2 id="prod-n">Cauldron</h2>
                     <span id="address">No.4, W A Mawatha, Wellawatte</span>
                     
                 </a>
-            </li>
+            </div>
             </ul>
            
             <div data-role="popup" id="add-popup-success">
@@ -117,7 +112,7 @@
         Host: "smtp.gmail.com", 
         Username: "epillPod2018@gmail.com", 
         Password: "dbswepzodchmjvcc",
-        To: 'warkiringoda@gmail.com', 
+        To: 'music.warsha@gmail.com', 
         From: "epillPod2018@gmail.com", 
         Subject: "My Favourit List from Home Chef", 
         Body: "This is my favourit list", 
@@ -132,6 +127,10 @@
          var message = "Done"
         }); 
     } 
+
+    function amend(){
+        document.getElementById("heart-unheart").src="../../Assets/img/icons/unlike-heart.svg";
+    }
 
 
     
