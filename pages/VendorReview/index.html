@@ -224,7 +224,7 @@
         replyList = (replyList) ? JSON.parse(replyList) : [];
         $("#submit").click(function() {
             let rply = $('.reply').val();
-            var rplyList = {
+            let rplyList = {
                 "rply": rply
             }
             replyList.push(rplyList)
