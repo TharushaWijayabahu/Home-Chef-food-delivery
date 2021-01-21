@@ -8,6 +8,130 @@
   text-decoration: none !important;
 }
 
+#header {
+  z-index: 1000;
+}
+
+.mhead {
+  margin: 3px 0px 5px 0px;
+}
+.back-btn {
+  margin-left: 2%;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.back-btn a:hover {
+  text-decoration: none;
+}
+
+.menu-ham2 {
+  width: 120px;
+  margin: 5px 0 3px 75px;
+}
+.vendorImage {
+  background-image: url("../../Assets/img/pizza.jpg");
+  background-size: cover;
+  width: 380px;
+  height: 400px;
+}
+#img1 {
+  width: 380px;
+  height: 400px;
+  /* margin-left: 132px; */
+}
+#name {
+  font-size: 22px;
+  height: 12px;
+  color: white;
+  text-shadow: none;
+}
+#address {
+  height: 20px;
+  font-size: 18px;
+  color: white;
+  text-shadow: none;
+}
+.details {
+  width: 100%;
+  height: 400px;
+  padding-left: 20px;
+  padding-top: 300px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.cardList {
+  margin-top: 20px;
+}
+.image {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 120px;
+  border-radius: 10px;
+}
+.desc{
+  padding-top: 20px;
+  padding-left: 10px;
+  color: black;
+}
+.next{
+  padding-top: 20px;
+  float: right;
+}
+.nextImage {
+  margin-left: 55px;
+  margin-top: 35px;
+  width: 33px;
+}
+#cardItem {
+  width: 95.5%;
+  height: 150px;
+  border-radius: 10px;
+}
+#al {
+  height: 55px;
+  width: 55px;
+  margin-top: -100px;
+  margin-bottom: 15px;
+  margin-left: 300px;
+  box-shadow: 0px 3px 8px #333;
+  border-radius: 72%;
+}
+#usergrid {
+  font-family:Arial !important;
+  font-size:14px !important;
+  padding-bottom: 10px;
+
+}
+.ma {
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+  margin-left: 0px;
+  margin-top: -75px;
+}
+
+.round {
+  position: relative;
+  border-radius: 35px;
+  width: 20%;
+  margin-top: 8px;
+  margin-right:250px;
+}
+
+#str {
+  position: relative;
+  margin-bottom: 28px;
+  margin-left: 150px;
+  margin-top: -60px;
+}
+.reviewHead {
+  margin-right: 250px;
+  font-size: 20px;
+
+  font-family:Arial;
+  padding-bottom: 20px;
+}
+
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
 /* Portrait and Landscape */
@@ -23,129 +147,7 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
-  #header {
-    z-index: 1000;
-  }
 
-  .mhead {
-    margin: 3px 0px 5px 0px;
-  }
-  .back-btn {
-    margin-left: 2%;
-    text-decoration: none;
-    font-size: 18px;
-  }
-
-  .back-btn a:hover {
-    text-decoration: none;
-  }
-
-  .menu-ham2 {
-    width: 120px;
-    margin: 5px 0 3px 75px;
-  }
-  .vendorImage {
-    background-image: url("../../Assets/img/pizza.jpg");
-    background-size: cover;
-    width: 380px;
-    height: 400px;
-  }
-  #img1 {
-    width: 380px;
-    height: 400px;
-    /* margin-left: 132px; */
-  }
-  #name {
-    font-size: 22px;
-    height: 12px;
-    color: white;
-    text-shadow: none;
-  }
-  #address {
-    height: 20px;
-    font-size: 18px;
-    color: white;
-    text-shadow: none;
-  }
-  .details {
-    width: 100%;
-    height: 400px;
-    padding-left: 20px;
-    padding-top: 300px;
-    background: rgba(0, 0, 0, 0.4);
-  }
-  .cardList {
-    margin-top: 20px;
-  }
-  .image {
-    margin-left: 20px;
-    margin-top: 15px;
-    width: 120px;
-    border-radius: 10px;
-  }
-  .desc{
-    padding-top: 20px;
-    padding-left: 10px;
-    color: black;
-  }
-  .next{
-    padding-top: 20px;
-    float: right;
-  }
-  .nextImage {
-    margin-left: 55px;
-    margin-top: 35px;
-    width: 33px;
-  }
-  #cardItem {
-    width: 95.5%;
-    height: 150px;
-    border-radius: 10px;
-  }
-  #al {
-    height: 55px;
-    width: 55px;
-    margin-top: -100px;
-    margin-bottom: 15px;
-    margin-left: 300px;
-    box-shadow: 0px 3px 8px #333;
-    border-radius: 72%;
-  }
-  #usergrid {
-    font-family:Arial !important;
-    font-size:14px !important;
-    padding-bottom: 10px;
-
-  }
-  .ma {
-    position: relative;
-    width: 100%;
-    font-size: 18px;
-    margin-left: 0px;
-    margin-top: -75px;
-  }
-
-  .round {
-    position: relative;
-    border-radius: 35px;
-    width: 20%;
-    margin-top: 8px;
-    margin-right:250px;
-  }
-
-  #str {
-    position: relative;
-    margin-bottom: 28px;
-    margin-left: 150px;
-    margin-top: -60px;
-  }
-  .reviewHead {
-    margin-right: 250px;
-    font-size: 20px;
-
-    font-family:Arial;
-    padding-bottom: 20px;
-  }
 }
 
 /* Landscape */
