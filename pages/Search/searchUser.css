@@ -45,7 +45,7 @@
     .category-images{
       height: 100px;
       border-radius: 9px;
-      opacity: 0.7;
+      filter: brightness(60%);
     }
     #food{
       position: absolute;
@@ -135,6 +135,24 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+    .elements-iphone{
+      display: none;
+    }
+    #food{
+      position: absolute;
+      bottom: 50px!important;
+      right: 35px!important;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .category-images{
+      height: 150px!important;
+      border-radius: 9px;
+      widows: 100px;
+      filter: brightness(60%);
+    }
 
 }
 
@@ -147,12 +165,128 @@
 
 /* ----------- iPad ----------- */
 
-@media only screen and (device-width: 768px) {
-    /* For general iPad layouts */
-  }
   
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     /* For portrait layouts only */
+    #header {
+      height: 75px;
+      z-index: 1000
+  }
+  .logo {
+      float: left;
+      width: 150px !important;
+      padding-top: 5px;
+      margin-left: 3%;
+  }
+  .notificationLogo {
+      padding-top: 10px !important;
+      margin-right: 3% !important;
+      height: 50px !important;
+  }
+    
+    #camera{
+      width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 70px;
+    }
+    .elements-iphone{
+      display: none;
+    }
+    .category-images{
+      height: 180px!important;
+      border-radius: 9px;
+      widows: 100px;
+      filter: brightness(60%);
+    }
+    #food{
+      position: absolute;
+      bottom: 65px;
+      right: 35px;
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    #space-between-rows{
+      padding-top: 50px;
+      visibility:hidden;
+    }
+   /*footer*/
+   .ui-icon-home-active:after {
+    background-image:  url("../../Assets/img/icons/home-active.svg");
+    background-size: 90%;
+    width: 33px !important;
+    height: 37px !important;
+}
+.ui-icon-home-inactive:after {
+    background-image:  url("../../Assets/img/icons/home-inactive.svg");
+    background-size: 90%;
+    width: 33px !important;
+    height: 37px !important;
+}
+
+.ui-icon-search-inactive:after{
+    background-image:  url("../../Assets/img/icons/search-inactive.svg");
+    background-size: 90%;
+    width: 33px !important;
+    height: 37px !important;
+}
+.ui-icon-search-active:after{
+    background-image:  url("../../Assets/img/icons/search-active.svg");
+    background-size: 90%;
+    width: 33px !important;
+    height: 37px !important;
+}
+
+.ui-icon-track-inactive:after {
+    background-image:  url("../../Assets/img/icons/track-inactive.svg");
+    background-size: 90%;
+    width: 33px !important;
+    height: 37px !important;
+}
+.ui-icon-track-active:after {
+    background-image:  url("../../Assets/img/icons/track-active.svg");
+    background-size: 90%;
+    width: 33px !important;
+    height: 37px !important;
+}
+
+.ui-icon-profile-inactive:after {
+    background-image:  url("../../Assets/img/icons/account-inactive.svg");
+    background-size: 90%;
+    width: 33px !important;
+    height: 37px !important;
+}
+.ui-icon-profile-active:after {
+    background-image:  url("../../Assets/img/icons/account-active.svg");
+    background-size: 90%;
+    width: 33px !important;
+    height: 37px !important;
+}
+
+#inactive {
+    color: #858282;
+    text-align: center;
+    font-family: Arial;
+    font-size: 13pt;
+    background-color: white;
+}
+
+#active {
+    color: #fc9920;
+    font-family: Arial;
+    font-size: 13pt;
+    background-color: white;
+}
+    .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+      width: 108%;
+    }
+
+    .h1, h1{
+      margin-left: 30%!important;
+    margin-bottom: 5%!important;
+    }
+    
   }
   
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -185,8 +319,8 @@
     .category-images{
       height: 200px;
       border-radius: 9px;
-      opacity: 0.7;
       widows: 100px;
+      filter: brightness(60%);
     }
     #food{
       position: absolute;
