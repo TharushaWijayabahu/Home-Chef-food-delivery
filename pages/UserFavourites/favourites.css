@@ -230,6 +230,37 @@ color:black !important;
   z-index: 2;
 }
 
+#un,
+#us,
+#ug,
+#uk {
+    font-family: Arial;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+    width: 85%;
+    height: 32px;
+    border-radius: 25px;
+    background: #ffffff;
+    border: .9px solid #d0cfcf;
+    margin: .4em 0;
+    text-shadow: none;
+}
+#submits {
+    margin-top: 10px;
+    background-color: #ff9700;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border: none;
+    font-size: 12px;
+    font-style: normal;
+    border-radius: 25px;
+    width: 50%;
+    text-shadow: none;
+}
+
 }
 
 /* Landscape iphone*/

@@ -46,7 +46,7 @@
                
             </div>
             <div class="col-xs-1">
-             <a href="#add-popup-success" data-rel="popup" data-position-to="window" data-transition="pop" class="addPoints" onclick='sendEmail()'><img id= "email" src="../../Assets/img/icons/send-mail.svg" alt=""></a>
+             <a href="#addItem-popup" data-rel="popup" data-position-to="window" data-transition="pop" class="addPoints"><img id= "email" src="../../Assets/img/icons/send-mail.svg" alt="Email-icon"></a>
                 
             </div>
             </div>
@@ -88,16 +88,35 @@
             </div>
             </ul>
            
+            <!-- popup success -->
             <div data-role="popup" id="add-popup-success">
                 <div data-role="content">
                     <a href="#" data-rel="back" id="popupback">
                         <img src="../../Assets/img/icons/close.png" id="promo-add-btn" height="15" width="15"></a>
                     <br>
                     <center><img id="av" src="../../Assets/img/icons/orange-tick-icon.png" width="85" height="85"></center>
-                    <h3 class="text-center" id="header1">Your Favourite list was Emailed Successfully!</h1>
+                    <h3 class="text-center" id="header1">Favourite list was Emailed Successfully!</h1>
                         <br>
                 </div>
             </div>
+
+            <!-- popup email deatils -->
+            <div data-role="popup" id="addItem-popup">
+                <div data-role="content">
+                    <a href="#" data-rel="back" id="popupback"> <img src="../../Assets/img/icons/close.png" id="" height="15" width="15"></a>
+                    <br>
+                    <h2 class="text-center" id="header1">Share your Favourite List via Email</h2>
+                    <br>
+                    <center><img id="av" src="../../Assets/img/icons/send-mail.svg"></center>
+                    <h4 class="text-center" id="he2"></h4>
+                    <center>
+                        <input type="text" name="user" id="un" value="" placeholder="Reciever's Email" data-role=none required/>
+                        <input type="text" name="user" id="us" value="" placeholder="Description" data-role=none required/>
+                        <a href="#" data-role="button" id="submits" onclick="sendEmail()">SEND</a>
+                    </center>
+                </div>
+            </div>
+
         <!-- /content -->
 
         
@@ -108,24 +127,27 @@
 
 <script type="text/javascript"> 
     function sendEmail() { 
+        var x = document.getElementById("un").value;
+        var y = document.getElementById("us").value;
         
       Email.send({ 
         Host: "smtp.gmail.com", 
         Username: "epillPod2018@gmail.com", 
         Password: "dbswepzodchmjvcc",
-        To: 'music.warsha@gmail.com', 
+        To: x, 
         From: "epillPod2018@gmail.com", 
         Subject: "My Favourit List from Home Chef", 
-        Body: "This is my favourit list", 
-    //     Attachments : [
-    //  {
-    //      name : fav,
-    //     data : data
+        Body: y, 
+        Attachments : [
+     {
+         name : "favourites.jpg",
+        path : "https://image.shutterstock.com/image-photo/large-group-junk-food-one-600w-232493077.jpg"
 
-    //  }]
+     }]
       }) 
         .then(function (message) { 
-         var message = "Done"
+        //  var message = "Done"
+        console.log(message)
         }); 
     } 
 
@@ -145,6 +167,32 @@
         }
         
     }
+
+
+    var buttonClick = false;
+        $(document).on("pageinit", function() {
+            $("#addItem-popup").on({
+                popupafterclose: function() {
+                    if (buttonClick) {
+                        setTimeout(function() {
+                            $("#add-popup-success").popup("open", {
+                                positionTo: "#addItem-popup"
+                            })
+                        }, 100);
+                        buttonClick = false;
+                    } else {
+                        console.log(buttonClick);
+                    }
+                }
+            });
+        });
+
+        $(document).ready(function() {
+            $("#submits").click(function() {
+                buttonClick = true;
+                $("#addItem-popup").popup("close");
+            });
+        });
 
 
     
