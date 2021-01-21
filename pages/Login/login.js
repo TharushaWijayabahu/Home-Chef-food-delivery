@@ -7,7 +7,7 @@ function Login() {
         window.location.href = "../HomeUser"
     }
     else if (email == "vendor@gmail.com" && password == "456") {
-        window.location.href = "../HomeVendor"
+        window.location.href = "../VendorOrders/newOrder.html"
     }
     else {
         alert("Invalid username and password");
