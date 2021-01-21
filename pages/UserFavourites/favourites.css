@@ -57,11 +57,10 @@ a{
 
 
 
-#uu a {
+.uu a {
 padding:0px; 
 color:black !important;
 }
-
 
 
 .notificationLogo {
@@ -180,7 +179,7 @@ color:black !important;
         z-index: 15;
         }
 
-    #uu {
+    .uu {
         border: none;
         text-decoration: none;
         background-color: transparent;
@@ -256,7 +255,7 @@ color:black !important;
         font-weight: bold;
     }
 
-    #uu {
+    .uu {
         border: none;
         text-decoration: none;
         background-color: transparent;
@@ -341,7 +340,7 @@ color:black !important;
       font-weight: bold;
   }
 
-  #uu {
+  .uu {
       border: none;
       text-decoration: none;
       background-color: transparent;
@@ -429,7 +428,7 @@ height: 20%;
      font-weight: bold;
  }
 
- #uu {
+ .uu {
      border: none;
      text-decoration: none;
      background-color: transparent;

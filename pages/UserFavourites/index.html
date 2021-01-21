@@ -53,32 +53,32 @@
             		
             <ul id="di" data-filter="true" data-input="#divOfPs-input" data-filter-placeholder="Search">
 
-            <div id="uu" class=" ui-child">
+            <div id="item1" class=" ui-child uu">
                 <a href="#"  data-ajax="false" >
                     <div style="position: relative;">
                         <img src="../../Assets/img/pizza.jpg" id="img-fav">
-                        <img src="../../Assets/img/icons/liked-heart.svg" id="heart-unheart" class="heart-icon" width="33" height="33" onclick="amend()">
+                        <img src="../../Assets/img/icons/liked-heart.svg" id="heart-unheart" class="heart-icon" width="33" height="33" onclick="amend(1)">
                     </div >
                     <h2 id="prod-n">Arthur's Pizza</h2>
                     <span id="address">No.5, Temple's road, Rathmalana</span>
                 </a>
             </div>
-            <div id="uu" class="ui-child">
+            <div id="item2" class="ui-child uu">
                 <a href="#"  data-ajax="false" >
                     <div style="position: relative;">
                         <img src="../../Assets/img/cupcakes.jpg" id="img-fav">
-                        <img src="../../Assets/img/icons/liked-heart.svg" class="heart-icon" width="33" height="33">
+                        <img src="../../Assets/img/icons/liked-heart.svg" id="heart-unheart" class="heart-icon" width="33" height="33" onclick="amend(2)">
                     </div >
                     <h2 id="prod-n">Street Burger</h2>
                     <span id="address">No.6, Marine Drive, Colpetty</span>
                     
                 </a>
             </div>
-            <div id="uu" class="ui-child">
+            <div id="item3" class="ui-child uu">
                 <a href="#"  style="padding:0px; ;">
                     <div style="position: relative;">
                         <img src="../../Assets/img/kottu.jpg" id="img-fav">
-                        <img src="../../Assets/img/icons/liked-heart.svg" class="heart-icon" width="33" height="33">
+                        <img src="../../Assets/img/icons/liked-heart.svg" id="heart-unheart" class="heart-icon" width="33" height="33" onclick="amend(3)">
                     </div >
                     <h2 id="prod-n">Cauldron</h2>
                     <span id="address">No.4, W A Mawatha, Wellawatte</span>
@@ -128,8 +128,20 @@
         }); 
     } 
 
-    function amend(){
-        document.getElementById("heart-unheart").src="../../Assets/img/icons/unlike-heart.svg";
+    function amend(val){
+        if(val === 1){
+            document.getElementById("item1").style.display="none";
+            console.log(val);
+        }
+        else if(val === 2){
+            document.getElementById("item2").style.display="none";
+            console.log(val);
+        }
+        else if(val === 3){
+            document.getElementById("item3").style.display="none";
+            console.log(val);
+        }
+        
     }
 
 
