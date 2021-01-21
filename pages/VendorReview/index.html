@@ -208,16 +208,13 @@
         $("#v-promo-popup").on({
             popupafterclose: function() {
                 if (buttonClick) {
-                    console.log("Opening 2nd Popup.");
                     setTimeout(function() {
                         $("#v-promo-popup-success").popup("open", {
                             positionTo: "#v-promo-popup"
                         })
                     }, 100);
                     buttonClick = false;
-                } else {
-                    console.log(buttonClick);
-                }
+                } else {}
             }
         });
     });
@@ -233,7 +230,6 @@
             replyList.push(rplyList)
             localStorage.setItem("replyList", JSON.stringify(rplyList));
             buttonClick = true;
-            console.log("First Button clicked");
             $("#v-promo-popup").popup("close");
         });
     });
