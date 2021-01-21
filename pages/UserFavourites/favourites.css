@@ -147,6 +147,8 @@ color:black !important;
   /* Portrait iphone*/
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+   
+   
     #di {
         border: none;
            text-decoration: none;
@@ -265,6 +267,11 @@ color:black !important;
 
 /* Landscape iphone*/
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+   
+    .menu-ham2 {
+        width: 120px;
+        margin: 5px 0 3px 30%!important;
+    }
     #di {
           border: none;
            text-decoration: none;
@@ -349,6 +356,11 @@ color:black !important;
 
 /* For portrait Tab */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+   
+    .menu-ham2 {
+        width: 120px;
+        margin: 5px 0 3px 30%!important;
+    }
     #di {
          border: none;
          text-decoration: none;
@@ -436,7 +448,10 @@ height: 20%;
 
 
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-  
+    .menu-ham2 {
+        width: 120px;
+        margin: 5px 0 3px 35%!important;
+    }
     #di {
         border: none;
         text-decoration: none;
