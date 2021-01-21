@@ -43,6 +43,9 @@
                     </div>
                 </div>
                 <div>
+                    <img id="heart" src="../../Assets/img/icons/unlike-heart.svg" class="heart-icon" onclick="amend(0)">  
+                </div>
+                <div>
                     <a href="" onclick="window.location.href ='../Cart/';">
                         <img id="al" src="../../Assets/img/service-icon-cart.png">
                     </a>
@@ -63,6 +66,24 @@
         </div>
     </div>
     <script>
+  function amend(val){
+      var x =JSON.parse(localStorage.getItem("isFavourite"));
+      console.log(x);
+        if(x===true){
+            document.getElementById("heart").src="../../Assets/img/icons/unlike-heart.svg";
+            localStorage.setItem("isFavourite", false);
+            console.log("changed fav to => ",false)
+        }
+        if(x===false){
+            document.getElementById("heart").src="../../Assets/img/icons/liked-heart.svg";
+            localStorage.setItem("isFavourite", true);
+            console.log("changed fav to => ",true)
+        }
+    }
+
+
+
+
         function loadCommentList() {
             let commentList = localStorage.getItem("commentList");
             commentList = (commentList) ? JSON.parse(commentList) : []

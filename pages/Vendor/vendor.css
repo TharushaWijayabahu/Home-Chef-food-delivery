@@ -132,6 +132,15 @@
   padding-bottom: 20px;
 }
 
+.heart-icon {
+  position: absolute;
+    top: 20%;
+    left: 82%;
+    z-index: 2;
+    width: 35px;
+    height: 35px;
+}
+
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 
 /* Portrait and Landscape */
@@ -272,6 +281,14 @@
     font-size: 20px ;
     font-family:Arial;
     padding-bottom: 20px;
+  }
+  .heart-icon{
+    position: absolute;
+    top: 17.2%!important;
+    left: 73%!important;
+    z-index: 2;
+    width: 40px!important;
+    height: 40px!important;
   }
 }
 
@@ -415,6 +432,14 @@
       font-family:Arial;
       padding-bottom: 20px;
     }
+    .heart-icon{
+      position: absolute;
+    top: 26.2%!important;
+    left: 69%!important;
+    z-index: 2;
+    width: 52px!important;
+    height: 52px!important;
+    }
   }
   
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
@@ -549,5 +574,14 @@
       font-size: 20px;
       font-family:Arial;
       padding-bottom: 20px;
+    }
+
+    .heart-icon{
+      position: absolute;
+    top: 24.8%!important;
+    left: 76%!important;
+    z-index: 2;
+    width: 55px!important;
+    height: 55px!important;
     }
   }
