@@ -10,6 +10,8 @@ if(vendorList == null) {
     ]
 }*/
 
+localStorage.setItem("isFavourite", false);
+
 $(document).ready(function(){
     var menuItems = [
         {'id':'1','imageurl':'../../Assets/img/cheese.jpg','name':'Pizza 1','price':'1790', 'rating':'4.5'},

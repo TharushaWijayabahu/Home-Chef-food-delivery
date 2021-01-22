@@ -57,11 +57,10 @@ a{
 
 
 
-#uu a {
+.uu a {
 padding:0px; 
 color:black !important;
 }
-
 
 
 .notificationLogo {
@@ -148,6 +147,8 @@ color:black !important;
   /* Portrait iphone*/
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+   
+   
     #di {
         border: none;
            text-decoration: none;
@@ -180,7 +181,7 @@ color:black !important;
         z-index: 15;
         }
 
-    #uu {
+    .uu {
         border: none;
         text-decoration: none;
         background-color: transparent;
@@ -231,10 +232,46 @@ color:black !important;
   z-index: 2;
 }
 
+#un,
+#us,
+#ug,
+#uk {
+    font-family: Arial;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    color: black;
+    width: 85%;
+    height: 32px;
+    border-radius: 25px;
+    background: #ffffff;
+    border: .9px solid #d0cfcf;
+    margin: .4em 0;
+    text-shadow: none;
+}
+#submits {
+    margin-top: 10px;
+    background-color: #ff9700;
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+    border: none;
+    font-size: 12px;
+    font-style: normal;
+    border-radius: 25px;
+    width: 50%;
+    text-shadow: none;
+}
+
 }
 
 /* Landscape iphone*/
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+   
+    .menu-ham2 {
+        width: 120px;
+        margin: 5px 0 3px 30%!important;
+    }
     #di {
           border: none;
            text-decoration: none;
@@ -256,7 +293,7 @@ color:black !important;
         font-weight: bold;
     }
 
-    #uu {
+    .uu {
         border: none;
         text-decoration: none;
         background-color: transparent;
@@ -319,6 +356,11 @@ color:black !important;
 
 /* For portrait Tab */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+   
+    .menu-ham2 {
+        width: 120px;
+        margin: 5px 0 3px 30%!important;
+    }
     #di {
          border: none;
          text-decoration: none;
@@ -341,7 +383,7 @@ color:black !important;
       font-weight: bold;
   }
 
-  #uu {
+  .uu {
       border: none;
       text-decoration: none;
       background-color: transparent;
@@ -406,7 +448,10 @@ height: 20%;
 
 
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-  
+    .menu-ham2 {
+        width: 120px;
+        margin: 5px 0 3px 35%!important;
+    }
     #di {
         border: none;
         text-decoration: none;
@@ -429,7 +474,7 @@ height: 20%;
      font-weight: bold;
  }
 
- #uu {
+ .uu {
      border: none;
      text-decoration: none;
      background-color: transparent;
