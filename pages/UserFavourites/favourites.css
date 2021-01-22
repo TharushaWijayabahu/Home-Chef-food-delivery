@@ -147,7 +147,9 @@ color:black !important;
   /* Portrait iphone*/
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-   
+   .ipad{
+       display: none;
+   }
    
     #di {
         border: none;
@@ -272,6 +274,12 @@ color:black !important;
         width: 120px;
         margin: 5px 0 3px 30%!important;
     }
+    .ipad{
+        display: none;
+    }
+    .iphone{
+        display: block!important;
+    }
     #di {
           border: none;
            text-decoration: none;
@@ -360,6 +368,9 @@ color:black !important;
     .menu-ham2 {
         width: 120px;
         margin: 5px 0 3px 30%!important;
+    }
+    .ipad{
+        display: none;
     }
     #di {
          border: none;
@@ -534,4 +545,7 @@ height: 20%;
  z-index: 15;
  }
 
+ .iphone{
+     display: none;
+ }
 }
